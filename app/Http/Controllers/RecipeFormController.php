@@ -28,7 +28,7 @@ class RecipeFormController extends Controller
     public function handle()
     {
         $sheetId = '1xAVwKC28pL88itUXDL0GQeMM2TR-9ymfdZaCiCPviH0';
-        $refreshToken = '1//0czUBBz2AyThxCgYIARAAGAwSNwF-L9Ir2kNGrAt2mHUc7mqxCaVZF1vGvmeHQvmnjPohA3d8ZSAKc1kYxx6no6emrHX5peryIyk';
+        $refreshToken = config('services.google.refresh_token');
         $clientId = config('services.google.client_id');
         $clientSecret = config('services.google.client_secret');
 
