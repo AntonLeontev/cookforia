@@ -43,8 +43,7 @@ class SiginController extends Controller
         ]);
 
         if ($response->json('status') === 'ok') {
-            dump('sent');
-            // $this->sendApiRequest('Форма с сайта (без имени)', $validatedData['phone']);
+            $this->sendApiRequest('Форма с сайта (без имени)', $validatedData['phone']);
         }
     }
 
@@ -61,8 +60,7 @@ class SiginController extends Controller
         ]);
 
         if ($response->json('status') === 'ok') {
-            dump('sent bottom');
-            // $this->sendApiRequest($validatedData['name'], $validatedData['phone']);
+            $this->sendApiRequest($validatedData['name'], $validatedData['phone']);
         }
 
     }
