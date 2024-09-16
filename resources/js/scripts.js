@@ -211,3 +211,13 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+// Заполнение metrika_client_id
+ym(57334753, "getClientID", function (clientID) {
+    let inputs = document.getElementsByName("metrika_client_id");
+
+	inputs.forEach((el) => {
+		el.value = clientID;
+	});
+	
+});

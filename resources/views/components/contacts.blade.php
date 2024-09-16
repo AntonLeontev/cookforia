@@ -1,9 +1,5 @@
 <div class="contacts">
     <div class="yandex-map">
-        {{--        <script type="text/javascript" charset="utf-8" async--}}
-        {{--                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5f0b70e43876745cc35894f669797fa0ee294edf5f62c8eeca7e63be2454b6f9&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>--}}
-
-        {{--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A236bdac16e2876b66b2d2786ff6f5526117433d21b75dff21c064e5f41dafd0a&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>--}}
         <script type="text/javascript" charset="utf-8" async
                 src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af612cf715d06b97603696f74e3b8bff28dba545966089b59f0b44ac84cae9563&amp;width=100%&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>

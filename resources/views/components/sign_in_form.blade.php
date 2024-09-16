@@ -5,10 +5,10 @@
             мероприятия.</h3>
 
         <div class="sig-in-form-container">
-{{--            <div id="SiteWidgetMoyklass29899"></div>--}}
             <form action="{{ route('signin.request') }}" method="post" id="bottom-form">
                 <div class="form-fields">
-                    @csrf            
+                    @csrf        
+					<input type="hidden" name="metrika_client_id">    
                     <input name="document_referrer" type="hidden" hidden="hidden" value="{{ Request::url() }}">
                     <input name="utm_source" type="hidden" hidden="hidden" value="{{ Request::url() }}">
                     <input name="utm_medium" type="hidden" hidden="hidden" value="">

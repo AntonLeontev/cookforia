@@ -53,7 +53,7 @@ Route::controller(PagesController::class)
 
 Route::controller(SiginController::class)
     ->group(function () {
-        Route::post('/schedule/form', 'scheduleRequest')->name('schedule.request');
+        // Route::post('/schedule/form', 'scheduleRequest')->name('schedule.request');
         Route::post('/main/form', 'mainRequest')->name('main.request');
         Route::post('/sign_in/form', 'signinRequest')->name('signin.request');
     });

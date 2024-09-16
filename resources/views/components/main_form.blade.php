@@ -4,6 +4,7 @@
             <form action="{{ route('main.request') }}" method="post" id="main-form">
                 <div class="form-fields">
                     @csrf
+					<input type="hidden" name="metrika_client_id">
                     <input name="document_referrer" type="hidden" hidden="hidden" value="{{ Request::url() }}">
                     <input name="utm_source" type="hidden" hidden="hidden" value="{{ Request::url() }}">
                     <input name="utm_medium" type="hidden" hidden="hidden" value="">

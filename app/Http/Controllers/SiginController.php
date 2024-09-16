@@ -43,7 +43,7 @@ class SiginController extends Controller
         ]);
 
         if ($response->json('status') === 'ok') {
-            $this->sendApiRequest('Форма с сайта (без имени)', $validatedData['phone']);
+            $this->sendApiRequest('Форма с сайта (без имени)', $validatedData['phone'], $request->get('metrika_client_id'));
         }
     }
 
@@ -60,12 +60,12 @@ class SiginController extends Controller
         ]);
 
         if ($response->json('status') === 'ok') {
-            $this->sendApiRequest($validatedData['name'], $validatedData['phone']);
+            $this->sendApiRequest($validatedData['name'], $validatedData['phone'], $request->get('metrika_client_id'));
         }
 
     }
 
-    protected function sendApiRequest($name, $phone)
+    protected function sendApiRequest($name, $phone, $metricaClientId)
     {
         $phone = str_replace(['(', ')', '-', ' ', '+'], [], $phone);
 
@@ -123,6 +123,7 @@ class SiginController extends Controller
                 'UTM_TERM' => $utm_term,
                 'UTM_CONTENT' => $utm_content,
                 'ASSIGNED_BY_ID' => $respinsible_id,
+                'metrika_client_id' => $metricaClientId,
             ],
         ];
 
