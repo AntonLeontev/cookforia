@@ -139,19 +139,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/1/1.avif" type="image/avif">
+										<source srcset="/images/menu/main/1/1.webp" type="image/webp">
 										<img src="/images/menu/main/1/1.jpg" alt="Салат Цезарь с курицей и перепелиными яйцами">
 									</picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/1/2.avif" type="image/avif">
+										<source srcset="/images/menu/main/1/2.webp" type="image/webp">
 										<img src="/images/menu/main/1/2.jpg" alt="Домашняя паста карбонара">
 									</picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/1/3.avif" type="image/avif">
+										<source srcset="/images/menu/main/1/3.webp" type="image/webp">
 										<img src="/images/menu/main/1/3.jpg" alt="Мильфей 1000 слоёв">
 									</picture>
                                 </div>
@@ -180,19 +180,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/2/1.avif" type="image/avif">
+										<source srcset="/images/menu/main/2/1.webp" type="image/webp">
 										<img src="/images/menu/main/2/1.jpg" alt="Салат с тартаром из тунца, свежим манго и сливочным гуакамоле">
 									</picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/2/2.avif" type="image/avif">
+										<source srcset="/images/menu/main/2/2.webp" type="image/webp">
 										<img src="/images/menu/main/2/2.jpg" alt="Стейк из оленины с брусничным соусом и яблочным компоте">
 									</picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/2/3.avif" type="image/avif">
+										<source srcset="/images/menu/main/2/3.webp" type="image/webp">
 										<img src="/images/menu/main/2/3.jpg" alt="Нежнейший многослойный десерт — трайфл">
 									</picture>
                                 </div>
@@ -221,25 +221,25 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/3/1.avif" type="image/avif">
+										<source srcset="/images/menu/main/3/1.webp" type="image/webp">
 										<img src="/images/menu/main/3/1.webp" alt="Аджаб сандал">
 									</picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/3/2.avif" type="image/avif">
+										<source srcset="/images/menu/main/3/2.webp" type="image/webp">
 										<img src="/images/menu/main/3/2.webp" alt="Хачапури по аджарски">
 									</picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/3/3.avif" type="image/avif">
+										<source srcset="/images/menu/main/3/3.webp" type="image/webp">
 										<img src="/images/menu/main/3/3.webp" alt="Оджахури с говяжьей вырезкой и грибами в соусе наршараб">
 									</picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/3/4.avif" type="image/avif">
+										<source srcset="/images/menu/main/3/4.webp" type="image/webp">
 										<img src="/images/menu/main/3/4.webp" alt="Оджахури с говяжьей вырезкой и грибами в соусе наршараб">
 									</picture>
                                 </div>
@@ -274,22 +274,22 @@
             <div class="schedule-gallery-container owl-carousel owl-theme">
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/birthday/1-1110.avif" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/birthday/1-1110.webp" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/birthday/1-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/birthday/1-690.avif" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/birthday/1-690.webp" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/birthday/1-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/birthday/1-510.avif" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/birthday/1-510.webp" media="(max-width: 767px)">
                         <source srcset="/images/gallery/birthday/1-510.jpg" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/birthday/1-1110.avif" alt="День рождения">
+                        <source srcset="/images/gallery/birthday/1-1110.webp" alt="День рождения">
                         <img src="/images/gallery/birthday/1-1110.jpg" alt="День рождения">
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/birthday/2-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/birthday/2-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/birthday/2-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/birthday/2-1110.avif" alt="День рождения">
+                        <source srcset="/images/gallery/birthday/2-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/birthday/2-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/birthday/2-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/birthday/2-1110.webp" alt="День рождения">
                         <source srcset="/images/gallery/birthday/2-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/birthday/2-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/birthday/2-510.jpg" media="(max-width: 767px)">
@@ -298,10 +298,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/birthday/3-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/birthday/3-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/birthday/3-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/birthday/3-1110.avif" alt="День рождения">
+                        <source srcset="/images/gallery/birthday/3-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/birthday/3-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/birthday/3-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/birthday/3-1110.webp" alt="День рождения">
                         <source srcset="/images/gallery/birthday/3-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/birthday/3-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/birthday/3-510.jpg" media="(max-width: 767px)">
@@ -310,10 +310,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/birthday/4-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/birthday/4-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/birthday/4-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/birthday/4-1110.avif" alt="День рождения">
+                        <source srcset="/images/gallery/birthday/4-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/birthday/4-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/birthday/4-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/birthday/4-1110.webp" alt="День рождения">
                         <source srcset="/images/gallery/birthday/4-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/birthday/4-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/birthday/4-510.jpg" media="(max-width: 767px)">
@@ -322,10 +322,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/birthday/5-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/birthday/5-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/birthday/5-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/birthday/5-1110.avif" alt="День рождения">
+                        <source srcset="/images/gallery/birthday/5-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/birthday/5-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/birthday/5-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/birthday/5-1110.webp" alt="День рождения">
                         <source srcset="/images/gallery/birthday/5-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/birthday/5-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/birthday/5-510.jpg" media="(max-width: 767px)">
@@ -334,10 +334,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/birthday/6-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/birthday/6-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/birthday/6-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/birthday/6-1110.avif">
+                        <source srcset="/images/gallery/birthday/6-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/birthday/6-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/birthday/6-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/birthday/6-1110.webp">
                         <source srcset="/images/gallery/birthday/6-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/birthday/6-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/birthday/6-510.jpg" media="(max-width: 767px)">
@@ -356,4 +356,6 @@
         @component('components.sign_in_form')
         @endcomponent
     </div>
+    @component('components.seo-block')
+    @endcomponent
 @endsection

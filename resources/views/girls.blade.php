@@ -140,25 +140,25 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-										<source srcset="/images/menu/main/3/1.avif" type="image/avif">
+										<source srcset="/images/menu/main/3/1.webp" type="image/webp">
 										<img src="/images/menu/main/3/1.webp" alt="Аджаб сандал">
 									</picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/3/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/3/2.webp" type="image/webp">
 									    <img src="/images/menu/main/3/2.webp" alt="Хачапури по аджарски">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/3/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/3/3.webp" type="image/webp">
 									    <img src="/images/menu/main/3/3.webp" alt="Оджахури с говяжьей вырезкой и грибами в соусе наршараб">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/3/4.avif" type="image/avif">
+									    <source srcset="/images/menu/main/3/4.webp" type="image/webp">
 									    <img src="/images/menu/main/3/4.webp" alt="Оджахури с говяжьей вырезкой и грибами в соусе наршараб">
 								    </picture>
                                 </div>
@@ -188,19 +188,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/6/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/6/1.webp" type="image/webp">
 									    <img src="/images/menu/main/6/1.webp" alt="Тёплый салат с жареным Адыгейским сыром, виноградом и печёным перцем">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/6/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/6/2.webp" type="image/webp">
 									    <img src="/images/menu/main/6/2.webp" alt="Стейк Мачетте с картофелем Дофинуа и соусом Чимимурри">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/6/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/6/3.webp" type="image/webp">
 									    <img src="/images/menu/main/6/3.webp" alt="Тирамису с кремом на сыре Маскарпоне">
 								    </picture>
                                 </div>
@@ -229,19 +229,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/7/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/7/1.webp" type="image/webp">
 									    <img src="/images/menu/main/7/1.webp" alt="Тёплый чилийский салат с соусом Путонегро">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/7/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/7/2.webp" type="image/webp">
 									    <img src="/images/menu/main/7/2.webp" alt="Запечёный палтус на цитрусовой подушке, с бейби картофелем и соусом Холландез">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/7/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/7/3.webp" type="image/webp">
 									    <img src="/images/menu/main/7/3.webp" alt="Штрудель с лимонным курдом и грушевым мороженым">
 								    </picture>
                                 </div>
@@ -276,10 +276,10 @@
             <div class="schedule-gallery-container owl-carousel owl-theme">
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/girls/1-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/girls/1-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/girls/1-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/girls/1-1110.avif">
+                        <source srcset="/images/gallery/girls/1-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/girls/1-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/girls/1-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/girls/1-1110.webp">
                         <source srcset="/images/gallery/girls/1-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/girls/1-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/girls/1-510.jpg" media="(max-width: 767px)">
@@ -288,10 +288,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/girls/2-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/girls/2-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/girls/2-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/girls/2-1110.avif">
+                        <source srcset="/images/gallery/girls/2-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/girls/2-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/girls/2-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/girls/2-1110.webp">
                         <source srcset="/images/gallery/girls/2-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/girls/2-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/girls/2-510.jpg" media="(max-width: 767px)">
@@ -300,10 +300,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/girls/3-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/girls/3-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/girls/3-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/girls/3-1110.avif">
+                        <source srcset="/images/gallery/girls/3-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/girls/3-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/girls/3-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/girls/3-1110.webp">
                         <source srcset="/images/gallery/girls/3-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/girls/3-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/girls/3-510.jpg" media="(max-width: 767px)">
@@ -312,10 +312,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/girls/4-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/girls/4-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/girls/4-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/girls/4-1110.avif">
+                        <source srcset="/images/gallery/girls/4-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/girls/4-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/girls/4-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/girls/4-1110.webp">
                         <source srcset="/images/gallery/girls/4-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/girls/4-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/girls/4-510.jpg" media="(max-width: 767px)">
@@ -324,10 +324,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/girls/5-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/girls/5-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/girls/5-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/girls/5-1110.avif">
+                        <source srcset="/images/gallery/girls/5-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/girls/5-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/girls/5-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/girls/5-1110.webp">
                         <source srcset="/images/gallery/girls/5-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/girls/5-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/girls/5-510.jpg" media="(max-width: 767px)">

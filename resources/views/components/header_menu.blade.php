@@ -10,11 +10,16 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center main-header-nav-block" id="main-menu">
                 <ul class="navbar-nav main-navbar">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/schedule">Расписание</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Мастер классы</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/for-children">Мастер-класс для детей</a>
+                            <a class="dropdown-item" href="/individual">Индивидуальный мастер-класс</a>
+                            <a class="dropdown-item" href="/family">Семейный мастер-класс</a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             Мероприятия
                         </a>
                         <div class="dropdown-menu">
@@ -22,6 +27,9 @@
                             <a class="dropdown-item" href="/girls">Девичники</a>
                             <a class="dropdown-item" href="/birthday">Дни рождения</a>
                             <a class="dropdown-item" href="/kids">Детские праздники</a>
+                            <a class="dropdown-item" href="/team-building">Тимбилдинг</a>
+                            <a class="dropdown-item" href="/appointment">Свидание</a>
+                            <a class="dropdown-item" href="/evening">Вечеринка</a>
                         </div>
                     </li>
 

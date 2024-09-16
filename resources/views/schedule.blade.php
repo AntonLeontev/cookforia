@@ -230,10 +230,10 @@
             <div class="schedule-gallery-container owl-carousel owl-theme">
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/schedule/1-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/schedule/1-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/schedule/1-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/schedule/1-1110.avif">
+                        <source srcset="/images/gallery/schedule/1-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/schedule/1-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/schedule/1-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/schedule/1-1110.webp">
                         <source srcset="/images/gallery/schedule/1-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/schedule/1-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/schedule/1-510.jpg" media="(max-width: 767px)">
@@ -242,10 +242,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/schedule/2-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/schedule/2-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/schedule/2-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/schedule/2-1110.avif">
+                        <source srcset="/images/gallery/schedule/2-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/schedule/2-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/schedule/2-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/schedule/2-1110.webp">
                         <source srcset="/images/gallery/schedule/2-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/schedule/2-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/schedule/2-510.jpg" media="(max-width: 767px)">
@@ -254,10 +254,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/schedule/3-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/schedule/3-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/schedule/3-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/schedule/3-1110.avif">
+                        <source srcset="/images/gallery/schedule/3-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/schedule/3-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/schedule/3-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/schedule/3-1110.webp">
                         <source srcset="/images/gallery/schedule/3-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/schedule/3-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/schedule/3-510.jpg" media="(max-width: 767px)">
@@ -266,10 +266,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/schedule/4-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/schedule/4-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/schedule/4-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/schedule/4-1110.avif">
+                        <source srcset="/images/gallery/schedule/4-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/schedule/4-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/schedule/4-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/schedule/4-1110.webp">
                         <source srcset="/images/gallery/schedule/4-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/schedule/4-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/schedule/4-510.jpg" media="(max-width: 767px)">
@@ -278,10 +278,10 @@
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/schedule/5-1110.avif" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/schedule/5-690.avif" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/schedule/5-510.avif" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/schedule/5-1110.avif">
+                        <source srcset="/images/gallery/schedule/5-1110.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/schedule/5-690.webp" media="(min-width: 768px) and (max-width: 991px)">
+                        <source srcset="/images/gallery/schedule/5-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/schedule/5-1110.webp">
                         <source srcset="/images/gallery/schedule/5-1110.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/schedule/5-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
                         <source srcset="/images/gallery/schedule/5-510.jpg" media="(max-width: 767px)">

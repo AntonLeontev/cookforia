@@ -2,6 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use Google\Client;
+use Google\Service\Sheets;
+use Google\Service\Sheets\ValueRange;
+use Illuminate\Support\Facades\Storage;
+
 class RecipeFormController extends Controller
 {
     public function show()
@@ -27,46 +32,39 @@ class RecipeFormController extends Controller
 
     public function handle()
     {
-        $sheetId = '1xAVwKC28pL88itUXDL0GQeMM2TR-9ymfdZaCiCPviH0';
-        $refreshToken = config('services.google.refresh_token');
-        $clientId = config('services.google.client_id');
-        $clientSecret = config('services.google.client_secret');
+        $creds = json_decode(Storage::get('key.json'), true);
 
-        // getting access token
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, 'https://oauth2.googleapis.com/token');
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, [
-            'refresh_token' => $refreshToken,
-            'client_id' => $clientId,
-            'client_secret' => $clientSecret,
-            'grant_type' => 'refresh_token',
-        ]);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        $response = curl_exec($ch);
-        curl_close($ch);
-        $accessToken = json_decode($response)->access_token;
+        // Create a new Google Client instance
+        $client = new Client;
+        $client->setApplicationName('Google Sheets API Service Account');
+        $client->setScopes(['https://www.googleapis.com/auth/spreadsheets']);
+        $client->setAuthConfig($creds);
 
-        // writing to google sheets
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "https://sheets.googleapis.com/v4/spreadsheets/$sheetId/values/A1:append?valueInputOption=RAW");
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, ["Authorization: Bearer $accessToken", 'Content-Type: application/json']);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
-            'values' => [
-                [
-                    request('id', ''),
-                    request('surname', ''),
-                    request('name', ''),
-                    request('patronymic', ''),
-                    request('bday', ''),
-                    request('email', ''),
-                    request('notify', 'off'),
-                ],
-            ],
-        ]));
-        curl_exec($ch);
-        curl_close($ch);
+        // Build the service client
+        $sheetsService = new Sheets($client);
+
+        // Use the service client to make API requests
+        $spreadsheetId = '1xAVwKC28pL88itUXDL0GQeMM2TR-9ymfdZaCiCPviH0';
+        $range = 'A1'; // The service will detect the last row of this sheet
+        $newRow = [
+            request('id', ''),
+            request('surname', ''),
+            request('name', ''),
+            request('patronymic', ''),
+            request('bday', ''),
+            request('email', ''),
+            request('notify', 'off'),
+        ];
+
+        // Create a ValueRange object
+        $valueRange = new ValueRange;
+        $valueRange->setValues([$newRow]);
+
+        // Set the value input option
+        $options = ['valueInputOption' => 'RAW'];
+
+        // Append the data to the sheet
+        $result = $sheetsService->spreadsheets_values->append($spreadsheetId, $range, $valueRange, $options);
 
         return back();
     }

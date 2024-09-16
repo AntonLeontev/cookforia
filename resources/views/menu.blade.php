@@ -129,19 +129,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/1/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/1/1.webp" type="image/webp">
 									    <img src="/images/menu/main/1/1.jpg" alt="Салат Цезарь с курицей и перепелиными яйцами">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/1/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/1/2.webp" type="image/webp">
 									    <img src="/images/menu/main/1/2.jpg" alt="Домашняя паста карбонара">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/1/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/1/3.webp" type="image/webp">
 									    <img src="/images/menu/main/1/3.jpg" alt="Мильфей 1000 слоёв">
 								    </picture>
                                 </div>
@@ -170,19 +170,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/2/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/2/1.webp" type="image/webp">
 									    <img src="/images/menu/main/2/1.jpg" alt="Салат с тартаром из тунца, свежим манго и сливочным гуакамоле">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/2/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/2/2.webp" type="image/webp">
 									    <img src="/images/menu/main/2/2.jpg" alt="Стейк из оленины с брусничным соусом и яблочным компоте">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/2/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/2/3.webp" type="image/webp">
 									    <img src="/images/menu/main/2/3.jpg" alt="Нежнейший многослойный десерт — трайфл">
 								    </picture>
                                 </div>
@@ -211,25 +211,25 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/3/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/3/1.webp" type="image/webp">
 									    <img src="/images/menu/main/3/1.jpg" alt="Аджаб сандал">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/3/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/3/2.webp" type="image/webp">
 									    <img src="/images/menu/main/3/2.jpg" alt="Хачапури по аджарски">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/3/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/3/3.webp" type="image/webp">
 									    <img src="/images/menu/main/3/3.jpg" alt="Оджахури с говяжьей вырезкой и грибами в соусе наршараб">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/3/4.avif" type="image/avif">
+									    <source srcset="/images/menu/main/3/4.webp" type="image/webp">
 									    <img src="/images/menu/main/3/4.jpg" alt="Гозинак">
 								    </picture>
                                 </div>
@@ -259,19 +259,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/4/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/4/1.webp" type="image/webp">
 									    <img src="/images/menu/main/4/1.jpg" alt="Свежий салат с запечёной свеклой и сыром фета">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/4/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/4/2.webp" type="image/webp">
 									    <img src="/images/menu/main/4/2.jpg" alt="Фрикассе из индейки с жасминовым рисом">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/4/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/4/3.webp" type="image/webp">
 									    <img src="/images/menu/main/4/3.jpg" alt="Домашний пирог с яблоком и лёгким суфле">
 								    </picture>
                                 </div>
@@ -300,19 +300,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/5/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/5/1.webp" type="image/webp">
 									    <img src="/images/menu/main/5/1.jpg" alt="Салат с ростбифом, бейби картофелем, битыми огурцами и запечёной паприкой">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/5/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/5/2.webp" type="image/webp">
 									    <img src="/images/menu/main/5/2.jpg" alt="Стейк из форели с киноа и соусом «Ла икрон»">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/5/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/5/3.webp" type="image/webp">
 									    <img src="/images/menu/main/5/3.jpg" alt="Меренговый рулет с ягодным соусом и сливочным кремом">
 								    </picture>
                                 </div>
@@ -341,19 +341,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/6/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/6/1.webp" type="image/webp">
 									    <img src="/images/menu/main/6/1.jpg" alt="Тёплый салат с жареным Адыгейским сыром, виноградом и печёным перцем">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/6/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/6/2.webp" type="image/webp">
 									    <img src="/images/menu/main/6/2.jpg" alt="Стейк Мачетте с картофелем Дофинуа и соусом Чимимурри">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/6/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/6/3.webp" type="image/webp">
 									    <img src="/images/menu/main/6/3.jpg" alt="Терамису с кремом на сыре Маскарпоне">
 								    </picture>
                                 </div>
@@ -382,19 +382,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/7/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/7/1.webp" type="image/webp">
 									    <img src="/images/menu/main/7/1.jpg" alt="Тёплый чилийский салат с соусом Путонегро">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/7/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/7/2.webp" type="image/webp">
 									    <img src="/images/menu/main/7/2.jpg" alt="Запечёный палтус на цитрусовой подушке, с бейби картофелем и соусом Холландез">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/7/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/7/3.webp" type="image/webp">
 									    <img src="/images/menu/main/7/3.jpg" alt="Штрудель с лимонным курдом и грушевым мороженым">
 								    </picture>
                                 </div>
@@ -423,13 +423,13 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/8/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/8/1.webp" type="image/webp">
 									    <img src="/images/menu/main/8/1.jpg" alt="Классический том-ям с морепродуктами">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/8/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/8/2.webp" type="image/webp">
 									    <img src="/images/menu/main/8/2.jpg" alt="Удон с курицей и овощами">
 								    </picture>
                                 </div>
@@ -462,19 +462,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/9/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/9/1.webp" type="image/webp">
 									    <img src="/images/menu/main/9/1.jpg" alt="Бельгийские вафли со сливочным кремом и форелью">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/9/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/9/2.webp" type="image/webp">
 									    <img src="/images/menu/main/9/2.jpg" alt="Судак по Неаполитански">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/9/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/9/3.webp" type="image/webp">
 									    <img src="/images/menu/main/9/3.jpg" alt="Эклер со сливочным кремом и шоколадной глазурью">
 								    </picture>
                                 </div>
@@ -503,13 +503,13 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/10/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/10/1.webp" type="image/webp">
 									    <img src="/images/menu/main/10/1.jpg" alt="Тёплый салат с уткой и малиновым соусом">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/10/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/10/2.webp" type="image/webp">
 									    <img src="/images/menu/main/10/2.jpg" alt="Стейк Рибай и Стриплойн с овощами гриль">
 								    </picture>
                                 </div>
@@ -539,19 +539,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/11/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/11/1.webp" type="image/webp">
 									    <img src="/images/menu/main/11/1.jpg" alt="Микс салат с киноа, креветками и кальмаром под соусом Кимчи">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/11/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/11/2.webp" type="image/webp">
 									    <img src="/images/menu/main/11/2.jpg" alt="Стейк из тунца с фруктово-овощным гарниром">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/11/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/11/3.webp" type="image/webp">
 									    <img src="/images/menu/main/11/3.jpg" alt="Шоколадный фондан с мороженым">
 								    </picture>
                                 </div>
@@ -580,19 +580,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/12/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/12/1.webp" type="image/webp">
 									    <img src="/images/menu/main/12/1.jpg" alt="Салат с баклажаном и фето сыром">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/12/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/12/2.webp" type="image/webp">
 									    <img src="/images/menu/main/12/2.jpg" alt="Корейка на кости с печёным картофелем и брусничным соусом">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/12/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/12/3.webp" type="image/webp">
 									    <img src="/images/menu/main/12/3.jpg" alt="Шоколадные пряники в сахарной пудре">
 								    </picture>
                                 </div>
@@ -621,19 +621,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/13/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/13/1.webp" type="image/webp">
 									    <img src="/images/menu/main/13/1.jpg" alt="Салат капрезе с бальзамическим соусом">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/13/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/13/2.webp" type="image/webp">
 									    <img src="/images/menu/main/13/2.jpg" alt="Паппарделле с белыми грибами">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/13/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/13/3.webp" type="image/webp">
 									    <img src="/images/menu/main/13/3.jpg" alt="Бельгийские вафли с заварным кремом">
 								    </picture>
                                 </div>
@@ -662,19 +662,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/14/salmon%20waffle_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/14/salmon%20waffle_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/14/salmon%20waffle_235x350.jpg" alt="Картофельные вафли с малосольным лососем и сливочным кремом">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/14/zander%20fillet_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/14/zander%20fillet_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/14/zander%20fillet_235x350.jpg" alt="Филе судака с вешенками и шпинатной лапшой">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/14/profitroles_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/14/profitroles_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/14/profitroles_235x350.jpg" alt="Профитроли с творожным кремом">
 								    </picture>
                                 </div>
@@ -703,25 +703,25 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/15/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/15/1.webp" type="image/webp">
 									    <img src="/images/menu/main/15/1.jpg" alt="Ролл калифорния с крабом и сыром">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/15/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/15/2.webp" type="image/webp">
 									    <img src="/images/menu/main/15/2.jpg" alt="Ролл филадельфия с лососем и сыром">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/15/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/15/3.webp" type="image/webp">
 									    <img src="/images/menu/main/15/3.jpg" alt="Японский Мисо суп">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/15/4.avif" type="image/avif">
+									    <source srcset="/images/menu/main/15/4.webp" type="image/webp">
 									    <img src="/images/menu/main/15/4.jpg" alt="Фруктовый спринг ролл со сливочным сыром и ягодным соусом">
 								    </picture>
                                 </div>
@@ -751,19 +751,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/16/tuna%20salad_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/16/tuna%20salad_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/16/tuna%20salad_235x350.jpg" alt="Салат с тунцом и фасолью">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/16/cannelloni_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/16/cannelloni_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/16/cannelloni_235x350.jpg" alt="Каннеллони в соусе бешамель">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/16/custard_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/16/custard_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/16/custard_235x350.jpg" alt="Заварной крем с песочной крошкой">
 								    </picture>
                                 </div>
@@ -792,19 +792,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/17/crab%20salad_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/17/crab%20salad_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/17/crab%20salad_235x350.jpg" alt="Крабовый салат с личи и манговым конфитюром">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/17/cod_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/17/cod_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/17/cod_235x350.jpg" alt="Атлантическая треска с морковным пюре и печеными томатами черри">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/17/eclairs_235x350.avif" type="image/avif">
+									    <source srcset="/images/menu/main/17/eclairs_235x350.webp" type="image/webp">
 									    <img src="/images/menu/main/17/eclairs_235x350.jpg" alt="Эклеры с творожным кремом в шоколаде">
 								    </picture>
                                 </div>
@@ -833,19 +833,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/18/1.avif" type="image/avif">
+									    <source srcset="/images/menu/main/18/1.webp" type="image/webp">
 									    <img src="/images/menu/main/18/1.jpg" alt="Тёплый салат с тыквой и сыром фета">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/18/2.avif" type="image/avif">
+									    <source srcset="/images/menu/main/18/2.webp" type="image/webp">
 									    <img src="/images/menu/main/18/2.jpg" alt="Куриная грудка гриль с сальсой">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/18/3.avif" type="image/avif">
+									    <source srcset="/images/menu/main/18/3.webp" type="image/webp">
 									    <img src="/images/menu/main/18/3.jpg" alt="Чизкейк Нью-Йорк">
 								    </picture>
                                 </div>
@@ -881,19 +881,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/1/1.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/1/1.webp" type="image/webp">
 									    <img src="/images/menu/kids/1/1.jpg" alt="Бургер с котлетой из говядины">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/1/2.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/1/2.webp" type="image/webp">
 									    <img src="/images/menu/kids/1/2.jpg" alt="Капкейк с кремом из взбитых сливок">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/1/3.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/1/3.webp" type="image/webp">
 									    <img src="/images/menu/kids/1/3.jpg" alt="Клубничный коктейль">
 								    </picture>
                                 </div>
@@ -922,19 +922,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/2/1.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/2/1.webp" type="image/webp">
 									    <img src="/images/menu/kids/2/1.jpg" alt="Классический Хот-дог">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/2/2.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/2/2.webp" type="image/webp">
 									    <img src="/images/menu/kids/2/2.jpg" alt="Тирамису на сливках">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/2/3.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/2/3.webp" type="image/webp">
 									    <img src="/images/menu/kids/2/3.jpg" alt="Ванильный коктейль">
 								    </picture>
                                 </div>
@@ -963,19 +963,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/3/1.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/3/1.webp" type="image/webp">
 									    <img src="/images/menu/kids/3/1.jpg" alt="Пицца в ассортименте">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/3/2.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/3/2.webp" type="image/webp">
 									    <img src="/images/menu/kids/3/2.jpg" alt="Печенье с шоколадной крошкой">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/3/3.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/3/3.webp" type="image/webp">
 									    <img src="/images/menu/kids/3/3.jpg" alt="Банановый коктейль">
 								    </picture>
                                 </div>
@@ -1004,19 +1004,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/4/1.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/4/1.webp" type="image/webp">
 									    <img src="/images/menu/kids/4/1.jpg" alt="Тортилья с курицей и овощами">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/4/2.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/4/2.webp" type="image/webp">
 									    <img src="/images/menu/kids/4/2.jpg" alt="Булочка с корицей и сливочным кремом">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/4/3.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/4/3.webp" type="image/webp">
 									    <img src="/images/menu/kids/4/3.jpg" alt="Овершейк">
 								    </picture>
                                 </div>
@@ -1045,19 +1045,19 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/5/1.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/5/1.webp" type="image/webp">
 									    <img src="/images/menu/kids/5/1.jpg" alt="Паста Карбонара">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/5/2.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/5/2.webp" type="image/webp">
 									    <img src="/images/menu/kids/5/2.jpg" alt="Панна-котта с клубничным соусом">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/5/3.avif" type="image/avif">
+									    <source srcset="/images/menu/kids/5/3.webp" type="image/webp">
 									    <img src="/images/menu/kids/5/3.jpg" alt="Мохито">
 								    </picture>
                                 </div>
@@ -1086,14 +1086,8 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/6/1-342.avif" type="image/avif">
-									    <img src="/images/menu/kids/6/1-342.jpg" alt="Шоколадный Фонтан">
-								    </picture>
-                                </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/kids/6/2-342.avif" type="image/avif">
-									    <img src="/images/menu/kids/6/2-342.jpg" alt="Шоколадный Фонтан">
+									    <source srcset="/images/menu/kids/6/01.webp" type="image/webp">
+									    <img src="/images/menu/kids/6/01.jpg" alt="Шоколадный Фонтан">
 								    </picture>
                                 </div>
                             </div>

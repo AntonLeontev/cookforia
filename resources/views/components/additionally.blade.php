@@ -1,187 +1,237 @@
 <div class="section section-content">
     <div class="container">
         <h2>Дополнительно</h2>
-        <p class="large-text">Если Вам необходимы дополнительные услуги, которых нет в списке позвоните нам и мы
+        <p class="large-text mb-md-5 mb-4">Если Вам необходимы дополнительные услуги, которых нет в списке позвоните нам и мы
             постараемся помочь.</p>
+        <div class="additional-slider _additional">
+            <div class="item">
+                <div class="additional-item">
+                    <div class="additional-item__img">
+                        <picture>
+                            <source srcset="/images/additionaly/01.webp">
+                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
+                        </picture>
+                    </div>
+                    <div class="additional-item__body">
+                        <div class="additional-item__title">
+                            продление мероприятия
+                        </div>
+                        <div class="additional-item__text">
+                            <p>Стандартное время мероприятия - <strong>3 часа.</strong></p>
+                            <p>
+                                Если Вам кажется, что этого недостаточно&nbsp;и Вы хотите продлить мероприятие,
+                                достаточно
+                                сообщить об этом при записи.
+                            </p>
+                            <p>
+                                <strong>1 час</strong> дополнительного времени - <strong> 6000 рублей.</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="additional-item">
+                    <div class="additional-item__img">
+                        <picture>
+                            <source srcset="/images/additionaly/01.webp">
+                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
+                        </picture>
+                    </div>
+                    <div class="additional-item__body">
+                        <div class="additional-item__title">
+                            фуршет
+                        </div>
+                        <a href="" class="additional-item__link">
+                            Посмотреть фуршетное меню
+                        </a>
+                        <ul>
+                            <li>Нет привязки к количеству гостей</li>
+                            <li>Просто выберете позицию из фуршетного меню</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="additional-item">
+                    <div class="additional-item__img">
+                        <picture>
+                            <source srcset="/images/additionaly/01.webp">
+                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
+                        </picture>
+                    </div>
+                    <div class="additional-item__body">
+                        <div class="additional-item__title">
+                            Сырная тарелка
+                        </div>
 
-        <div class="content-block">
-            <div class="content-image"></div>
-            <div class="content-text"></div>
+                        <ul>
+                            <li>
+                                Ассорти из сыров 3 вида
+                            </li>
+                            <li>
+                                Сыровяленая свинина
+                            </li>
+                            <li>
+                                Виноград
+                            </li>
+                            <li>
+                                Орехи
+                            </li>
+                        </ul>
+                        <div class="additional-item__text">
+                            <p>
+                                Стоимость: <strong>600 руб./чел.</strong>
+                            </p>
+                            <p>
+                                Минимальный заказ: <strong> 4800 рублей</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="additional-item">
+                    <div class="additional-item__img">
+                        <picture>
+                            <source srcset="/images/additionaly/01.webp">
+                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
+                        </picture>
+                    </div>
+                    <div class="additional-item__body">
+                        <div class="additional-item__title">
+                            мясная тарелка
+                        </div>
+
+                        <ul>
+                            <li>
+                                Ростбиф
+                            </li>
+                            <li>
+                                Сыровяленая свинина
+                            </li>
+                            <li>
+                                Корнишоны
+                            </li>
+                            <li>
+                                Каперсы
+                            </li>
+                            <li>
+                                Луковый мармелад
+                            </li>
+                            <li>
+                                Горчица
+                            </li>
+                        </ul>
+                        <div class="additional-item__text">
+                            <p>
+                                Стоимость: <strong>600 руб./чел.</strong>
+                            </p>
+                            <p>
+                                Минимальный заказ: <strong> 4800 рублей</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="additional-item">
+                    <div class="additional-item__img">
+                        <picture>
+                            <source srcset="/images/additionaly/01.webp">
+                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
+                        </picture>
+                    </div>
+                    <div class="additional-item__body">
+                        <div class="additional-item__title">
+                            Фруктовая тарелка
+                        </div>
+                        <div class="additional-item__text">
+                            <p>
+                                <strong>Сезонные фрукты</strong>
+                            </p>
+                            <p>
+                                Стоимость: <strong>500 руб./чел.</strong>
+                            </p>
+                            <p>
+                                Минимальный заказ: <strong> 4000 рублей</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="additional-item">
+                    <div class="additional-item__img">
+                        <picture>
+                            <source srcset="/images/additionaly/01.webp">
+                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
+                        </picture>
+                    </div>
+                    <div class="additional-item__body">
+                        <div class="additional-item__title">
+                            Дополнительное меню для мастер-классов
+                        </div>
+                        <ul>
+                            <li>
+                                Чайник чая 500мл - 250р
+                            </li>
+                            <li>
+                                Кофе: эспрессо/американо/капучино - 150р
+                            </li>
+                            <li>
+                                Шоколадный фонтан с фруктами: 5000 руб. на 7 участников
+                            </li>
+                            <li>
+                                Лимонад в ассортименте 0,33 - 250 руб.
+                            </li>
+                        </ul>
+                        <div class="additional-item__text">
+                            <p>
+                                Стоимость: <strong>500 руб./чел.</strong>
+                            </p>
+                            <p>
+                                Минимальный заказ: <strong> 4000 рублей</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="content-block">
-            <div class="content-image">
-                <img src="images/icons/content-hour.svg" alt="">
-            </div>
-            <div class="content-text">
-                <h3>Продление мероприятия</h3>
-                <p>Стандартное время мероприятия - 3 часа. Если Вам кажется, что этого недостаточно и Вы хотите продлить
-                    мероприятие, достаточно сообщить об этом при записи. 1 час дополнительного времени - 6000 рублей.</p>
-            </div>
-        </div>
-
-        {{-- <div class="content-block">
-            <div class="content-image">
-                <img src="images/icons/content-light-furshet.svg" alt="">
-            </div>
-            <div class="content-text">
-                <h3>Легкий фуршет</h3>
-                <p>Хотите немного перекусить перед началом мероприятия? Закажите фуршет! В состав фуршета входят:</p>
-                <ol>
-                    <li>Сыр</li>
-                    <li>Орехи</li>
-                    <li>Мед</li>
-                    <li>Виноград</li>
-                    <li>Мясная нарезка</li>
-                    <li>Крекеры</li>
-                </ol>
-                <p>Стоимость - 400 руб. с участника (минимум 3200 руб.)</p>
-            </div>
-        </div> --}}
-
-        <div class="content-block">
-            <div class="content-image">
-                <img src="images/icons/content-furshet.svg" alt="">
-            </div>
-            <div class="content-text">
-                <h3>Фуршет</h3>
-                {{-- <p>Вкусные и сытные закуски от шефа!</p> --}}
-                <ul>
-                    <li>Брускетта с ростбифом, вяленым томатом и луковым мармеладом ( заказ от 5 закусок ) - 250 рублей</li>
-                    <li>Брускетта  с салом и соусом Релиш ( заказ от 5 закусок ) - 200 рублей</li>
-                    <li>Брускетта с копой, творожном кремом и помидорками Черри ( заказ от 5 закусок ) - 250 рублей</li>
-                    <li>Брускетта с тигровой креветкой и кремом из авокадо ( заказ от 5 закусок ) - 250 рублей</li>
-                    <li>Брускетта Тапенада с вяленым томатом и каперсами ( заказ от 5 закусок ) - 200 рублей</li>
-                    <li>Брускетта с кремом из печеной паприки и ореховым соусом ( заказ от 5 закусок ) - 200 рублей</li>
-                    <li>Брускетта с лососем, творожным кремом и томатами Черри ( заказ от 5 закусок ) - 250 рублей</li>
-                    <li>Брускетта с домашней страчателлой и соусом песто ( заказ от 5 закусок ) - 200 рублей</li>
-                </ul>
-                {{-- <p>Стоимость: набор из четырех закусок - 600 руб./чел.</p>
-                <p>Минимальный заказ 4800 руб.</p> --}}
-            </div>
-        </div>
-
-        <div class="content-block">
-            <div class="content-image">
-                <img src="images/icons/content-furshet.svg" alt="">
-            </div>
-            <div class="content-text">
-                <h3>Сырная тарелка</h3>
-                {{-- <p>Вкусные и сытные закуски от шефа!</p> --}}
-                <ul>
-                    <li>Ассорти из сыров 3 вида</li>
-                    <li>Сыровяленая свинина</li>
-                    <li>Виноград</li>
-                    <li>Орехи</li>
-                </ul>
-                <p>Стоимость: 600 руб./чел.</p>
-                <p>Минимальный заказ 4800 руб.</p>
-            </div>
-        </div>
-		
-        <div class="content-block">
-            <div class="content-image">
-                <img src="images/icons/content-furshet.svg" alt="">
-            </div>
-            <div class="content-text">
-                <h3>Мясная тарелка</h3>
-                {{-- <p>Вкусные и сытные закуски от шефа!</p> --}}
-                <ul>
-                    <li>Ростбиф</li>
-                    <li>Сыровяленая свинина</li>
-                    <li>Корнишоны</li>
-                    <li>Вяленые томаты</li>
-                    <li>Каперсы</li>
-                    <li>Луковый мармелад</li>
-                    <li>Горчица</li>
-                </ul>
-                <p>Стоимость: 600 руб./чел.</p>
-                <p>Минимальный заказ 4800 руб.</p>
-            </div>
-        </div>
-
-        <div class="content-block">
-            <div class="content-image">
-                <img src="images/icons/content-furshet.svg" alt="">
-            </div>
-            <div class="content-text">
-                <h3>Фруктовая тарелка</h3>
-                {{-- <p>Вкусные и сытные закуски от шефа!</p> --}}
-                <ul>
-                    <li>Сезонные фрукты</li>
-                </ul>
-                <p>Стоимость: 500 руб./чел.</p>
-                <p>Минимальный заказ 4000 руб.</p>
-            </div>
-        </div>
-
-        <div class="content-block">
-            <div class="content-image">
-                <img src="images/icons/content-azot.svg" alt="">
-            </div>
-            <div class="content-text">
-                <h3>Доп меню для мастер-классов</h3>
-{{--                <p><b>Салаты и закуски:</b></p>--}}
-{{--                <ul>--}}
-{{--                    <li>Цезарь с цыплёнком 200гр - 320р</li>--}}
-{{--                    <li>Цезарь с креветками 200гр - 380р</li>--}}
-{{--                    <li>Оливье с копчёной курицей 200гр - 280р</li>--}}
-{{--                    <li>Оливье с соленой форелью 200гр - 300р</li>--}}
-{{--                    <li>Салат из розовых томатов 200гр - 320р</li>--}}
-{{--                    <li>Овощи садовые со сметанным соусом 300гр - 380р</li>--}}
-{{--                    <li>Моцарелла с томатами 250гр - 320р</li>--}}
-{{--                </ul>--}}
-{{--                <p><b>Выпечка:</b></p>--}}
-{{--                <ul>--}}
-{{--                    <li>Хачапури по аджарски 350гр - 300р</li>--}}
-{{--                    <li>Хачапури по имеретински 350гр - 300р</li>--}}
-{{--                </ul>--}}
-{{--                <p><b>Мастер классы по выпечки</b><br>--}}
-{{--                На мастер-классе гости научатся готовить пять видов теста:</p>--}}
-{{--                <ul>--}}
-{{--                    <li>Дрожжевое</li>--}}
-{{--                    <li>Чебуречное</li>--}}
-{{--                    <li>Хачапурное</li>--}}
-{{--                    <li>Песочное</li>--}}
-{{--                </ul>--}}
-{{--                <p>Каждый гость приготовит по 1 кг каждого вида теста, часть которого, сможет забрать с собой.</p>--}}
-{{--                <p>Из другой части теста гости приготовят по порции:</p>--}}
-{{--                <ul>--}}
-{{--                    <li>Булочки с изюмом</li>--}}
-{{--                    <li>Чебуреки с бараниной</li>--}}
-{{--                    <li>Хачарури по имеретински</li>--}}
-{{--                    <li>Печенье с отпечной карамелью и орехом пекан</li>--}}
-{{--                </ul>--}}
-{{--                <p>В конце мастер-класса будет дегустация, чай кофе.</p>--}}
-
-                <ul>
-                    <li>Чайник чая 500мл - 250р</li>
-                    <li>Кофе: эспрессо / американо / капучино  - 150р</li>
-                    <li>Шоколадный фонтан с фруктами:  5000 руб. на 7 участников</li>
-                    <li>
-                        Лимонад в ассортименте 0,33 - 250 руб.
-                    </li>
-                </ul>
-
-{{--                <p>Продолжительность мастер-класса 5 часов.</p>--}}
-{{--                <p>Максимальное количество гостей до 8 человек.</p>--}}
-{{--                <p>Себестоимость блюд на мастер-классе около 1000р</p>--}}
-{{--                <p>Рекомендованная цена на одного гостя 3700р</p>--}}
-            </div>
-        </div>
-		<!--
-        <div class="content-block">
-            <div class="content-image">
-                <img src="images/icons/content-azot.svg" alt="">
-            </div>
-            <div class="content-text">
-                <h3>Азотное шоу</h3>
-                <p>Хотите сделать мероприятие еще более увлекательным? Тогда Вам стоит заказать шоу с жидким азотом!</p>
-                <p>Вы сможете попробовать мороженное, приготовленное на жидком азоте,
-                    превратить виноград в камень, заморозить цветок и многое другое.</p>
-                <p>Стоимость - 800 руб. с участника (минимум 4800 руб.)</p>
-            </div>
-        </div>
-		-->
-
     </div>
 </div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        //additional
+        function postsCarousel() {
+            var checkWidth = $(window).width();
+            var owlPost = $(".additional-slider");
+            if (checkWidth > 767) {
+                if (typeof owlPost.data('owl.carousel') != 'undefined') {
+                    owlPost.data('owl.carousel').destroy();
+                }
+                owlPost.removeClass('owl-carousel owl-theme');
+            } else if (checkWidth < 768) {
+                owlPost.addClass('owl-carousel owl-theme');
+                owlPost.owlCarousel({
+                    items: 1,
+                    slideSpeed: 500,
+                    animateOut: 'fadeOut',
+                    touchDrag: true,
+                    mouseDrag: false,
+                    autoplay: true,
+                    margin: 20,
+                    autoplaySpeed: 8000,
+                    autoHeight:true,
+                    autoplayTimeout: 8000,
+                    dots: true,
+                    loop: true
+                });
+            }
+        }
+
+        postsCarousel();
+        $(window).resize(postsCarousel);
+    });
+
+</script>

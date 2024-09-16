@@ -20,7 +20,6 @@ $(document).ready(function () {
         items: 1,
         nav: true,
     });
-
     // Маска для номера телефона в форме заявки
     $(".input-phone").mask("+7(999) 999-99-99");
 
@@ -85,7 +84,7 @@ $(document).ready(function () {
                         "ysc1_zpw1q6iG2Iuzxh3J8lcaYAYBtgyQB3nmQOMd7N4Nf577608a",
                     hideShield: true,
                     hl: "ru",
-                    test: false,
+                    test: true,
                     invisible: true, // Сделать капчу невидимой
                     callback: sendMainForm,
                 }
@@ -115,7 +114,7 @@ $(document).ready(function () {
                         "ysc1_zpw1q6iG2Iuzxh3J8lcaYAYBtgyQB3nmQOMd7N4Nf577608a",
                     hideShield: true,
                     hl: "ru",
-                    test: false,
+                    test: true,
                     invisible: true, // Сделать капчу невидимой
                     callback: sendBottomForm,
                 }
@@ -130,7 +129,7 @@ $(document).ready(function () {
                         "ysc1_zpw1q6iG2Iuzxh3J8lcaYAYBtgyQB3nmQOMd7N4Nf577608a",
                     hideShield: true,
                     hl: "ru",
-                    test: false,
+                    test: true,
                     invisible: true, // Сделать капчу невидимой
                     callback: (token) => {
                         location.href = phoneMobile.getAttribute("href");

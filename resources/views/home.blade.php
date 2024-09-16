@@ -25,10 +25,10 @@
         @endcomponent
         <div class="container">
             <div class="main-benefits">
-{{--                <div class="benefit-item">--}}
-{{--                    <img src="/images/icons/percent.svg" alt="">--}}
-{{--                    <p>Скидка 10% с ПН по ЧТ</p>--}}
-{{--                </div>--}}
+                {{--                <div class="benefit-item">--}}
+                {{--                    <img src="/images/icons/percent.svg" alt="">--}}
+                {{--                    <p>Скидка 10% с ПН по ЧТ</p>--}}
+                {{--                </div>--}}
                 <div class="benefit-item">
                     <img src="/images/icons/3-dish.svg" alt="">
                     <p>3 блюда на гостя
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="section-master-content">
                 <div class="master-content-left">
-                    <h2>КУЛИНАРНЫЕ МАСТЕР-КЛАССЫ ДЛЯ ВЗРОСЛЫХ И ДЕТЕЙ</h2>
+                    <h2>ПРОСТОРНЫЕ СТУДИИ</h2>
                     <p>Формат кулинарного мастер-класса подходит для любого мероприятия: день рождения, детский
                         праздник, девичник, корпоратив. На выбор гостей много вариантов меню. Просторная студия
                         оформлена в стиле лофт и оборудована всем необходимым. Места хватит даже для большой
@@ -64,31 +64,31 @@
                 <div class="master-content-right">
                     <div class="master-links-block">
                         <a class="master-link master-link-1" href="/girls">
-							<picture>
-								<source srcset="/images/master-1.avif" type="image/avif">
-								<img src="/images/master-1.png" alt="">
-							</picture>
+                            <picture>
+                                <source srcset="/images/master-1.webp" type="image/webp">
+                                <img src="/images/master-1.png" alt="">
+                            </picture>
                             <div class="master-link-title">Девичники</div>
                         </a>
                         <a class="master-link master-link-2" href="/corporate">
-							<picture>
-								<source srcset="/images/master-2.avif" type="image/avif">
-								<img src="/images/master-2.png" alt="">
-							</picture>
+                            <picture>
+                                <source srcset="/images/master-2.webp" type="image/webp">
+                                <img src="/images/master-2.png" alt="">
+                            </picture>
                             <div class="master-link-title">Корпоративы</div>
                         </a>
                         <a class="master-link master-link-3" href="/kids">
-							<picture>
-								<source srcset="/images/master-3.avif" type="image/avif">
-								<img src="/images/master-3.png" alt="">
-							</picture>
+                            <picture>
+                                <source srcset="/images/master-3.webp" type="image/webp">
+                                <img src="/images/master-3.png" alt="">
+                            </picture>
                             <div class="master-link-title">Детские праздники</div>
                         </a>
                         <a class="master-link master-link-4" href="/birthday">
-							<picture>
-								<source srcset="/images/master-4.avif" type="image/avif">
-								<img src="/images/master-4.png" alt="">
-							</picture>
+                            <picture>
+                                <source srcset="/images/master-4.webp" type="image/webp">
+                                <img src="/images/master-4.png" alt="">
+                            </picture>
                             <div class="master-link-title">Дни рождения</div>
                         </a>
                     </div>
@@ -102,139 +102,140 @@
             <h3>В каждом меню 3 блюда + бесплатные напитки</h3>
             <div class="menu-container">
                 <div class="menu-block">
-					<div class="menu-block-header">
-						Меню #1
-					</div>
-					<div class="menu-content-block">
-						<div class="menu-content-images owl-carousel owl-theme">
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/1/1.avif" type="image/avif">
-									<img src="/images/menu/main/1/1.jpg" alt="Салат Цезарь с курицей и перепелиными яйцами">
-								</picture>
-							</div>
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/1/2.avif" type="image/avif">
-									<img src="/images/menu/main/1/2.jpg" alt="Домашняя паста карбонара">
-								</picture>
-							</div>
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/1/3.avif" type="image/avif">
-									<img src="/images/menu/main/1/3.jpg" alt="Мильфей 1000 слоёв">
-								</picture>
-							</div>
-						</div>
-						<div class="menu-content-composition">
-							<ul>
-								<li>Салат Цезарь с курицей и перепелиными яйцами</li>
-								<li>Домашняя паста карбонара</li>
-								<li>Мильфей 1000 слоёв</li>
-							</ul>
-						</div>
-						<div class="menu-content-footer">
-							<div class="menu-price">3400 р.</div>
-							<div class="menu-button">
-								<a href="#sign-in-form" class="menu-select-btn" data-form-val="48504">Выбрать</a>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <div class="menu-block-header">
+                        Меню #1
+                    </div>
+                    <div class="menu-content-block">
+                        <div class="menu-content-images owl-carousel owl-theme">
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/1/1.webp" type="image/webp">
+                                    <img src="/images/menu/main/1/1.jpg"
+                                         alt="Салат Цезарь с курицей и перепелиными яйцами">
+                                </picture>
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/1/2.webp" type="image/webp">
+                                    <img src="/images/menu/main/1/2.jpg" alt="Домашняя паста карбонара">
+                                </picture>
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/1/3.webp" type="image/webp">
+                                    <img src="/images/menu/main/1/3.jpg" alt="Мильфей 1000 слоёв">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="menu-content-composition">
+                            <ul>
+                                <li>Салат Цезарь с курицей и перепелиными яйцами</li>
+                                <li>Домашняя паста карбонара</li>
+                                <li>Мильфей 1000 слоёв</li>
+                            </ul>
+                        </div>
+                        <div class="menu-content-footer">
+                            <div class="menu-price">3400 р.</div>
+                            <div class="menu-button">
+                                <a href="#sign-in-form" class="menu-select-btn" data-form-val="48504">Выбрать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="menu-block">
-					<div class="menu-block-header">
-						Меню #2
-					</div>
-					<div class="menu-content-block">
-						<div class="menu-content-images owl-carousel owl-theme">
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/2/1.avif" type="image/avif">
-									<img src="/images/menu/main/2/1.jpg"
-										alt="Салат с тартаром из тунца, свежим манго и сливочным гуакамоле">
-								</picture>
-							</div>
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/2/2.avif" type="image/avif">
-									<img src="/images/menu/main/2/2.jpg"
-										alt="Стейк из оленины с брусничным соусом и яблочным компоте">
-								</picture>
-							</div>
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/2/3.avif" type="image/avif">
-									<img src="/images/menu/main/2/3.jpg"
-										alt="Нежнейший многослойный десерт — трайфл">
-								</picture>
-							</div>
-						</div>
-						<div class="menu-content-composition">
-							<ul>
-								<li>Салат с тартаром из тунца, свежим манго и сливочным гуакамоле</li>
-								<li>Стейк из оленины с брусничным соусом и яблочным компоте</li>
-								<li>Нежнейший многослойный десерт — трайфл</li>
-							</ul>
-						</div>
-						<div class="menu-content-footer">
-							<div class="menu-price">4900 р.</div>
-							<div class="menu-button">
-								<a href="#sign-in-form" class="menu-select-btn" data-form-val="48505">Выбрать</a>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <div class="menu-block-header">
+                        Меню #2
+                    </div>
+                    <div class="menu-content-block">
+                        <div class="menu-content-images owl-carousel owl-theme">
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/2/1.webp" type="image/webp">
+                                    <img src="/images/menu/main/2/1.jpg"
+                                         alt="Салат с тартаром из тунца, свежим манго и сливочным гуакамоле">
+                                </picture>
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/2/2.webp" type="image/webp">
+                                    <img src="/images/menu/main/2/2.jpg"
+                                         alt="Стейк из оленины с брусничным соусом и яблочным компоте">
+                                </picture>
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/2/3.webp" type="image/webp">
+                                    <img src="/images/menu/main/2/3.jpg"
+                                         alt="Нежнейший многослойный десерт — трайфл">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="menu-content-composition">
+                            <ul>
+                                <li>Салат с тартаром из тунца, свежим манго и сливочным гуакамоле</li>
+                                <li>Стейк из оленины с брусничным соусом и яблочным компоте</li>
+                                <li>Нежнейший многослойный десерт — трайфл</li>
+                            </ul>
+                        </div>
+                        <div class="menu-content-footer">
+                            <div class="menu-price">4900 р.</div>
+                            <div class="menu-button">
+                                <a href="#sign-in-form" class="menu-select-btn" data-form-val="48505">Выбрать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="menu-block">
-					<div class="menu-block-header">
-						Меню #3
-					</div>
-					<div class="menu-content-block">
-						<div class="menu-content-images owl-carousel owl-theme">
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/3/1.avif" type="image/avif">
-									<img src="/images/menu/main/3/1.webp" alt="Аджаб сандал">
-								</picture>
-							</div>
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/3/2.avif" type="image/avif">
-									<img src="/images/menu/main/3/2.webp"
-										alt="Хачапури по аджарски">
-								</picture>
-							</div>
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/3/3.avif" type="image/avif">
-									<img src="/images/menu/main/3/3.webp"
-										alt="Оджахури с говяжьей вырезкой и грибами в соусе наршараб">
-								</picture>
-							</div>
-							<div class="item">
-								<picture>
-									<source srcset="/images/menu/main/3/4.avif" type="image/avif">
-									<img src="/images/menu/main/3/4.webp" alt="Гозинак">
-								</picture>
-							</div>
-						</div>
-						<div class="menu-content-composition">
-							<ul>
-								<li>Аджаб сандал</li>
-								<li>Хачапури по аджарски</li>
-								<li>Оджахури с говяжьей вырезкой и грибами в соусе наршараб</li>
-								<li>Гозинак</li>
-							</ul>
-						</div>
-						<div class="menu-content-footer">
-							<div class="menu-price">3700 р.</div>
-							<div class="menu-button">
-								<a href="#sign-in-form" class="menu-select-btn" data-form-val="48506">Выбрать</a>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <div class="menu-block-header">
+                        Меню #3
+                    </div>
+                    <div class="menu-content-block">
+                        <div class="menu-content-images owl-carousel owl-theme">
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/3/1.webp" type="image/webp">
+                                    <img src="/images/menu/main/3/1.webp" alt="Аджаб сандал">
+                                </picture>
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/3/2.webp" type="image/webp">
+                                    <img src="/images/menu/main/3/2.webp"
+                                         alt="Хачапури по аджарски">
+                                </picture>
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/3/3.webp" type="image/webp">
+                                    <img src="/images/menu/main/3/3.webp"
+                                         alt="Оджахури с говяжьей вырезкой и грибами в соусе наршараб">
+                                </picture>
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source srcset="/images/menu/main/3/4.webp" type="image/webp">
+                                    <img src="/images/menu/main/3/4.webp" alt="Гозинак">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="menu-content-composition">
+                            <ul>
+                                <li>Аджаб сандал</li>
+                                <li>Хачапури по аджарски</li>
+                                <li>Оджахури с говяжьей вырезкой и грибами в соусе наршараб</li>
+                                <li>Гозинак</li>
+                            </ul>
+                        </div>
+                        <div class="menu-content-footer">
+                            <div class="menu-price">3700 р.</div>
+                            <div class="menu-button">
+                                <a href="#sign-in-form" class="menu-select-btn" data-form-val="48506">Выбрать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="menu-buttons">
                 <a class="button button-bordered" href="#">Записаться</a>
@@ -270,7 +271,8 @@
             <p class="additions-text text-center">
                 К вашим услугам: стильное и комфортное пространство для проведения мероприятия (кухонный остров со всем
                 необходимым оборудованием и инвентарем), профессиональная команда (шеф-повар, ведущий, официанты,
-                бармены), безлимитные безалкогольные напитки, возможность организации фуршета, разнообразное меню, зоны отдыха для взрослых и детей, азотное
+                бармены), безлимитные безалкогольные напитки, возможность организации фуршета, разнообразное меню, зоны
+                отдыха для взрослых и детей, азотное
                 шоу.
             </p>
         </div>
@@ -279,78 +281,109 @@
         <div class="container container-my">
             <h2>Наши кулинарные студии</h2>
             <div class="videos-container row">
-				<style>
-					.image-stub-wrap {
-						position: relative;
-						width: 100% !important;
-						height: 392px !important;
-						overflow: hidden;
-						display: flex;
-						align-items: center;
-						justify-content: center;
-					}
-					@media screen and (max-width: 500px) {
-						.image-stub-wrap {
-							height: 310px !important;
-						}
-					}
-					.image-stub {
-						width: 100% !important;
-						height: auto !important;
-					}
-					.image-stub__play-button {
-						position: absolute;
-						background: transparent;
-						left: 50%;
-						top: 50%;
-						width: 68px;
-						height: 48px;
-						margin-left: -34px;
-						margin-top: -24px;
-						padding: 0;
-						border: none;
-					}
-				</style>
+                <style>
+                    .image-stub-wrap {
+                        position: relative;
+                        width: 100% !important;
+                        height: 392px !important;
+                        overflow: hidden;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    @media screen and (max-width: 500px) {
+                        .image-stub-wrap {
+                            height: 310px !important;
+                        }
+                    }
+
+                    .image-stub {
+                        width: 100% !important;
+                        height: auto !important;
+                    }
+
+                    .image-stub__play-button {
+                        position: absolute;
+                        background: transparent;
+                        left: 50%;
+                        top: 50%;
+                        width: 68px;
+                        height: 48px;
+                        margin-left: -34px;
+                        margin-top: -24px;
+                        padding: 0;
+                        border: none;
+                    }
+                </style>
                 <div class="videos-block col-lg-6">
-					<div class="image-stub-wrap">
-						<img class="image-stub" src="https://img.youtube.com/vi/ny8LYoPoGUg/sddefault.jpg" alt="Санкт-Петербург, ул. Дыбенко, 8к1">
-						<button class="image-stub__play-button">
-							<svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#f00"></path><path d="M 45,24 27,14 27,34" fill="#fff"></path></svg>
-						</button>
-					</div>
+                    <div class="image-stub-wrap">
+                        <img class="image-stub" src="https://img.youtube.com/vi/ny8LYoPoGUg/sddefault.jpg"
+                             alt="Санкт-Петербург, ул. Дыбенко, 8к1">
+                        <button class="image-stub__play-button">
+                            <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
+                                <path class="ytp-large-play-button-bg"
+                                      d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                      fill="#f00"></path>
+                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                            </svg>
+                        </button>
+                    </div>
                     <iframe
-						hidden
-						data-src="https://www.youtube.com/embed/ny8LYoPoGUg?autoplay=1"
-                        title="YouTube video player"
-                        frameborder="0"
-                        class="videos-block-iframe"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
+                            hidden
+                            data-src="https://www.youtube.com/embed/ny8LYoPoGUg?autoplay=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            class="videos-block-iframe"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
                     ></iframe>
-                    <div class="videos-bottom-text">
+                    <div class="videos-bottom-text mb-4">
                         <img src="/images/videos-geo.png" alt="">
                         <div>Санкт-Петербург, ул. Дыбенко, 8к1</div>
                     </div>
+                    <div class="widget-review">
+                        <div style="width:100%;height:800px;overflow:hidden;position:relative;">
+                            <iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+                                    src="https://yandex.ru/maps-reviews-widget/29115594921?comments"></iframe>
+                            <a href="https://yandex.by/maps/org/cookforia/29115594921/" target="_blank"
+                               style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Cookforia
+                                на карте Санкт‑Петербурга — Яндекс Карты</a></div>
+                    </div>
                 </div>
                 <div class="videos-block  col-lg-6">
-					<div class="image-stub-wrap">
-						<img class="image-stub" src="https://img.youtube.com/vi/FiuCk-UUEcU/sddefault.jpg" alt="Санкт-Петербург, ул. Московский проспект 183-185">
-						<button class="image-stub__play-button">
-							<svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#f00"></path><path d="M 45,24 27,14 27,34" fill="#fff"></path></svg>
-						</button>
-					</div>
+                    <div class="image-stub-wrap">
+                        <img class="image-stub" src="https://img.youtube.com/vi/FiuCk-UUEcU/sddefault.jpg"
+                             alt="Санкт-Петербург, ул. Московский проспект 183-185">
+                        <button class="image-stub__play-button">
+                            <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
+                                <path class="ytp-large-play-button-bg"
+                                      d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                      fill="#f00"></path>
+                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+                            </svg>
+                        </button>
+                    </div>
                     <iframe
-						hidden
-						data-src="https://www.youtube.com/embed/FiuCk-UUEcU?autoplay=1"
-                        title="YouTube video player"
-                        frameborder="0"
-                        class="videos-block-iframe"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
+                            hidden
+                            data-src="https://www.youtube.com/embed/FiuCk-UUEcU?autoplay=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            class="videos-block-iframe"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
                     ></iframe>
-                    <div class="videos-bottom-text">
+                    <div class="videos-bottom-text mb-4">
                         <img src="/images/videos-geo.png" alt="">
                         <div>Санкт-Петербург, ул. Московский проспект 183-185</div>
+                    </div>
+                    <div class="widget-review">
+                        <div style="width:100%;height:800px;overflow:hidden;position:relative;">
+                            <iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+                                    src="https://yandex.ru/maps-reviews-widget/74180715342?comments"></iframe>
+                            <a href="https://yandex.by/maps/org/cookforia/74180715342/" target="_blank"
+                               style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Cookforia
+                                на карте Санкт‑Петербурга — Яндекс Карты</a></div>
                     </div>
                 </div>
             </div>

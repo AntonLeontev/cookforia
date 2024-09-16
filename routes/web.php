@@ -16,6 +16,39 @@ Route::controller(PagesController::class)
         Route::get('/contacts', 'contacts');
         Route::get('/schedule', 'schedule')->name('schedule');
         Route::get('/studio-rental', 'studiorental');
+        Route::get('/team-building', 'teamBuilding');
+        Route::get('/appointment', 'appointment');
+        Route::get('/evening', 'evening');
+        Route::get('/for-children', 'forChildren');
+        Route::get('/individual', 'individual');
+        Route::get('/family', 'family');
+        Route::get('/for-man', 'forMan');
+        Route::get('/for-woman', 'forWoman');
+        Route::get('/teenager', 'teenager');
+        Route::get('/chef', 'chef');
+        Route::get('/creative', 'creative');
+        Route::get('/wine', 'wine');
+        Route::get('/quest', 'quest');
+        Route::get('/february', 'february');
+        Route::get('/valentins-day', 'valentinsDay');
+        Route::get('/march', 'march');
+        Route::get('/easter', 'easter');
+        Route::get('/v-day', 'vDay');
+        Route::get('/nature', 'nature');
+        Route::get('/group', 'group');
+        Route::get('/georgian-cuisine', 'georgianCuisine');
+        Route::get('/italian-cuisine', 'italianCuisine');
+        Route::get('/french-cuisine', 'frenchCuisine');
+        Route::get('/cakes', 'cakes');
+        Route::get('/pizza', 'pizza');
+        Route::get('/meat', 'meat');
+        Route::get('/bbq', 'bbq');
+        Route::get('/khachapuri', 'khachapuri');
+        Route::get('/sushi', 'sushi');
+        Route::get('/tom-yum', 'tomYum');
+        Route::get('/baking', 'baking');
+        Route::get('/bruschettas', 'bruschettas');
+        Route::get('/about', 'about');
     });
 
 Route::controller(SiginController::class)
@@ -27,51 +60,3 @@ Route::controller(SiginController::class)
 
 Route::get('recipe', [RecipeFormController::class, 'show']);
 Route::post('recipe', [RecipeFormController::class, 'handle']);
-
-Route::get('google/auth', function () {
-    $clientId = config('services.google.client_id');
-    $redirectUri = 'https://cookforia.ru/google/redirect';
-    $scope = 'https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive';
-
-    $uri = "https://accounts.google.com/o/oauth2/v2/auth?client_id=$clientId&redirect_uri=$redirectUri&response_type=code&scope=$scope&access_type=offline";
-
-    return redirect($uri);
-});
-
-Route::get('google/redirect', function () {
-    if (! request('code')) {
-        echo 'Ошибка: Не получен код';
-
-        return;
-    }
-
-    $clientId = config('services.google.client_id');
-    $clientSecret = config('services.google.client_secret');
-    $redirectUri = 'https://cookforia.ru/google/redirect';
-    $code = request('code');
-
-    $url = "https://oauth2.googleapis.com/token?client_id=$clientId&client_secret=$clientSecret&code=$code&grant_type=authorization_code&redirect_uri=$redirectUri";
-
-    $ch = curl_init();
-
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, true);
-
-    // Receive server response ...
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    $response = curl_exec($ch);
-
-    curl_close($ch);
-
-    $response = json_decode($response);
-
-    echo 'Авторизация успешна! Передайте разработчику данные:';
-    echo '<br>';
-    echo '<br>';
-    echo 'Access token: ';
-    echo $response->access_token;
-    echo '<br>';
-    echo 'Refresh token: ';
-    echo $response->refresh_token ?? '';
-});
