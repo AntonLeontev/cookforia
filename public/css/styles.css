@@ -53,6 +53,14 @@ a:hover {
     color: #fff;
 }
 
+.certificate-item__action .button.button-solid {
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+    font-weight: 300;
+    font-size: 17px;
+    min-width: 162px;
+    text-align: center;
+}
+
 .button.button-solid:hover {
     border-color: #ffd77a;
     background-color: #ffd77a;
@@ -201,6 +209,7 @@ select.select {
     font-size: 42px;
 }
 
+
 .section-padding {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -247,9 +256,19 @@ select.select {
     position: relative;
 }
 
+.section-main.section-main-certificate {
+    background-image: url("../images/main-certificate-back.webp"), url("../images/main-certificate-back.jpg");
+    position: relative;
+}
+
 @media screen and (max-width: 767.98px) {
     .section-main.section-main-about {
         background-image: url("../images/main-about-back_767.webp"), url("../images/main-about-back_767.jpg");
+    }
+
+    .section-main.section-main-certificate {
+        background-image: url("../images/main-certificate-back_767.webp"), url("../images/main-certificate-back_767.jpg");
+        position: relative;
     }
 }
 
@@ -757,6 +776,7 @@ select.select {
 .main-content h1 {
     font-family: "Gilroy Extra Bold";
     font-size: 52px;
+    text-transform: uppercase;
 }
 
 #bx_form_iframe_9 {
@@ -917,7 +937,13 @@ select.select {
     }
 
     .main-content h1 {
-        font-size: 48px;
+        font-size: 46px;
+
+        span {
+            font-size: 30px;
+            display: block;
+            text-transform: initial;
+        }
     }
 
     .form-container .input,
@@ -1326,7 +1352,7 @@ select.select {
     .section-content h2,
     .section-how-much h2,
     .section-content-menu h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .section-content h3.orange-header,
@@ -1720,7 +1746,7 @@ select.select {
 
 @media screen and (max-width: 768px) {
     .section-master h2 {
-        font-size: 42px;
+        font-size: 30px;
     }
 
     .master-link-2 {
@@ -2119,7 +2145,7 @@ select.select {
 
 @media screen and (max-width: 768px) {
     .section-sig-in h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .section-sig-in h3 {
@@ -2656,6 +2682,20 @@ input:placeholder-shown {
 
 }
 
+[data-showmore] {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+[data-showmore-content] {
+    text-align: left;
+}
+
+._team .container {
+    overflow: hidden;
+}
+
 ul._about-team {
     padding-left: 0;
     list-style-type: none;
@@ -2676,7 +2716,8 @@ ul._about-team {
     li {
         list-style: none;
     }
-    li:first-child, li:nth-child(2),li:nth-child(3){
+
+    li:first-child, li:nth-child(2), li:nth-child(3) {
         position: relative;
         z-index: 2;
     }
@@ -2741,6 +2782,10 @@ ul._about-team {
 .block__more {
     position: relative;
     z-index: 2;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 40px;
+
     span {
         &:last-child {
             display: none;
@@ -2753,6 +2798,124 @@ ul._about-team {
                 display: block;
             }
         }
+    }
+}
+
+.partners {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.partners__img {
+}
+
+.certificate-about {
+    gap: 40px;
+}
+
+.certificate-about__text {
+    flex: 0 0 54%;
+    font-size: 17px;
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+    font-weight: 300;
+}
+
+.certificate-about__img {
+}
+
+.how {
+    gap: 30px;
+}
+
+.how-item {
+    flex: 0 0 30%;
+    gap: 20px;
+}
+
+.how-item__icon {
+    width: 65px;
+}
+
+.how-item__title {
+    text-transform: uppercase;
+    font-family: "Gilroy Extra Bold", sans-serif;
+    font-size: 17px;
+}
+
+.how-item__text {
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+    font-weight: 300;
+    font-size: 17px;
+}
+
+/*.certificate-item*/
+.certificates-items {
+    /*margin: 15px;*/
+}
+
+.certificate-item {
+    min-height: 560px;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px 0 rgba(255, 185, 20, 0.15);
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.certificate-item__img {
+    height: 226px;
+}
+
+
+.certificate-item__body {
+    text-align: left;
+    padding: 50px 30px 0;
+    flex: 1 1 auto;
+
+    ul {
+        padding-left: 20px;
+    }
+}
+
+.certificate-item__title {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: "Gilroy Extra Bold", sans-serif;
+    margin-bottom: 16px;
+}
+
+.certificate-item__text {
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.certificate-item__action {
+}
+
+.how-buy {
+    gap: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.how-buy__icon {
+    height: 100px;
+}
+
+.how-buy__body {
+    font-size: 17px;
+    gap: 24px;
+
+    strong {
+        font-family: "Gilroy Extra Bold", sans-serif;
+    }
+
+    p {
+        font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+        font-weight: 300;
     }
 }
 
@@ -2771,6 +2934,17 @@ ul._about-team {
 }
 
 @media screen and (max-width: 991px) {
+    ul._about-team {
+        li:nth-child(3) {
+            position: relative;
+            z-index: -1;
+        }
+    }
+
+    ._about-team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .numbers {
         gap: 50px;
     }
@@ -2791,6 +2965,44 @@ ul._about-team {
 }
 
 @media screen and (max-width: 768px) {
+    .certificate-item {
+        padding-bottom: 30px;
+    }
+
+    .certificate-item__body {
+        padding: 30px 20px 0;
+        flex: 1 1 auto;
+    }
+
+    .how-item {
+        flex: 1 1 100%;
+        gap: 16px;
+
+        br {
+            display: none;
+        }
+    }
+
+    .certificate-about__text {
+        flex: 1 1 100%;
+        font-size: 17px;
+    }
+
+    .partners {
+        gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    [data-showmore] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .team-item {
+        margin: 20px;
+        height: initial;
+    }
+
     .numbers {
         padding: 40px 20px;
         margin-bottom: 20px;
@@ -2883,7 +3095,7 @@ ul._about-team {
         overflow: hidden;
     }
 
-    h2 {
+    h2, .section-menu h2, .section h2, .section-master h2, .section-pages-benefits h2, .section-menu h2, .section-schedule-gallery h2, .section-sig-in h2, .section-videos h2, .section-additions h2 {
         font-size: 30px;
     }
 

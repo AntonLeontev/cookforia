@@ -46,6 +46,7 @@ class PagesController extends Controller
         return view('birthday', []);
     }
 
+
     public function teamBuilding()
     {
         return view('team-building', []);
@@ -209,6 +210,11 @@ class PagesController extends Controller
     public function about()
     {
         return view('about', []);
+    }
+
+    public function certificate()
+    {
+        return view('certificate', []);
     }
 
     public function schedule(MyClassApiService $myClassApiInstance)
