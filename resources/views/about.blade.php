@@ -165,13 +165,13 @@
             </div>
         </div>
     </div>
-    <div class="section section-padding">
+    <div class="section section-padding _team">
         <div class="container">
             <h2 class="mt-2">наша команда</h2>
             <div class='text-accent'>Знаете, кто стоит за созданием вашего вкусного праздника? Мы познакомим вас с&nbsp;профессионалами
                 кулинарного искусства.
             </div>
-            <div data-showmore="items" class="block mt-md-5 mt-4">
+            <div data-showmore="items" data-showmore-media="767,min" class="block mt-md-5 mt-4">
                 <ul data-showmore-content="1" class="block__content additional-slider _about-team">
                     <li>
                         <div class="team-item d-flex flex-column">
@@ -298,14 +298,81 @@
                         </div>
                     </li>
                 </ul>
-                <button hidden data-showmore-button type="button" class="block__more">
-                    <span>Показать еще</span>
+                <button hidden data-showmore-button type="button" class="block__more form-btn">
+                    <span>посмотреть всех</span>
                     <span>Скрыть</span>
                 </button>
             </div>
         </div>
     </div>
-
+    <div class="section section-schedule-gallery">
+        <div class="container">
+            <h2>интерьеры студий</h2>
+            <div class="schedule-gallery-container owl-carousel owl-theme">
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/01-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/01-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/01-1100.webp">
+                        <source srcset="/images/gallery/about/01-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/01-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/corporate/01-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/02-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/02-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/02-1100.webp">
+                        <source srcset="/images/gallery/about/02-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/02-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/corporate/02-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/03-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/03-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/03-1100.webp">
+                        <source srcset="/images/gallery/about/03-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/03-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/corporate/03-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-padding">
+        <div class="container">
+            <h2>нам доверяют свои мероприятия</h2>
+            <div class="partners mt-md-5 mt-4">
+                <div class="partners__img">
+                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                </div>
+                <div class="partners__img">
+                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                </div>
+                <div class="partners__img">
+                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                </div>
+                <div class="partners__img">
+                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                </div>
+                <div class="partners__img">
+                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                </div>
+                <div class="partners__img">
+                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                </div>
+                <div class="partners__img">
+                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                </div>
+                <div class="partners__img">
+                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
     @component('components.contacts')
     @endcomponent
     <div class="section section-sig-in" name="sign-in-form" id="sign-in-form">
@@ -333,7 +400,7 @@
                     touchDrag: true,
                     mouseDrag: false,
                     autoplay: true,
-                    margin: 20,
+                    margin: 50,
                     autoplaySpeed: 8000,
                     autoHeight: true,
                     autoplayTimeout: 8000,
@@ -593,6 +660,11 @@
                     }));
                 }, duration);
             }
+        }
+        function uniqArray(array) {
+            return array.filter(function (item, index, self) {
+                return self.indexOf(item) === index;
+            });
         }
     });
 

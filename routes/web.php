@@ -49,6 +49,7 @@ Route::controller(PagesController::class)
         Route::get('/baking', 'baking');
         Route::get('/bruschettas', 'bruschettas');
         Route::get('/about', 'about');
+        Route::get('/certificate', 'certificate');
     });
 
 Route::controller(SiginController::class)
