@@ -217,6 +217,11 @@ class PagesController extends Controller
         return view('certificate', []);
     }
 
+    public function vyezdnojMk()
+    {
+        return view('vyezdnoj-mk', []);
+    }
+
     public function schedule(MyClassApiService $myClassApiInstance)
     {
         $menu = $myClassApiInstance->getMenu();

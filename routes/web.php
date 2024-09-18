@@ -50,6 +50,7 @@ Route::controller(PagesController::class)
         Route::get('/bruschettas', 'bruschettas');
         Route::get('/about', 'about');
         Route::get('/certificate', 'certificate');
+        Route::get('/vyezdnoj-mk', 'vyezdnojMk');
     });
 
 Route::controller(SiginController::class)
