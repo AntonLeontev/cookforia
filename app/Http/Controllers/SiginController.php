@@ -123,7 +123,7 @@ class SiginController extends Controller
                 'UTM_TERM' => $utm_term,
                 'UTM_CONTENT' => $utm_content,
                 'ASSIGNED_BY_ID' => $respinsible_id,
-                'metrika_client_id' => $metricaClientId,
+                'UF_CRM_1725351226611' => $metricaClientId,
             ],
         ];
 
