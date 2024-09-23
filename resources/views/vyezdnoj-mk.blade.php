@@ -190,7 +190,7 @@
                         Сценарий праздника
                     </div>
                     <div class="info-know__inner">
-                        <div class="info-know__item d-flex flex-wrap flex-sm-nowrap">
+                        <div class="info-know__item d-flex flex-wrap flex-sm-nowrap watcher">
                             <div class="info-know__detail d-flex flex-column">
                                 <strong>30 мин</strong>
                                 <div class="info-know__line"></div>
@@ -200,7 +200,7 @@
                                 <small>Лёгкий фуршет и напитки, общение в приятной обстановке</small>
                             </div>
                         </div>
-                        <div class="info-know__item d-flex flex-wrap flex-sm-nowrap">
+                        <div class="info-know__item d-flex flex-wrap flex-sm-nowrap watcher">
                             <div class="info-know__detail d-flex flex-column">
                                 <strong>90 мин</strong>
                                 <div class="info-know__line"></div>
@@ -212,7 +212,7 @@
                                     блюд</small>
                             </div>
                         </div>
-                        <div class="info-know__item d-flex flex-wrap flex-sm-nowrap">
+                        <div class="info-know__item d-flex flex-wrap flex-sm-nowrap watcher">
                             <div class="info-know__detail d-flex flex-column">
                                 <strong>30 мин</strong>
                                 <div class="info-know__line"></div>
@@ -221,7 +221,7 @@
                                 <strong>Дегустация приготовленных блюд</strong>
                             </div>
                         </div>
-                        <div class="info-know__item d-flex flex-wrap flex-sm-nowrap">
+                        <div class="info-know__item d-flex flex-wrap flex-sm-nowrap watcher">
                             <div class="info-know__detail d-flex flex-column">
                                 <strong>90 мин</strong>
                                 <div class="info-know__line"></div>
@@ -603,6 +603,35 @@
 @endsection
 <script>
     document.addEventListener("DOMContentLoaded", function () {
+        //animation
+// Находим все блоки с классом your-target-block
+        const targetBlocks = document.querySelectorAll('.watcher');
+
+// Создаем новую функцию для наблюдения
+        const observerCallback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('_watcher_active');
+                } else {
+                    entry.target.classList.remove('_watcher_active');
+                }
+            });
+        };
+
+// Создаем новый экземпляр Intersection Observer для каждого блока с 100px offset
+        const observers = [];
+        const options = {
+            rootMargin: '0px 0px -100px 0px' // В данном случае отрицательный bottom margin создает 100px offset
+        };
+
+        targetBlocks.forEach(targetBlock => {
+            const observer = new IntersectionObserver(observerCallback, options);
+            observer.observe(targetBlock);
+            observers.push(observer);
+        });
+
+
+
         //additional
         function postsCarousel() {
             var checkWidth = $(window).width();
