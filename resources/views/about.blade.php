@@ -136,8 +136,8 @@
             <div class="about-text">
                 <p><strong>Cookforia</strong> - это не просто кулинарная студия, это место, где вкус встречается с
                     творчеством!
-
-                    В уютных залах в Санкт-Петербурге Вас ждут:</p>
+                </p>
+                <p>В уютных залах в Санкт-Петербурге Вас ждут:</p>
                 <ul>
                     <li>
                         Увлекательные кулинарные мастер-классы для всех возрастов.
@@ -593,6 +593,7 @@
                 }
             }
         }
+
         let _slideDown = (target, duration = 500, showmore = 0) => {
             if (!target.classList.contains('_slide')) {
                 target.classList.add('_slide');
@@ -661,6 +662,7 @@
                 }, duration);
             }
         }
+
         function uniqArray(array) {
             return array.filter(function (item, index, self) {
                 return self.indexOf(item) === index;

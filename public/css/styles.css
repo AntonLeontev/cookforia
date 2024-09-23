@@ -32,6 +32,7 @@ a:hover {
     border-radius: 7px;
     border: 2px solid #ffb914;
     padding: 10px 28px;
+    display: inline-flex;
 }
 
 .button:hover {
@@ -59,6 +60,7 @@ a:hover {
     font-size: 17px;
     min-width: 162px;
     text-align: center;
+    justify-content: center;
 }
 
 .button.button-solid:hover {
@@ -256,6 +258,11 @@ select.select {
     position: relative;
 }
 
+.section-main.section-main-viezdnoy {
+    background-image: url("../images/main-viezdnoj-back.webp"), url("../images/main-viezdnoj-back.jpg");
+    position: relative;
+}
+
 .section-main.section-main-certificate {
     background-image: url("../images/main-certificate-back.webp"), url("../images/main-certificate-back.jpg");
     position: relative;
@@ -268,6 +275,11 @@ select.select {
 
     .section-main.section-main-certificate {
         background-image: url("../images/main-certificate-back_767.webp"), url("../images/main-certificate-back_767.jpg");
+        position: relative;
+    }
+
+    .section-main.section-main-viezdnoy {
+        background-image: url("../images/main-viezdnoj-back_767.webp"), url("../images/main-viezdnoj-back_767.jpg");
         position: relative;
     }
 }
@@ -2601,6 +2613,12 @@ input:placeholder-shown {
     margin-bottom: 20px;
     gap: 40px;
 
+    small {
+        font-size: 17px;
+        font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+        font-weight: 300;
+    }
+
     img {
         width: 40px;
     }
@@ -2723,6 +2741,13 @@ ul._about-team {
     }
 }
 
+ul._about-team.variants-parties {
+    li:nth-child(4) {
+        position: relative;
+        z-index: 2;
+    }
+}
+
 ._showmore-active ul._about-team {
     &:before {
         display: none;
@@ -2808,20 +2833,67 @@ ul._about-team {
 }
 
 .partners__img {
+
 }
 
 .certificate-about {
     gap: 40px;
 }
 
+.certificate-about__title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 .certificate-about__text {
-    flex: 0 0 54%;
+    flex: 0 0 46%;
     font-size: 17px;
     font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
     font-weight: 300;
 }
 
 .certificate-about__img {
+    position: relative;
+    flex: 1 1 auto;
+}
+
+.certificate-about__img._viezdnoy {
+    min-height: 550px;
+}
+
+.gallery-viezdnoy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.gallery-viezdnoy-item {
+    position: absolute;
+    width: 458px;
+    right: 0;
+    transition: z-index 0.3s;
+}
+
+.gallery-viezdnoy-item_01 {
+    top: 0px;
+}
+
+.gallery-viezdnoy-img {
+    border: 10px solid #fff;
+    cursor: pointer;
+}
+
+.gallery-viezdnoy-item_02 {
+    top: 50%;
+    translate: 0 -50%;
+    right: 50px;
+    z-index: 2;
+}
+
+.gallery-viezdnoy-item_03 {
+    bottom: 0px;
 }
 
 .how {
@@ -2829,7 +2901,7 @@ ul._about-team {
 }
 
 .how-item {
-    flex: 0 0 30%;
+    flex: 0 0 31%;
     gap: 20px;
 }
 
@@ -2919,7 +2991,264 @@ ul._about-team {
     }
 }
 
+.what-know-content {
+    gap: 30px;
+}
+
+.what-know-content__img {
+    img {
+        border-radius: 12px;
+    }
+}
+
+.what-know-content__info {
+}
+
+.info-know {
+
+}
+
+.info-know__title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+    font-weight: 700;
+}
+
+.info-know__inner {
+}
+
+.info-know__item {
+    gap: 50px;
+
+    & + & {
+        margin-top: 30px;
+    }
+}
+
+.info-know__detail {
+    flex: 0 0 130px;
+    gap: 10px;
+    color: #D6D6D6;
+    transition: color 0.3s ease-in-out;
+    font-size: 24px;
+}
+
+.info-know__line {
+    position: relative;
+    background-color: #D6D6D6;
+    height: 2px;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        top: 50%;
+        right: 0;
+        translate: 0 -50%;
+        border-radius: 50%;
+        background-color: #D6D6D6;
+        transition: background-color 0.3s ease-in-out;
+    }
+}
+
+.info-know__content {
+    gap: 10px;
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+
+    strong {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    small {
+        font-size: 17px;
+        font-weight: 300;
+    }
+}
+
+._watcher_active .info-know__line {
+    background-color: #FFB914;
+    &:before {
+        background-color: #FFB914;
+    }
+}
+
+._watcher_active .info-know__content {
+    opacity: 1;
+}
+
+._watcher_active .info-know__detail {
+    color: #FFB914;
+}
+
+._slider-shadow .container {
+    overflow: hidden;
+}
+
+.price-vyezdmk {
+
+
+}
+
+._slider-shadow .owl-stage-outer {
+    overflow: visible;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: calc(100% + 40px);
+        top: 50%;
+        left: 100%;
+        translate: 19px -50%;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: calc(100% + 40px);
+        top: 50%;
+        right: 100%;
+        translate: -19px -50%;
+        background-color: #fff;
+        z-index: 2;
+    }
+}
+
+.price-vyezdmk-item {
+    min-height: 461px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 25px 0 rgba(255, 185, 20, 0.15);
+    background: #fff;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.price-vyezdmk-item__img {
+    img {
+        height: 226px;
+    }
+}
+
+.price-vyezdmk-item__body {
+    padding: 50px 30px 0;
+    flex: 1 1 auto;
+}
+
+.price-vyezdmk-item__title {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: "Gilroy Extra Bold", sans-serif;
+}
+
+.price-vyezdmk-item__action {
+}
+
+.variants-parties {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+}
+
+.item-variants {
+    padding-bottom: 30px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px 0 rgba(255, 185, 20, 0.15);
+    background: #fff;
+    min-height: 370px;
+}
+
+.item-variants__img {
+    height: 200px;
+}
+
+
+.item-variants__body {
+    padding: 30px 20px 0;
+}
+
+.item-variants__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Gilroy Extra Bold", sans-serif;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.price-vyezdmk-item__action {
+    padding: 0 30px;
+
+    .button {
+        text-align: center;
+        justify-content: center;
+        min-width: 100%;
+        padding: 10px;
+    }
+}
+
+.additionally {
+    display: grid;
+    gap: 2px;
+}
+
+.additionally-item {
+    padding: 10px;
+    height: 204px;
+    background-color: #fff;
+}
+
+.additionally-item__inner {
+    gap: 16px;
+    text-align: center;
+    font-size: 17px;
+
+    strong {
+        text-transform: uppercase;
+        font-family: "Gilroy Extra Bold", sans-serif;
+    }
+
+    small {
+        font-size: 17px;
+        font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300";
+        font-weight: 300;
+    }
+}
+
+.additionally-item__icon {
+    height: 66px;
+    width: 66px;
+}
+
+.owl-carousel .owl-item .additionally-item__icon {
+    width: 66px;
+}
+
+.section-additionally {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 @media (min-width: 767px) {
+    .additionally {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     ._additional {
         display: grid;
         gap: 20px;
@@ -2928,12 +3257,57 @@ ul._about-team {
 }
 
 @media (min-width: 991px) {
+    .additionally {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
     ._additional {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
+@media (max-width: 1200px) {
+    .gallery-viezdnoy-item {
+        position: absolute;
+        width: 400px;
+    }
+
+    .variants-parties {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+
+    }
+
+    ul._about-team.variants-parties li:nth-child(4) {
+        position: relative;
+        z-index: -1;
+    }
+}
+
 @media screen and (max-width: 991px) {
+    .what-know-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .what-know-content__img {
+        flex: 0 0 70%;
+    }
+
+    .how-item {
+        flex: 1 1 47%;
+        gap: 20px;
+    }
+
+    .gallery-viezdnoy-item {
+        width: 300px;
+    }
+
+    .certificate-about__img._viezdnoy {
+        min-height: 510px;
+    }
+
     ul._about-team {
         li:nth-child(3) {
             position: relative;
@@ -2941,6 +3315,12 @@ ul._about-team {
         }
     }
 
+    /*ul.variants-parties._about-team {*/
+    /*    li:nth-child(3) {*/
+    /*        position: relative;*/
+    /*        z-index: 2;*/
+    /*    }*/
+    /*}*/
     ._about-team {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -2965,6 +3345,44 @@ ul._about-team {
 }
 
 @media screen and (max-width: 768px) {
+    .section-additionally {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section-additionally.section.section_grey {
+        background-color: #fff;
+    }
+
+    .additionally-item {
+        box-shadow: 0 2px 40px 0 rgba(255, 185, 20, 0.15);
+    }
+
+    .info-know__item {
+        gap: 20px;
+
+        & + & {
+            margin-top: 30px;
+        }
+    }
+
+    .info-know__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .owl-carousel .owl-item .how-item img {
+        width: 66px;
+    }
+
+    .gallery-viezdnoy-item_02 {
+        right: 0px;
+    }
+
+    .gallery-viezdnoy-item {
+        width: 100%;
+    }
+
     .certificate-item {
         padding-bottom: 30px;
     }
@@ -3049,6 +3467,34 @@ ul._about-team {
 }
 
 @media screen and (max-width: 480px) {
+    .gallery-viezdnoy-item_01, .gallery-viezdnoy-item_03 {
+        display: none;
+    }
+
+    .what-know-content__img {
+        flex: 0 0 100%;
+    }
+
+    .gallery-viezdnoy {
+        position: static;
+    }
+
+    .gallery-viezdnoy-item_02 {
+        translate: 0 0;
+    }
+
+    .gallery-viezdnoy-item {
+        position: static;
+    }
+
+    .certificate-about__img._viezdnoy {
+        min-height: initial;
+    }
+
+    .certificate-about {
+        gap: 20px;
+    }
+
     .text-accent {
         font-size: 17px;
     }
@@ -3099,8 +3545,19 @@ ul._about-team {
         font-size: 30px;
     }
 
+    h2 {
+        br {
+            display: none;
+        }
+    }
+
     .section-padding {
         padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section-additionally {
+        padding-top: 0;
         padding-bottom: 60px;
     }
 
@@ -3134,4 +3591,17 @@ ul._about-team {
 
 p > strong {
     font-weight: 700;
+}
+
+.text {
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+
+    strong {
+        font-weight: 700;
+    }
+}
+button.block__more:focus {
+    outline: none;
 }

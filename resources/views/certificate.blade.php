@@ -125,8 +125,8 @@
                     <div class="certificate-item d-flex flex-column">
                         <div class="certificate-item__img">
                             <picture>
-                                <source srcset="/images/certificates/01.webp" type="image/webp">
-                                <img class="ibg" src="images/certificates/01.jpg" alt="Сертификат 1">
+                                <source srcset="/images/certificates/02.webp" type="image/webp">
+                                <img class="ibg" src="images/certificates/02.jpg" alt="Сертификат 1">
                             </picture>
                         </div>
                         <div class="certificate-item__body">
@@ -147,8 +147,8 @@
                     <div class="certificate-item d-flex flex-column">
                         <div class="certificate-item__img">
                             <picture>
-                                <source srcset="/images/certificates/01.webp" type="image/webp">
-                                <img class="ibg" src="images/certificates/01.jpg" alt="Сертификат 1">
+                                <source srcset="/images/certificates/03.webp" type="image/webp">
+                                <img class="ibg" src="images/certificates/03.jpg" alt="Сертификат 1">
                             </picture>
                         </div>
                         <div class="certificate-item__body">
