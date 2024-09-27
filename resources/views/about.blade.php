@@ -183,25 +183,14 @@
                             </div>
                             <div class="team-item__body">
                                 <div class="team-item__block">
-                                    <div class="team-item__title">Имя_фамилия</div>
-                                    <strong>Бренд шеф</strong>
+                                    <div class="team-item__title">Гудков Владимир</div>
+                                    <strong>Шеф-повар, кондитер, пекарь</strong>
                                 </div>
                                 <div class="team-item__block">
-                                    <strong>Рабочий профиль:</strong>
-                                    руководит разработкой новых меню в кулинарной студии Cookforia
-                                </div>
-                                <div class="team-item__block">
-                                    <strong>Кулинарное прошлое:</strong>
-                                    окончил Московскую государственную технологическую академию. Работал шефом в крупных
-                                    ресторанах премиум класса более 10 лет. В течении 4-х лет преподавал в международной
-                                    кулинарной студии. Сотрудничал с Шато дэ Вессель. В 2019 году присоединился к
-                                    команде
-                                    Cookforia
-                                </div>
-                                <div class="team-item__block">
-                                    <blockquote>
-                                        <strong> «Хорошие повара готовят по рецепту, а лучшие пишут их».</strong>
-                                    </blockquote>
+                                    <strong>О шефе:</strong>
+                                    Опытный шеф-повар с более чем 15-ю годами успешной работы в сфере кулинарии,
+                                    обладающий страстью к созданию уникальных блюд, которые радуют не только глаз, но и
+                                    вкус.
                                 </div>
                             </div>
                         </div>
@@ -216,23 +205,14 @@
                             </div>
                             <div class="team-item__body">
                                 <div class="team-item__block">
-                                    <div class="team-item__title">Имя_фамилия</div>
-                                    <strong>Бренд шеф</strong>
+                                    <div class="team-item__title">Смирнов Алексей</div>
+                                    <strong>Шеф-повар, кондитер, пекарь</strong>
                                 </div>
                                 <div class="team-item__block">
-                                    <strong>Рабочий профиль:</strong>
-                                    руководит разработкой новых меню в кулинарной студии Cookforia
-                                </div>
-                                <div class="team-item__block">
-                                    <strong>Кулинарное прошлое:</strong>
-                                    окончил кулинарный техникум по специальности повар-кондитер. Работал шеф поваром на
-                                    немецкой и итальянской кухне. В течение пяти лет преподавал в крупнейшей кулинарной
-                                    студии России.
-                                </div>
-                                <div class="team-item__block">
-                                    <blockquote>
-                                        <strong> «Хорошие повара готовят по рецепту, а лучшие пишут их».</strong>
-                                    </blockquote>
+                                    <strong>О шефе:</strong>
+                                    Люблю готовить, считаю что приготовление пищи это сакральное дело, и относиться к
+                                    нему надо с душой и внимательностью, одним словом любить своё дело». В кулинарии
+                                    более 13 лет, за это время успел познать гастрономический дзен.
                                 </div>
                             </div>
                         </div>
@@ -247,52 +227,12 @@
                             </div>
                             <div class="team-item__body">
                                 <div class="team-item__block">
-                                    <div class="team-item__title">Имя_фамилия</div>
-                                    <strong>Бренд шеф</strong>
+                                    <div class="team-item__title">Никулин Влад</div>
+                                    <strong>Шеф-повар, кондитер, пекарь</strong>
                                 </div>
                                 <div class="team-item__block">
-                                    <strong>Рабочий профиль:</strong>
-                                    руководит разработкой новых меню в кулинарной студии Cookforia
-                                </div>
-                                <div class="team-item__block">
-                                    <strong>Кулинарное прошлое:</strong>
-                                    начинала свой путь в аутентичной траттории. Влюблена в итальянскую кухню за особое
-                                    внимание к традициям и блеск в глазах при создании кулинарных шедевров!
-                                </div>
-                                <div class="team-item__block">
-                                    <blockquote>
-                                        <strong> «Хорошие повара готовят по рецепту, а лучшие пишут их».</strong>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="team-item d-flex flex-column">
-                            <div class="team-item__img">
-                                <picture>
-                                    <source srcset="/images/team/03.webp">
-                                    <img class="ibg" src="images/team/03.jpg" alt="Команда">
-                                </picture>
-                            </div>
-                            <div class="team-item__body">
-                                <div class="team-item__block">
-                                    <div class="team-item__title">Имя_фамилия</div>
-                                    <strong>Бренд шеф</strong>
-                                </div>
-                                <div class="team-item__block">
-                                    <strong>Рабочий профиль:</strong>
-                                    руководит разработкой новых меню в кулинарной студии Cookforia
-                                </div>
-                                <div class="team-item__block">
-                                    <strong>Кулинарное прошлое:</strong>
-                                    начинала свой путь в аутентичной траттории. Влюблена в итальянскую кухню за особое
-                                    внимание к традициям и блеск в глазах при создании кулинарных шедевров!
-                                </div>
-                                <div class="team-item__block">
-                                    <blockquote>
-                                        <strong> «Хорошие повара готовят по рецепту, а лучшие пишут их».</strong>
-                                    </blockquote>
+                                    <strong>О шефе:</strong>
+                                    Моя карьера охватывает широкий спектр кухонь, где я развивал свои навыки, работая в престижных ресторанах и на гастрономических фестивалях.
                                 </div>
                             </div>
                         </div>
@@ -316,7 +256,7 @@
                         <source srcset="/images/gallery/about/01-1100.webp">
                         <source srcset="/images/gallery/about/01-1100.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/about/01-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/01-1100.jpg" alt="Интерьеры студий">
+                        <img src="/images/gallery/about/01-1100.jpg" alt="Интерьеры студий">
                     </picture>
                 </div>
                 <div class="item">
@@ -326,7 +266,7 @@
                         <source srcset="/images/gallery/about/02-1100.webp">
                         <source srcset="/images/gallery/about/02-1100.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/about/02-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/02-1100.jpg" alt="Интерьеры студий">
+                        <img src="/images/gallery/about/02-1100.jpg" alt="Интерьеры студий">
                     </picture>
                 </div>
                 <div class="item">
@@ -336,7 +276,77 @@
                         <source srcset="/images/gallery/about/03-1100.webp">
                         <source srcset="/images/gallery/about/03-1100.jpg" media="(min-width: 1200px)">
                         <source srcset="/images/gallery/about/03-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/03-1100.jpg" alt="Интерьеры студий">
+                        <img src="/images/gallery/about/03-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/04-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/04-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/04-1100.webp">
+                        <source srcset="/images/gallery/about/04-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/04-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/about/04-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/05-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/05-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/05-1100.webp">
+                        <source srcset="/images/gallery/about/05-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/05-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/about/05-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/06-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/06-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/06-1100.webp">
+                        <source srcset="/images/gallery/about/06-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/06-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/about/06-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/07-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/07-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/07-1100.webp">
+                        <source srcset="/images/gallery/about/07-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/07-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/about/07-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/08-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/08-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/08-1100.webp">
+                        <source srcset="/images/gallery/about/08-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/08-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/about/08-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/09-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/09-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/09-1100.webp">
+                        <source srcset="/images/gallery/about/09-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/09-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/about/09-1100.jpg" alt="Интерьеры студий">
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/about/10-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/10-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/about/10-1100.webp">
+                        <source srcset="/images/gallery/about/10-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/about/10-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/about/10-1100.jpg" alt="Интерьеры студий">
                     </picture>
                 </div>
             </div>
@@ -347,28 +357,34 @@
             <h2>нам доверяют свои мероприятия</h2>
             <div class="partners mt-md-5 mt-4">
                 <div class="partners__img">
-                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                    <picture>
+                        <source srcset="/images/partners/01.webp">
+                        <img class="ibg" src="images/partners/01.jpg" alt="Партнеры">
+                    </picture>
                 </div>
                 <div class="partners__img">
-                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                       <picture>
+                        <source srcset="/images/partners/02.webp">
+                        <img class="ibg" src="images/partners/02.jpg" alt="Партнеры">
+                    </picture>
                 </div>
                 <div class="partners__img">
-                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                         <picture>
+                        <source srcset="/images/partners/03.webp">
+                        <img class="ibg" src="images/partners/03.jpg" alt="Партнеры">
+                    </picture>
                 </div>
                 <div class="partners__img">
-                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                         <picture>
+                        <source srcset="/images/partners/04.webp">
+                        <img class="ibg" src="images/partners/04.jpg" alt="Партнеры">
+                    </picture>
                 </div>
                 <div class="partners__img">
-                    <img class="ibg" src="images/partners/01.svg" alt="Image">
-                </div>
-                <div class="partners__img">
-                    <img class="ibg" src="images/partners/01.svg" alt="Image">
-                </div>
-                <div class="partners__img">
-                    <img class="ibg" src="images/partners/01.svg" alt="Image">
-                </div>
-                <div class="partners__img">
-                    <img class="ibg" src="images/partners/01.svg" alt="Image">
+                          <picture>
+                        <source srcset="/images/partners/05.webp">
+                        <img class="ibg" src="images/partners/05.jpg" alt="Партнеры">
+                    </picture>
                 </div>
             </div>
         </div>

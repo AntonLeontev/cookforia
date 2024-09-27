@@ -98,8 +98,8 @@
                         Неповторимый опыт <br> на Вашей территории
                     </div>
                     <div class="how-item__text">
-                        Ваши гости или сотрудники не только наслаждаются вкусной едой, но и учатся её создавать,
-                        приобретая новые кулинарные навыки.
+                        Откройте для себя уникальное кулинарное мероприятие прямо на вашем празднике или корпоративе. Мы
+                        принесём всю магию кулинарии к вам!
                     </div>
                 </div>
                 <div class="how-item text-center d-flex align-items-center flex-column">
@@ -118,8 +118,8 @@
                         Обучение <br> и развлечение на месте
                     </div>
                     <div class="how-item__text">
-                        Откройте для себя уникальное кулинарное мероприятие прямо на вашем празднике или корпоративе. Мы
-                        принесём всю магию кулинарии к вам!
+                        Ваши гости или сотрудники не только наслаждаются вкусной едой, но и учатся её создавать,
+                        приобретая новые кулинарные навыки.
                     </div>
                 </div>
                 <div class="how-item text-center d-flex align-items-center flex-column">
@@ -293,32 +293,32 @@
             <div class="schedule-gallery-container owl-carousel owl-theme">
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/about/01-1100.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/about/01-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/about/01-1100.webp">
-                        <source srcset="/images/gallery/about/01-1100.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/about/01-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/01-1100.jpg" alt="Интерьеры студий">
+                        <source srcset="/images/gallery/vyezdnoj-mk/01-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/01-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/01-1100.webp">
+                        <source srcset="/images/gallery/vyezdnoj-mk/01-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/01-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/vyezdnoj-mk/01-1100.jpg" alt="Выездной мастер класс">
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/about/02-1100.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/about/02-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/about/02-1100.webp">
-                        <source srcset="/images/gallery/about/02-1100.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/about/02-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/02-1100.jpg" alt="Интерьеры студий">
+                        <source srcset="/images/gallery/vyezdnoj-mk/02-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/02-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/02-1100.webp">
+                        <source srcset="/images/gallery/vyezdnoj-mk/02-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/02-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/vyezdnoj-mk/02-1100.jpg" alt="Выездной мастер класс">
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/about/03-1100.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/about/03-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/about/03-1100.webp">
-                        <source srcset="/images/gallery/about/03-1100.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/about/03-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/03-1100.jpg" alt="Интерьеры студий">
+                        <source srcset="/images/gallery/vyezdnoj-mk/03-1100.webp" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/03-510.webp" media="(max-width: 767px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/03-1100.webp">
+                        <source srcset="/images/gallery/vyezdnoj-mk/03-1100.jpg" media="(min-width: 1200px)">
+                        <source srcset="/images/gallery/vyezdnoj-mk/03-510.jpg" media="(max-width: 767px)">
+                        <img src="/images/gallery/vyezdnoj-mk/03-1100.jpg" alt="Выездной мастер класс">
                     </picture>
                 </div>
             </div>
@@ -631,7 +631,6 @@
         });
 
 
-
         //additional
         function postsCarousel() {
             var checkWidth = $(window).width();
@@ -751,6 +750,7 @@
 
         variantsCarousel();
         $(window).resize(variantsCarousel);
+
 //additionally
         function additionallyCarousel() {
             var checkWidth = $(window).width();

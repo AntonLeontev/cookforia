@@ -2719,6 +2719,7 @@ ul._about-team {
     list-style-type: none;
     margin: 0;
     position: relative;
+    padding-bottom: 20px;
 
     &::before {
         content: '';
@@ -2759,7 +2760,7 @@ ul._about-team.variants-parties {
     overflow: hidden;
     box-shadow: 0 2px 40px 0 rgba(255, 185, 20, 0.15);
     background: #fff;
-    min-height: 1015px;
+    min-height: 811px;
     height: 100%;
 }
 
