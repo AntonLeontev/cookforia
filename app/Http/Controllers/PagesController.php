@@ -46,7 +46,6 @@ class PagesController extends Controller
         return view('birthday', []);
     }
 
-
     public function teamBuilding()
     {
         return view('team-building', []);
