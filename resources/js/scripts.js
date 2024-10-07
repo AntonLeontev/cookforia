@@ -56,6 +56,17 @@ $(document).ready(function () {
     const bottomForm = document.getElementById("bottom-form");
     const phoneMobile = document.getElementById("header-phone_mobile");
 
+	const smartCaptchaConfig = function (callback) {
+        return {
+            sitekey: "ysc1_zpw1q6iG2Iuzxh3J8lcaYAYBtgyQB3nmQOMd7N4Nf577608a",
+            hideShield: true,
+            hl: "ru",
+            test: false,
+            invisible: true, // Сделать капчу невидимой
+            callback: callback,
+        };
+    };
+
     function onloadFunction() {
         if (!window.smartCaptcha) {
             return;
@@ -79,15 +90,7 @@ $(document).ready(function () {
 
             headerFormCaptcha = window.smartCaptcha.render(
                 "captcha-container",
-                {
-                    sitekey:
-                        "ysc1_zpw1q6iG2Iuzxh3J8lcaYAYBtgyQB3nmQOMd7N4Nf577608a",
-                    hideShield: true,
-                    hl: "ru",
-                    test: true,
-                    invisible: true, // Сделать капчу невидимой
-                    callback: sendMainForm,
-                }
+                smartCaptchaConfig(sendMainForm)
             );
         }
 
@@ -109,32 +112,18 @@ $(document).ready(function () {
 
             bottomFormCaptcha = window.smartCaptcha.render(
                 "bottom-captcha-container",
-                {
-                    sitekey:
-                        "ysc1_zpw1q6iG2Iuzxh3J8lcaYAYBtgyQB3nmQOMd7N4Nf577608a",
-                    hideShield: true,
-                    hl: "ru",
-                    test: true,
-                    invisible: true, // Сделать капчу невидимой
-                    callback: sendBottomForm,
-                }
+                smartCaptchaConfig(sendBottomForm)
             );
         }
 
         if (phoneMobile) {
+            const sendPhoneMobile = (token) => {
+                location.href = phoneMobile.getAttribute("href");
+            };
+
             phoneFormCaptcha = window.smartCaptcha.render(
                 "phone-captcha-container",
-                {
-                    sitekey:
-                        "ysc1_zpw1q6iG2Iuzxh3J8lcaYAYBtgyQB3nmQOMd7N4Nf577608a",
-                    hideShield: true,
-                    hl: "ru",
-                    test: true,
-                    invisible: true, // Сделать капчу невидимой
-                    callback: (token) => {
-                        location.href = phoneMobile.getAttribute("href");
-                    },
-                }
+                smartCaptchaConfig(sendPhoneMobile)
             );
 
             phoneMobile.addEventListener("click", (event) => {
