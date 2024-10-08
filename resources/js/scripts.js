@@ -56,7 +56,7 @@ $(document).ready(function () {
     const bottomForm = document.getElementById("bottom-form");
     const phoneMobile = document.getElementById("header-phone_mobile");
 
-	const smartCaptchaConfig = function (callback) {
+    const smartCaptchaConfig = function (callback) {
         return {
             sitekey: "ysc1_zpw1q6iG2Iuzxh3J8lcaYAYBtgyQB3nmQOMd7N4Nf577608a",
             hideShield: true,
@@ -205,8 +205,7 @@ document.addEventListener("DOMContentLoaded", function () {
 ym(57334753, "getClientID", function (clientID) {
     let inputs = document.getElementsByName("metrika_client_id");
 
-	inputs.forEach((el) => {
-		el.value = clientID;
-	});
-	
+    inputs.forEach((el) => {
+        el.value = clientID;
+    });
 });

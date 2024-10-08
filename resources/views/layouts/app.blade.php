@@ -102,6 +102,9 @@
         </div>
     </div>
 </div>
+
+<x-booking_widget />
+
 <!-- MoyKlass widget begin -->
 <!-- Виджет записи на Мастер-Класс на все страницах кроме расписания -->
 {{--<script src="https://app.moyklass.com/api/site/widget/?id=sDTZwdrqSTOKqOs0OBXHo95BnyVwQgHxJG" type="text/javascript" charset="UTF-8"></script>--}}
