@@ -3338,7 +3338,7 @@ widget shedule
     bottom: 0;
     right: 0;
     background-color: #fff;
-    padding: 50px 60px;
+    padding: 20px 60px;
 }
 
 .content-widget-schedule__logo {
@@ -3346,7 +3346,7 @@ widget shedule
     margin-bottom: 20px;
 
     img {
-        max-width: 165px;
+        max-width: 125px;
     }
 }
 
@@ -3489,8 +3489,8 @@ widget shedule
     animation: fadeIn 2s forwards;
     display: none;
     margin: 0 -40px;
-    overflow-y: auto;
-    max-height: 500px;
+    /*overflow-y: auto;*/
+    /*max-height: 500px;*/
 
     &::-webkit-scrollbar {
         width: 2px; /* Ширина скроллбара */
@@ -3517,11 +3517,11 @@ widget shedule
 }
 
 .content-widget-schedule__info {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .content-widget-schedule__detail {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .detail-schedule {
@@ -3851,6 +3851,12 @@ widget shedule
 }
 
 @media screen and (max-width: 480px) {
+    .content-widget-schedule__logo {
+
+        img {
+            max-width: 95px;
+        }
+    }
     .detail-schedule__item {
         gap: 10px;
     }
@@ -4274,7 +4280,7 @@ button.block__more:focus {
     display: -ms-flexbox;
     display: flex;
     color: #212529;
-    gap: 20px;
+    gap: 10px 20px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 20px 5px 5px;
@@ -4416,6 +4422,7 @@ button.block__more:focus {
 
     .qs-datepicker .qs-squares {
         gap: 10px;
+        padding-top: 10px;
     }
 }
 
