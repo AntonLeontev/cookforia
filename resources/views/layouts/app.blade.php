@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="/assets/owlCarousel/dist/assets/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/assets/owlCarousel/dist/assets/owl.theme.default.min.css" type="text/css">
     <link rel="stylesheet" href="/fonts/fonts.css" type="text/css">
-    <link rel="stylesheet" href="/css/styles.css?v30" type="text/css">
+    <link rel="stylesheet" href="/css/styles.css?v32" type="text/css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

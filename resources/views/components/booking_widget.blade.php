@@ -27,26 +27,42 @@
         </div>
 
         <div class="content-widget-schedule__inner">
-            <div class="content-widget-schedule__start">
-                <div class="content-widget-schedule__text">
-                    <p>Выбранная дата: <span>12 октября</span></p>
-                    <p>Выбранное время: <span>13:00 - 16:00</span></p>
-                </div>
-                <form action="#" class="content-widget-schedule__form form">
-                    <div class="form__row">
-                        <input class="form__input input" autocomplete="off" type="text" placeholder="Введите имя">
-                    </div>
-                    <div class="form__row">
-                        <input class="form__input input-phone" type="text" name="phone" placeholder="Телефон"
-                               required="">
-                    </div>
-                </form>
-                <div class="form__buttons">
-                    <a href="#" type="button button-solid" class="form-btn">выбрать меню</a>
-                    <button class="button button-bordered" type="button">Выбрать дату</button>
-                </div>
+            <div class="content-widget-schedule__start" :class="page === 'form' && 'active'">
+				<div x-show="!formSuccess">
+					<div class="content-widget-schedule__text">
+						<p>Выбранная дата: <span x-text="selectedDate?.toLocaleString('ru-RU', {day: 'numeric',month: 'long'}).replace(',', '')"></span></p>
+						<p>Выбранное время: <span x-text="selectedInterval">13:00 - 16:00</span></p>
+						<p>Студия: <span x-text="selectedStudio">13:00 - 16:00</span></p>
+					</div>
+					<form class="content-widget-schedule__form form" @submit.prevent="submit">
+						@csrf
+						<input type="hidden" name="metrika_client_id">
+						<div class="form__row">
+							<input class="form__input input" autocomplete="off" type="text" placeholder="Введите имя" name="name" maxlength="255" required>
+						</div>
+						<div class="form__row">
+							<input class="form__input input-phone" type="text" name="phone" placeholder="Телефон" required>
+						</div>
+						<div class="form__row">
+							<button type="submit" class="form-btn button-solid" :disabled="formProcessing">
+								<span x-show="!formProcessing">Забронировать</span>
+								<span x-show="formProcessing">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="24"><radialGradient id="a9" cx=".66" fx=".66" cy=".3125" fy=".3125" gradientTransform="scale(1.5)"><stop offset="0" stop-color="#FFFFFF"></stop><stop offset=".3" stop-color="#FFFFFF" stop-opacity=".9"></stop><stop offset=".6" stop-color="#FFFFFF" stop-opacity=".6"></stop><stop offset=".8" stop-color="#FFFFFF" stop-opacity=".3"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></radialGradient><circle transform-origin="center" fill="none" stroke="url(#a9)" stroke-width="22" stroke-linecap="round" stroke-dasharray="200 1000" stroke-dashoffset="0" cx="100" cy="100" r="70"><animateTransform type="rotate" attributeName="transform" calcMode="spline" dur="2" values="360;0" keyTimes="0;1" keySplines="0 0 1 1" repeatCount="indefinite"></animateTransform></circle><circle transform-origin="center" fill="none" opacity=".2" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" cx="100" cy="100" r="70"></circle></svg>
+								</span>
+							</button>
+						</div>
+					</form>
+					<div class="form__buttons">
+						<button class="button button-bordered" type="button" @click="page = 'picker'">изменить дату</button>
+					</div>
+				</div>
+
+				<div class="success-page" x-show="formSuccess">
+					Заявка отправлена успешно
+				</div>
             </div>
-            <div class="content-widget-schedule__change">
+
+            <div class="content-widget-schedule__change" :class="page === 'picker' && 'active'">
                 <!-- datepicker классы:
                 date-avaliable -  доступные даты ;
                 date-unavailable - недоступные даты;
@@ -71,147 +87,55 @@
                                 мастер-класса: 15 000₽</small></div>
                     </div> --}}
                 </div>
+
                 <!--popup-param для активации добавить класс popup-param_show-->
-                <div class="detail-schedule__popup popup-param">
-                    <button class="popup-param__close" type="button">
+                <div class="detail-schedule__popup popup-param" :class="popup && 'popup-param_show'">
+                    <button class="popup-param__close" type="button" @click="popup = false">
                         <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M15.2806 14.2194C15.3502 14.2891 15.4055 14.3718 15.4432 14.4629C15.4809 14.5539 15.5003 14.6515 15.5003 14.7501C15.5003 14.8486 15.4809 14.9462 15.4432 15.0372C15.4055 15.1283 15.3502 15.211 15.2806 15.2807C15.2109 15.3504 15.1281 15.4056 15.0371 15.4433C14.9461 15.4811 14.8485 15.5005 14.7499 15.5005C14.6514 15.5005 14.5538 15.4811 14.4628 15.4433C14.3717 15.4056 14.289 15.3504 14.2193 15.2807L7.99993 9.06036L1.78055 15.2807C1.63982 15.4214 1.44895 15.5005 1.24993 15.5005C1.05091 15.5005 0.860034 15.4214 0.719304 15.2807C0.578573 15.1399 0.499512 14.9491 0.499512 14.7501C0.499512 14.551 0.578573 14.3602 0.719304 14.2194L6.93962 8.00005L0.719304 1.78068C0.578573 1.63995 0.499512 1.44907 0.499512 1.25005C0.499512 1.05103 0.578573 0.860156 0.719304 0.719426C0.860034 0.578695 1.05091 0.499634 1.24993 0.499634C1.44895 0.499634 1.63982 0.578695 1.78055 0.719426L7.99993 6.93974L14.2193 0.719426C14.36 0.578695 14.5509 0.499634 14.7499 0.499634C14.949 0.499634 15.1398 0.578695 15.2806 0.719426C15.4213 0.860156 15.5003 1.05103 15.5003 1.25005C15.5003 1.44907 15.4213 1.63995 15.2806 1.78068L9.06024 8.00005L15.2806 14.2194Z"
                                 fill="#343330"/>
                         </svg>
                     </button>
-                    <div class="popup-param__date">12 октября</div>
-                    <div class="options options_address">
-                        <div class="options__item">
-                            <input id="o_1" class="options__input" checked type="radio"
-                                   value="ул. Московский проспект 183-185" name="address">
-                            <label for="o_1" class="options__label">
-                                <span class="options__text">ул. Московский проспект 183-185</span>
-                            </label>
-                            <!--options.options_time activation add class options_show-->
-                            <div class="options options_time">
-                                <div class="options__item">
-                                    <input id="t_1" class="options__input" type="radio" value="11:00 - 14:00"
-                                           name="time">
-                                    <!--options__label example - .options__label.date-avaliable
-                                    date-avaliable -  доступные даты ;
-                                    date-unavailable - недоступные даты;
-                                    date-sale - дата со скидкой;
-                                     -->
-                                    <label for="t_1" class="options__label">
-                                        <span class="options__text">11:00 - 14:00</span>
-                                    </label>
-                                    <!--end options__label example - options__label -->
-                                </div>
-                                <div class="options__item">
-                                    <input id="t_2" class="options__input" type="radio" value="15:00 - 18:00"
-                                           name="time">
-                                    <!--options__label example - .options__label.date-avaliable
-                                    date-avaliable -  доступные даты ;
-                                    date-unavailable - недоступные даты;
-                                    date-sale - дата со скидкой;
-                                     -->
-                                    <label for="t_2" class="options__label">
-                                        <span class="options__text">15:00 - 18:00</span>
-                                    </label>
-                                    <!--end options__label example - options__label -->
-                                </div>
-                                <div class="options__item">
-                                    <input id="t_3" class="options__input" type="radio" value="19:00 - 22:00"
-                                           name="time">
-                                    <!--options__label example - .options__label.date-avaliable
-                                    date-avaliable -  доступные даты ;
-                                    date-unavailable - недоступные даты;
-                                    date-sale - дата со скидкой;
-                                     -->
-                                    <label for="t_3" class="options__label">
-                                        <span class="options__text">19:00 - 22:00</span>
-                                    </label>
-                                    <!--end options__label example - options__label -->
-                                </div>
-                            </div>
-                            <!--end  options.options_time-->
-
-                        </div>
-                        <div class="options__item">
-                            <input id="o_2" class="options__input" type="radio" value="ул. Дыбенко, 8к1"
-                                   name="address">
-                            <label for="o_2" class="options__label">
-                                <span class="options__text">ул. Дыбенко, 8к1</span>
-                            </label>
-                            <!--options.options_time activation add class options_show-->
-                            <div class="options options_time">
-                                <div class="options__item">
-                                    <input id="t2_1" class="options__input" type="radio" value="13:00 - 16:00"
-                                           name="time">
-                                    <!-- options__label
-                                     date-avaliable -  доступные даты ;
-                                    date-unavailable - недоступные даты;
-                                    date-sale - дата со скидкой;-->
-                                    <label for="t2_1" class="options__label">
-                                        <span class="options__text">13:00 - 16:00</span>
-                                    </label>
-                                    <!--end  options__label -->
-                                </div>
-                                <div class="options__item">
-                                    <input id="t2_2" class="options__input" type="radio" value="18:00 - 21:00"
-                                           name="time">
-                                    <!-- options__label
-                                    date-avaliable -  доступные даты ;
-                                    date-unavailable - недоступные даты;
-                                    date-sale - дата со скидкой;
-                                     -->
-                                    <label for="t2_2" class="options__label">
-                                        <span class="options__text">18:00 - 21:00</span>
-                                    </label>
-                                    <!--end  options__label -->
-                                </div>
-                            </div>
-                            <!--end  options.options_time-->
-                        </div>
-                        <div class="options__item">
-                            <input id="o_3" class="options__input" type="radio" value="ул. Ильюшина, 5к1"
-                                   name="address">
-                            <label for="o_3" class="options__label">
-                                <span class="options__text">ул. Ильюшина, 5к1</span>
-                            </label>
-                            <!--options.options_time activation add class options_show-->
-                            <div class="options options_time options_show">
-                                <div class="options__item">
-                                    <input id="t3_1" class="options__input" type="radio" value="13:00 - 16:00"
-                                           name="time">
-                                    <!--options__label
-                                    date-avaliable -  доступные даты ;
-                                    date-unavailable - недоступные даты;
-                                    date-sale - дата со скидкой;
-                                     -->
-                                    <label for="t3_1" class="options__label">
-                                        <span class="options__text">13:00 - 16:00</span>
-                                    </label>
-                                    <!--end options__label -->
-                                </div>
-                                <div class="options__item">
-                                    <input id="t3_2" class="options__input" type="radio" value="18:00 - 21:00"
-                                           name="time">
-                                    <!-- options__label
-                                          date-avaliable -  доступные даты ;
-                                    date-unavailable - недоступные даты;
-                                    date-sale - дата со скидкой;
-                                     -->
-                                    <label for="t3_2" class="options__label">
-                                        <span class="options__text">18:00 - 21:00</span>
-                                    </label>
-                                    <!--end options__label  -->
-                                </div>
-                            </div>
-                            <!--end  options.options_time-->
-                        </div>
+                    <div class="popup-param__date" x-text="selectedDate?.toLocaleString('ru-RU', {day: 'numeric',month: 'long'}).replace(',', '')"></div>
+                    <div class="options options_address" style="min-height: 238px">
+						<template x-for="studio in studios">
+							<div class="options__item">
+								<input id="o_1" class="options__input" checked type="radio"
+									   value="ул. Московский проспект 183-185" name="address">
+								<label for="o_1" class="options__label options__label_address">
+									<span class="options__text" x-text="studio.address"></span>
+								</label>
+								<!--options.options_time activation add class options_show-->
+								<div class="options options_time options_show">
+									<template x-for="slot in studio.slots">
+										<div class="options__item">
+											<input id="t_1" class="options__input" type="radio" value="11:00 - 14:00"
+												   name="time">
+											<!--options__label example - .options__label.date-avaliable
+											date-avaliable -  доступные даты ;
+											date-unavailable - недоступные даты;
+											date-sale - дата со скидкой;
+											 -->
+											<label for="t_1" class="options__label" 
+												:class="slot.is_busy ? 'date-unavailable' : 'date-avaliable'"
+												@click="selectSlot(slot, studio)"
+											>
+												<span class="options__text" x-text="slot.interval">11:00 - 14:00</span>
+											</label>
+											<!--end options__label example - options__label -->
+										</div>
+									</template>
+								</div>
+								<!--end  options.options_time-->
+							</div>
+						</template>
                     </div>
                 </div>
-
                 <!--end  popup-param-->
+
                 <div class="content-widget-schedule__more">
-                    Выберете день, когда вы хотите поучаствовать в кулинарном мастер-классе
+                    Выберите день, когда вы хотите поучаствовать в кулинарном мастер-классе
                 </div>
             </div>
         </div>
@@ -224,10 +148,22 @@
 	document.addEventListener('alpine:init', () => {
 		Alpine.data('scheduleWidget', () => ({
 			active: false,
+			popup: false,
+			page: 'picker',
+			formProcessing: false,
+			formSuccess: false,
+			selectedDate: null,
+			selectedInterval: null,
+			selectedStudio: null,
+			studios: [],
+			cache: {},
 			
 			init() {
-				const picker = datepicker("[data-datepicker]", {
-					customDays: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"],
+				let date = new Date();
+				date.setDate(date.getDate() + 3);
+
+				datepicker("[data-datepicker]", {
+					customDays: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
 					customMonths: [
 						"Январь",
 						"Февраль",
@@ -244,17 +180,72 @@
 					],
 					overlayButton: "Применить",
 					overlayPlaceholder: "Год (4 цифры)",
-					startDay: 0,
+					startDay: 1,
 					alwaysShow: true,
 					showAllDates: true,
-					formatter: (input, date, instance) => {
-						const value = date.toLocaleDateString();
-						input.value = value;
-					},
-					onSelect: function (input, instance, date) {},
+					minDate: date,
+					onSelect: this.selectDate.bind(this),
 				});
 
-				picker();
+			},
+			selectDate(input, instance, date) {
+				this.selectedDate = instance;
+				this.studios = []
+				this.popup = true
+
+				if (this.cache[instance.toISOString()]) {
+					this.studios = this.cache[instance.toISOString()]
+					return
+				}
+
+				$.ajax({
+					method: 'GET',
+					url: '/schedule',
+					data: {
+						date: instance.toISOString(),
+					}
+				})
+				.done(response => {
+					// console.log(response);
+					this.studios = response.data
+					this.cache[instance.toISOString()] = response.data
+				})
+				.fail(error => {
+					console.log(error)
+				})
+			},
+			selectSlot(slot, studio) {
+				if (slot.is_busy) {
+					return
+				}
+
+				this.selectedInterval = slot.interval
+				this.selectedStudio = studio.address
+				this.page = 'form'
+			},
+			submit(event) {
+				let form = new FormData(event.target);
+				form.append('studio', this.selectedStudio);
+				form.append('slot', this.selectedInterval);
+				form.append('date', this.selectedDate?.toLocaleString('ru-RU', {day: 'numeric',month: 'long', year: 'numeric'}).replace(',', ''));
+
+				this.formProcessing = true
+
+				$.ajax({
+					method: 'POST',
+					url: '/schedule/form',
+					data: Object.fromEntries(form.entries())
+				})
+				.done(response => {
+					console.log(response);
+					this.formSuccess = true
+				})
+				.fail(error => {
+					console.log(error)
+				})
+				.always(() => {
+					this.formProcessing = false
+				})
 			},
 		}))
 	})

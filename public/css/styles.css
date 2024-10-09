@@ -3418,6 +3418,11 @@ widget shedule
     &:not(:last-child) {
         margin-bottom: 40px;
     }
+
+	.form-btn {
+		display: block;
+		width: 100%;
+	}
 }
 
 .form__input {
@@ -3509,11 +3514,26 @@ widget shedule
 
 .content-widget-schedule_change .content-widget-schedule__change {
     animation: fadeIn 2s forwards;
-    display: block;
+    display: none;
+
+	&.active {
+		display: block;
+	}
 }
 
 .content-widget-schedule_change .content-widget-schedule__start {
     display: none;
+
+	&.active {
+		display: block;
+	}
+
+	& .success-page {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 350px;
+	}
 }
 
 .content-widget-schedule__info {
@@ -4319,12 +4339,13 @@ button.block__more:focus {
     opacity: .3;
 }
 
-.qs-square.date-avaliable, .date-avaliable.options__label {
+.qs-square.qs-num:not(.qs-disabled), .qs-square.date-avaliable, .date-avaliable.options__label {
     background-color: rgba(255, 185, 20, .5);
 }
 
-.qs-square.date-unavailable, .date-unavailable.options__label {
+.qs-square.date-unavailable, .date-unavailable.options__label, .qs-disabled {
     background-color: #D6D6D6;
+	cursor: not-allowed;
 }
 
 .qs-square.date-sale, .date-sale.options__label {
@@ -4477,10 +4498,10 @@ radio
 
     }
 
-    &:checked + .options__label {
+    /* &:checked + .options__label {
         background-color: #FFB914;
         color: #fff;
-    }
+    } */
 
     &:checked + .options__label:after {
         transform: scale(1);
@@ -4521,6 +4542,10 @@ radio
     /*    left: 5px;*/
     /*    top: 5px;*/
     /*}*/
+}
+
+.options__label_address {
+	font-weight: 600;
 }
 
 .options__text {

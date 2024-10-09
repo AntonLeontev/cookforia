@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\Bitrix24\Bitrix24Service;
 use App\Services\MyClassApiService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
 class SiginController extends Controller
 {
-    //    protected $apiUrl = 'https://gk-olimp.bitrix24.ru/rest/1/l383a23u2zzl6nm7/';
-    protected $apiUrl = 'https://gk-olimp.bitrix24.ru/rest/81/aidg3ds4wpb4vvmi/';
+    public function __construct(public Bitrix24Service $bitrix) {}
 
     public function scheduleRequest(Request $request, MyClassApiService $myClassApiInstance)
     {
@@ -127,8 +127,6 @@ class SiginController extends Controller
             ],
         ];
 
-        $leadUrl = $this->apiUrl.'crm.lead.add.json?'.http_build_query($apiLeadData);
-
-        return file_get_contents($leadUrl);
+        $this->bitrix->leadAdd($apiLeadData);
     }
 }

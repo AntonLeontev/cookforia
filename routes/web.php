@@ -2,7 +2,35 @@
 
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\RecipeFormController;
+use App\Http\Controllers\ScheduleWidgetController;
 use App\Http\Controllers\SiginController;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Route;
+
+Route::get('test', function () {
+    // $resp = Http::baseUrl('https://gk-olimp.bitrix24.ru/rest/81/el5ip3nqeusky6b2')
+    // 	->asJson()
+    // 	->acceptJson()
+    // 	->get('calendar.resource.booking.list.json', [
+    // 		'filter' => [
+    // 			'resourceTypeIdList' => [25, 143, 205],
+    // 			'from' => '2024-09-14',
+    // 			'to' => '2024-09-14',
+    // 		]
+    // 	])
+    // 	->collect('result')
+    // 	->map(function($item) {
+    // 		return [
+    // 			'date_from' => Carbon::parse($item['DATE_FROM']),
+    // 			'date_to' => Carbon::parse($item['DATE_TO']),
+    // 			'studio_id' => $item['SECTION_ID'],
+    // 		];
+    // 	})
+    // ;
+
+    // dd($resp);
+});
 
 Route::controller(PagesController::class)
     ->group(function () {
@@ -55,9 +83,14 @@ Route::controller(PagesController::class)
 
 Route::controller(SiginController::class)
     ->group(function () {
-        // Route::post('/schedule/form', 'scheduleRequest')->name('schedule.request');
         Route::post('/main/form', 'mainRequest')->name('main.request');
         Route::post('/sign_in/form', 'signinRequest')->name('signin.request');
+    });
+
+Route::controller(ScheduleWidgetController::class)
+    ->group(function () {
+        Route::get('/schedule', 'getDaySchedule')->name('schedule.get');
+        Route::post('/schedule/form', 'scheduleSlot')->name('schedule.schedule');
     });
 
 Route::get('recipe', [RecipeFormController::class, 'show']);
