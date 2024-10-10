@@ -25,9 +25,9 @@ class ScheduleWidgetController extends Controller
             $busySlots = $busy->where('studio_id', $studio['id']);
 
             foreach ($studio['slots'] as &$slot) {
-                $slotStart = Carbon::parse($date, 'Europe/Moscow')->setHours($slot['start']['h'])
+                $slotStart = Carbon::parse($date)->setHours($slot['start']['h'])
                     ->setMinutes($slot['start']['m']);
-                $slotEnd = Carbon::parse($date, 'Europe/Moscow')->setHours($slot['end']['h'])
+                $slotEnd = Carbon::parse($date)->setHours($slot['end']['h'])
                     ->setMinutes($slot['end']['m']);
 
                 $slot['is_busy'] = false;
@@ -42,11 +42,25 @@ class ScheduleWidgetController extends Controller
 
                     if ($busySlot['date_to'] > $slotStart && $busySlot['date_to'] <= $slotEnd) {
                         $slot['is_busy'] = true;
+
+                        return;
+                    }
+
+                    if ($busySlot['date_from'] <= $slotStart && $busySlot['date_to'] >= $slotEnd) {
+                        $slot['is_busy'] = true;
+
+                        return;
                     }
                 });
 
             }
 
+            if (isset($studio['from_date'])) {
+                $fromDate = Carbon::parse($studio['from_date']);
+                if ($fromDate > $date) {
+                    continue;
+                }
+            }
             $response[] = $studio;
         }
 
