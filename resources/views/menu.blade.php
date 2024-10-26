@@ -269,7 +269,7 @@
                             </div>
                             <div class="menu-content-composition">
                                 <ul>
-                                    <li>Свежий салат с&nbsp;запечённой свеклой и&nbsp;сыром фета</li>
+                                    <li>Салат с&nbsp;авокадо, жареным Бри и&nbsp;соусом песто</li>
                                     <li>ПариБрест с&nbsp;ореховым пралине</li>
                                     <li>Каре ягненка в&nbsp;фисташковой корочке с&nbsp;овощным демигласом и&nbsp;сливочным булгуром</li>
                                 </ul>
@@ -606,20 +606,20 @@
                         <div class="menu-content-block">
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
-									    <img src="/images/menu/main/13/1.webp" alt="Салат Панцанелла с страчателлой">
-                                </div>
-                                <div class="item">
-									    <img src="/images/menu/main/13/2.webp" alt="Миндальный пирог с карамельным кремом и клубничным муссом">
+                                    <img src="/images/menu/main/13/2.webp" alt="Салат Панцанелла с страчателлой">
                                 </div>
                                 <div class="item">
 									    <img src="/images/menu/main/13/3.webp" alt="Креветки и сибас под соусом Биск с овощным рататуем">
+                                </div>
+                                <div class="item">
+                                    <img src="/images/menu/main/13/1.webp" alt="Миндальный пирог с карамельным кремом и клубничным муссом">
                                 </div>
                             </div>
                             <div class="menu-content-composition">
                                 <ul>
                                     <li>Салат Панцанелла с&nbsp;страчателлой</li>
-                                    <li>Миндальный пирог с&nbsp;карамельным кремом и&nbsp;клубничным муссом</li>
                                     <li>Креветки и&nbsp;сибас под соусом Биск с&nbsp;овощным рататуем</li>
+                                    <li>Миндальный пирог с&nbsp;карамельным кремом и&nbsp;клубничным муссом</li>
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
