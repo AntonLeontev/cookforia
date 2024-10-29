@@ -36,7 +36,7 @@
                         </div>
                         <div class="price-vyezdmk-item__text">
                             <p>с ростбифом, вяленым томатом и&nbsp;луковым мармеладом</p>
-                            <p>Заказ от 5 закусок - 250 рублей.</p>
+                            <p>Заказ от 5 закусок - 250&nbsp;руб./шт.</p>
                         </div>
                     </div>
                     <div class="price-vyezdmk-item__action">
@@ -53,7 +53,7 @@
                         </div>
                         <div class="price-vyezdmk-item__text">
                             <p>с салом и соусом Релиш</p>
-                            <p>Заказ от 5 закусок - 200 рублей.</p>
+                            <p>Заказ от 5 закусок - 200&nbsp;руб./шт.</p>
                         </div>
                     </div>
                     <div class="price-vyezdmk-item__action">
@@ -70,7 +70,7 @@
                         </div>
                         <div class="price-vyezdmk-item__text">
                             <p>с коппой, творожном кремом и&nbsp;томатами Черри</p>
-                            <p>Заказ от 5 закусок - 250 рублей.</p>
+                            <p>Заказ от 5 закусок - 250&nbsp;руб./шт.</p>
                         </div>
                     </div>
                     <div class="price-vyezdmk-item__action">
@@ -87,7 +87,7 @@
                         </div>
                         <div class="price-vyezdmk-item__text">
                             <p>с тигровой креветкой и&nbsp;кремом из&nbsp;авокадо</p>
-                            <p>Заказ от 5 закусок - 250 рублей.</p>
+                            <p>Заказ от 5 закусок - 250&nbsp;руб./шт.</p>
                         </div>
                     </div>
                     <div class="price-vyezdmk-item__action">
@@ -104,7 +104,7 @@
                         </div>
                         <div class="price-vyezdmk-item__text">
                             <p>с вяленым томатом и&nbsp;каперсами</p>
-                            <p>Заказ от 5 закусок - 200 рублей.</p>
+                            <p>Заказ от 5 закусок - 200&nbsp;руб./шт.</p>
                         </div>
                     </div>
                     <div class="price-vyezdmk-item__action">
@@ -121,7 +121,7 @@
                         </div>
                         <div class="price-vyezdmk-item__text">
                             <p>с кремом из печеной паприки и&nbsp;ореховым соусом</p>
-                            <p>Заказ от 5 закусок - 200 рублей.</p>
+                            <p>Заказ от 5 закусок - 200&nbsp;руб./шт.</p>
                         </div>
                     </div>
                     <div class="price-vyezdmk-item__action">
@@ -138,7 +138,7 @@
                         </div>
                         <div class="price-vyezdmk-item__text">
                             <p>с лососем, творожным кремом и&nbsp;томатами Черри </p>
-                            <p>Заказ от 5 закусок - 250 рублей.</p>
+                            <p>Заказ от 5 закусок - 250&nbsp;руб./шт.</p>
                         </div>
                     </div>
                     <div class="price-vyezdmk-item__action">
@@ -155,7 +155,7 @@
                         </div>
                         <div class="price-vyezdmk-item__text">
                             <p>с домашней страчателлой и&nbsp;соусом песто </p>
-                            <p>Заказ от 5 закусок - 200 рублей.</p>
+                            <p>Заказ от 5 закусок - 200&nbsp;руб./шт.</p>
                         </div>
                     </div>
                     <div class="price-vyezdmk-item__action">
