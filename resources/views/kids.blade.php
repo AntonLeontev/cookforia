@@ -69,7 +69,8 @@
         <div class="container">
             <h2>Сколько стоит провести мероприятие?</h2>
             <h3 class="orange-header">от 25000 руб.</h3>
-            <p style="text-align: center; margin-bottom: 0;">Стоимость организации мероприятия в декабре - уточняйте у менеджеров студии.</p>
+            <p style="text-align: center; margin-bottom: 0;">Стоимость организации мероприятия в декабре - уточняйте у
+                менеджеров студии.</p>
             <p class="large-text">Стоимость зависит от выбранного меню. Цена в меню указана для одного участника.</p>
         </div>
     </div>
@@ -88,21 +89,21 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/1/1.webp" type="image/webp">
-									    <img src="/images/menu/kids/1/1.jpg" alt="Бургер с котлетой из говядины">
-								    </picture>
+                                        <source srcset="/images/menu/kids/1/1.webp" type="image/webp">
+                                        <img src="/images/menu/kids/1/1.jpg" alt="Бургер с котлетой из говядины">
+                                    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/1/2.webp" type="image/webp">
-									    <img src="/images/menu/kids/1/2.jpg" alt="Капкейк с кремом из взбитых сливок">
-								    </picture>
+                                        <source srcset="/images/menu/kids/1/2.webp" type="image/webp">
+                                        <img src="/images/menu/kids/1/2.jpg" alt="Капкейк с кремом из взбитых сливок">
+                                    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/1/3.webp" type="image/webp">
-									    <img src="/images/menu/kids/1/3.jpg" alt="Клубничный коктейль">
-								    </picture>
+                                        <source srcset="/images/menu/kids/1/3.webp" type="image/webp">
+                                        <img src="/images/menu/kids/1/3.jpg" alt="Клубничный коктейль">
+                                    </picture>
                                 </div>
                             </div>
                             <div class="menu-content-composition">
@@ -129,21 +130,21 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/2/1.webp" type="image/webp">
-									    <img src="/images/menu/kids/2/1.jpg" alt="Классический Хот-дог">
-								    </picture>
+                                        <source srcset="/images/menu/kids/2/1.webp" type="image/webp">
+                                        <img src="/images/menu/kids/2/1.jpg" alt="Классический Хот-дог">
+                                    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/2/2.webp" type="image/webp">
-									    <img src="/images/menu/kids/2/2.jpg" alt="Тирамису на сливках">
-								    </picture>
+                                        <source srcset="/images/menu/kids/2/2.webp" type="image/webp">
+                                        <img src="/images/menu/kids/2/2.jpg" alt="Тирамису на сливках">
+                                    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/2/3.webp" type="image/webp">
-									    <img src="/images/menu/kids/2/3.jpg" alt="Ванильный коктейль">
-								    </picture>
+                                        <source srcset="/images/menu/kids/2/3.webp" type="image/webp">
+                                        <img src="/images/menu/kids/2/3.jpg" alt="Ванильный коктейль">
+                                    </picture>
                                 </div>
                             </div>
                             <div class="menu-content-composition">
@@ -170,21 +171,21 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/3/1.webp" type="image/webp">
-									    <img src="/images/menu/kids/3/1.jpg" alt="Пицца в ассортименте">
-								    </picture>
+                                        <source srcset="/images/menu/kids/3/1.webp" type="image/webp">
+                                        <img src="/images/menu/kids/3/1.jpg" alt="Пицца в ассортименте">
+                                    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/3/2.webp" type="image/webp">
-									    <img src="/images/menu/kids/3/2.jpg" alt="Печенье с шоколадной крошкой">
-								    </picture>
+                                        <source srcset="/images/menu/kids/3/2.webp" type="image/webp">
+                                        <img src="/images/menu/kids/3/2.jpg" alt="Печенье с шоколадной крошкой">
+                                    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/kids/3/3.webp" type="image/webp">
-									    <img src="/images/menu/kids/3/3.jpg" alt="Банановый коктейль">
-								    </picture>
+                                        <source srcset="/images/menu/kids/3/3.webp" type="image/webp">
+                                        <img src="/images/menu/kids/3/3.jpg" alt="Банановый коктейль">
+                                    </picture>
                                 </div>
                             </div>
                             <div class="menu-content-composition">
@@ -217,98 +218,128 @@
             <div class="schedule-gallery-container owl-carousel owl-theme">
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/1-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/1-690.webp" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/1-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/1-1110.webp">
-                        <source srcset="/images/gallery/kids/1-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/1-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/1-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/1-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/kids/01-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/01.webp" alt="Детские праздники"/>
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/2-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/2-690.webp" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/2-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/2-1110.webp">
-                        <source srcset="/images/gallery/kids/2-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/2-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/2-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/2-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/kids/02-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/02.webp" alt="Детские праздники"/>
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/3-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/3-690.webp" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/3-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/3-1110.webp">
-                        <source srcset="/images/gallery/kids/3-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/3-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/3-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/3-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/kids/03-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/03.webp" alt="Детские праздники"/>
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/4-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/4-690.webp" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/4-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/4-1110.webp">
-                        <source srcset="/images/gallery/kids/4-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/4-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/4-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/4-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/kids/04-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/04.webp" alt="Детские праздники"/>
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/5-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/5-690.webp" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/5-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/5-1110.webp">
-                        <source srcset="/images/gallery/kids/5-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/5-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/5-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/5-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/kids/05-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/05.webp" alt="Детские праздники"/>
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/6-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/6-690.webp" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/6-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/6-1110.webp">
-                        <source srcset="/images/gallery/kids/6-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/6-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/6-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/6-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/kids/06-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/06.webp" alt="Детские праздники"/>
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/7-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/7-690.webp" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/7-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/7-1110.webp">
-                        <source srcset="/images/gallery/kids/7-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/7-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/7-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/7-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/kids/07-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/07.webp" alt="Детские праздники"/>
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/8-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/8-690.webp" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/8-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/8-1110.webp">
-                        <source srcset="/images/gallery/kids/8-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/8-690.jpg" media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/8-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/8-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/kids/08-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/08.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/09-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/09.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/10-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/10.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/11-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/11.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/12-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/12.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/13-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/13.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/14-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/14.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/15-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/15.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/16-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/16.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/17-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/17.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/18-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/18.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/19-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/19.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/20-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/20.webp" alt="Детские праздники"/>
+                    </picture>
+                </div>
+                <div class="item">
+                    <picture>
+                        <source srcset="/images/gallery/kids/21-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/kids/21.webp" alt="Детские праздники"/>
                     </picture>
                 </div>
                 <!-- <div class="item"><img src="/images/gallery/kids/1.jpg" alt=""></div>

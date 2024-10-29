@@ -101,95 +101,40 @@
             <div class="schedule-gallery-container owl-carousel owl-theme">
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/family/01.webp" media="(min-width: 768px)">
                         <source srcset="/images/gallery/family/01-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/family/01-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/family/01.jpg" alt="Тимбилдинг">
+                        <img src="/images/gallery/family/01.webp" alt="Семейный мастер-класс" />
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/family/02.webp" media="(min-width: 768px)">
                         <source srcset="/images/gallery/family/02-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/family/02-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/family/02.jpg" alt="Тимбилдинг">
+                        <img src="/images/gallery/family/02.webp" alt="Семейный мастер-класс" />
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/corporate/2-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/corporate/2-690.webp"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/corporate/2-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/corporate/2-1110.webp">
-                        <source srcset="/images/gallery/corporate/2-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/corporate/2-690.jpg"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/corporate/2-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/2-1110.jpg" alt="Корпоратив">
+                        <source srcset="/images/gallery/family/03-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/family/03.webp" alt="Семейный мастер-класс" />
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/corporate/6-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/corporate/6-690.webp"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/corporate/6-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/corporate/6-1110.webp">
-                        <source srcset="/images/gallery/corporate/6-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/corporate/6-690.jpg"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/corporate/6-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/6-1110.jpg" alt="Корпоратив">
+                        <source srcset="/images/gallery/family/04-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/family/04.webp" alt="Семейный мастер-класс" />
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/corporate/7-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/corporate/7-690.webp"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/corporate/7-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/corporate/7-1110.webp">
-                        <source srcset="/images/gallery/corporate/7-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/corporate/7-690.jpg"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/corporate/7-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/corporate/7-1110.jpg" alt="Корпоратив">
+                        <source srcset="/images/gallery/family/05-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/family/05.webp" alt="Семейный мастер-класс" />
                     </picture>
                 </div>
                 <div class="item">
                     <picture>
-                        <source srcset="/images/gallery/kids/7-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/7-690.webp"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/7-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/7-1110.webp">
-                        <source srcset="/images/gallery/kids/7-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/7-690.jpg"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/7-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/7-1110.jpg" alt="Детские праздники">
+                        <source srcset="/images/gallery/family/06-510.webp" media="(max-width: 767px)">
+                        <img src="/images/gallery/family/06.webp" alt="Семейный мастер-класс" />
                     </picture>
                 </div>
-                <div class="item">
-                    <picture>
-                        <source srcset="/images/gallery/kids/1-1110.webp" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/1-690.webp"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/1-510.webp" media="(max-width: 767px)">
-                        <source srcset="/images/gallery/kids/1-1110.webp">
-                        <source srcset="/images/gallery/kids/1-1110.jpg" media="(min-width: 1200px)">
-                        <source srcset="/images/gallery/kids/1-690.jpg"
-                                media="(min-width: 768px) and (max-width: 991px)">
-                        <source srcset="/images/gallery/kids/1-510.jpg" media="(max-width: 767px)">
-                        <img src="/images/gallery/kids/1-1110.jpg" alt="Детские праздники">
-                    </picture>
-                </div>
-
-                <!-- <div class="item"><img src="/images/gallery/kids/1.jpg" alt=""></div>
-                <div class="item"><img src="/images/gallery/kids/2.jpg" alt=""></div>
-                <div class="item"><img src="/images/gallery/kids/3.jpg" alt=""></div>
-                <div class="item"><img src="/images/gallery/kids/4.jpg" alt=""></div> -->
             </div>
         </div>
     </div>

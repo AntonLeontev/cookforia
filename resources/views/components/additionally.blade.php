@@ -1,7 +1,8 @@
 <div class="section section-content">
     <div class="container">
         <h2>Дополнительно</h2>
-        <p class="large-text mb-md-5 mb-4">Если Вам необходимы дополнительные услуги, которых нет в списке позвоните нам и мы
+        <p class="large-text mb-md-5 mb-4">Если Вам необходимы дополнительные услуги, которых нет в списке позвоните нам
+            и мы
             постараемся помочь.</p>
         <div class="additional-slider _additional">
             <div class="item">
@@ -33,16 +34,13 @@
             <div class="item">
                 <div class="additional-item">
                     <div class="additional-item__img">
-                        <picture>
-                            <source srcset="/images/additionaly/01.webp">
-                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
-                        </picture>
+                        <img class="ibg" src="/images/additionaly/02.webp" alt="фуршет">
                     </div>
                     <div class="additional-item__body">
                         <div class="additional-item__title">
                             фуршет
                         </div>
-                        <a href="" class="additional-item__link">
+                        <a href="/buffet-menu" class="additional-item__link">
                             Посмотреть фуршетное меню
                         </a>
                         <ul>
@@ -55,10 +53,7 @@
             <div class="item">
                 <div class="additional-item">
                     <div class="additional-item__img">
-                        <picture>
-                            <source srcset="/images/additionaly/01.webp">
-                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
-                        </picture>
+                        <img class="ibg" src="/images/additionaly/03.webp" alt="Сырная тарелка">
                     </div>
                     <div class="additional-item__body">
                         <div class="additional-item__title">
@@ -93,10 +88,7 @@
             <div class="item">
                 <div class="additional-item">
                     <div class="additional-item__img">
-                        <picture>
-                            <source srcset="/images/additionaly/01.webp">
-                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
-                        </picture>
+                        <img class="ibg" src="/images/additionaly/04.webp" alt="мясная тарелка">
                     </div>
                     <div class="additional-item__body">
                         <div class="additional-item__title">
@@ -137,10 +129,7 @@
             <div class="item">
                 <div class="additional-item">
                     <div class="additional-item__img">
-                        <picture>
-                            <source srcset="/images/additionaly/01.webp">
-                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
-                        </picture>
+                        <img class="ibg" src="/images/additionaly/05.webp" alt="Фруктовая тарелка">
                     </div>
                     <div class="additional-item__body">
                         <div class="additional-item__title">
@@ -163,10 +152,7 @@
             <div class="item">
                 <div class="additional-item">
                     <div class="additional-item__img">
-                        <picture>
-                            <source srcset="/images/additionaly/01.webp">
-                            <img class="ibg" src="/images/additionaly/01.jpg" alt="Продление мероприятия">
-                        </picture>
+                        <img class="ibg" src="/images/additionaly/06.webp" alt="Дополнительное меню для мастер-классов">
                     </div>
                     <div class="additional-item__body">
                         <div class="additional-item__title">
@@ -186,14 +172,6 @@
                                 Лимонад в ассортименте 0,33 - 250 руб.
                             </li>
                         </ul>
-                        <div class="additional-item__text">
-                            <p>
-                                Стоимость: <strong>500 руб./чел.</strong>
-                            </p>
-                            <p>
-                                Минимальный заказ: <strong> 4000 рублей</strong>
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -222,7 +200,7 @@
                     autoplay: true,
                     margin: 20,
                     autoplaySpeed: 8000,
-                    autoHeight:true,
+                    autoHeight: true,
                     autoplayTimeout: 8000,
                     dots: true,
                     loop: true

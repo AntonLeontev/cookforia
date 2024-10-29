@@ -79,6 +79,7 @@ Route::controller(PagesController::class)
         Route::get('/about', 'about');
         Route::get('/certificate', 'certificate');
         Route::get('/vyezdnoj-mk', 'vyezdnojMk');
+        Route::get('buffet-menu', 'buffetMenu');
     });
 
 Route::controller(SiginController::class)

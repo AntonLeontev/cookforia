@@ -34,7 +34,9 @@ a:hover {
     padding: 10px 28px;
     display: inline-flex;
 }
-
+.price-vyezdmk-item__action .button{
+    font-family: "MuseoSansCyrl-300", sans-serif;
+}
 .button:hover {
     text-decoration: none;
 }
@@ -268,7 +270,13 @@ select.select {
     position: relative;
 }
 
+.section-main.section-main-buffet {
+    background-image: url("../images/main-buffet-back.webp");
+    position: relative;
+}
+
 @media screen and (max-width: 767.98px) {
+
     .section-main.section-main-about {
         background-image: url("../images/main-about-back_767.webp"), url("../images/main-about-back_767.jpg");
     }
@@ -280,6 +288,11 @@ select.select {
 
     .section-main.section-main-viezdnoy {
         background-image: url("../images/main-viezdnoj-back_767.webp"), url("../images/main-viezdnoj-back_767.jpg");
+        position: relative;
+    }
+
+    .section-main.section-main-buffet {
+        background-image: url("../images/main-buffet-back_767.webp");
         position: relative;
     }
 }
@@ -3099,7 +3112,6 @@ ul._about-team.variants-parties {
 
 .price-vyezdmk {
 
-
 }
 
 ._slider-shadow .owl-stage-outer {
@@ -3155,6 +3167,25 @@ ul._about-team.variants-parties {
     font-size: 17px;
     text-transform: uppercase;
     font-family: "Gilroy Extra Bold", sans-serif;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.price-vyezdmk-item__text {
+    line-height: 1.3;
+    font-family: "MuseoSansCyrl-700", sans-serif;
+    font-size: 15px;
+    margin-bottom: 50px;
+
+    p:last-child {
+        font-size: 14px;
+    }
+
+    p + p {
+        margin-top: 30px;
+    }
 }
 
 .price-vyezdmk-item__action {
@@ -3419,10 +3450,10 @@ widget shedule
         margin-bottom: 40px;
     }
 
-	.form-btn {
-		display: block;
-		width: 100%;
-	}
+    .form-btn {
+        display: block;
+        width: 100%;
+    }
 }
 
 .form__input {
@@ -3516,24 +3547,24 @@ widget shedule
     animation: fadeIn 2s forwards;
     display: none;
 
-	&.active {
-		display: block;
-	}
+    &.active {
+        display: block;
+    }
 }
 
 .content-widget-schedule_change .content-widget-schedule__start {
     display: none;
 
-	&.active {
-		display: block;
-	}
+    &.active {
+        display: block;
+    }
 
-	& .success-page {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		min-height: 350px;
-	}
+    & .success-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 350px;
+    }
 }
 
 .content-widget-schedule__info {
@@ -3649,6 +3680,11 @@ widget shedule
 }
 
 @media (min-width: 767px) {
+    ._slider-destroy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
     .additionally {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -3661,6 +3697,9 @@ widget shedule
 }
 
 @media (min-width: 991px) {
+    ._slider-destroy{
+        grid-template-columns: repeat(3,1fr);
+    }
     .additionally {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -3877,6 +3916,7 @@ widget shedule
             max-width: 95px;
         }
     }
+
     .detail-schedule__item {
         gap: 10px;
     }
@@ -4345,7 +4385,7 @@ button.block__more:focus {
 
 .qs-square.date-unavailable, .date-unavailable.options__label, .qs-disabled {
     background-color: #D6D6D6;
-	cursor: not-allowed;
+    cursor: not-allowed;
 }
 
 .qs-square.date-sale, .date-sale.options__label {
@@ -4444,6 +4484,11 @@ button.block__more:focus {
     .qs-datepicker .qs-squares {
         gap: 10px;
         padding-top: 10px;
+    }
+    .price-vyezdmk-item__text {
+        p + p {
+            margin-top: 20px;
+        }
     }
 }
 
@@ -4545,7 +4590,7 @@ radio
 }
 
 .options__label_address {
-	font-weight: 600;
+    font-weight: 600;
 }
 
 .options__text {
