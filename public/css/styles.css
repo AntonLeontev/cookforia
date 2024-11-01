@@ -2261,7 +2261,7 @@ select.select {
     .submenu-wrapper {
         margin-top: 20px;
         a {
-            padding: 0;
+            padding: 2px 0;
         }
     }
 

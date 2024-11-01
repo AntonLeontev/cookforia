@@ -1,7 +1,10 @@
 $(document).ready(function () {
     //header
     document.addEventListener('click', documentActions);
-    document.addEventListener('mouseover', documentHover);
+    if (window.matchMedia("(min-width: 991.98px)").matches) {
+        document.addEventListener('mouseover', documentHover);
+    }
+
 
     function documentActions(e) {
         const targetElement = e.target;
