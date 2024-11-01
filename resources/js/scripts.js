@@ -1,4 +1,66 @@
 $(document).ready(function () {
+    //header
+    document.addEventListener('click', documentActions);
+    document.addEventListener('mouseover', documentHover);
+
+    function documentActions(e) {
+        const targetElement = e.target;
+        if (targetElement.closest('[data-parent]')) {
+            const numMenu = targetElement.dataset.parent ? targetElement.dataset.parent : null,
+                subMenu = document.querySelector(`[data-submenu="${numMenu}"]`);
+            if (subMenu) {
+                const activeLink = document.querySelector('._submenu-open--active'),
+                    activeBlock = document.querySelector('._submenu-open');
+                if (activeLink && activeLink !== targetElement) {
+                    activeLink.classList.remove('_submenu-open--active');
+                    activeBlock.classList.remove('_submenu-open');
+                }
+                targetElement.classList.toggle('_submenu-open--active');
+                subMenu.classList.toggle('_submenu-open');
+            } else {
+                console.log('Нет такого меню!');
+            }
+            e.preventDefault();
+        }
+        if (targetElement.closest('.has-submenu .nav-link')) {
+            const activeLink = document.querySelector('._submenu-open--active'),
+                activeBlock = document.querySelector('._submenu-open'),
+                submenu = document.querySelector('.submenu-wrapper');
+            activeLink ? activeLink.classList.remove('_submenu-open--active') : null
+            activeBlock ? activeBlock.classList.remove('_submenu-open') : null
+            targetElement.classList.toggle('_active-nav-link');
+            submenu.classList.toggle('submenu-wrapper_open')
+        }
+    }
+
+    function documentHover(e) {
+        const targetElement = e.target;
+        if (targetElement.closest('[data-parent]')) {
+            const numMenu = targetElement.dataset.parent ? targetElement.dataset.parent : null,
+                subMenu = document.querySelector(`[data-submenu="${numMenu}"]`);
+            if (subMenu) {
+                const activeLink = document.querySelector('._submenu-open--active'),
+                    activeBlock = document.querySelector('._submenu-open');
+                if (activeLink && activeLink !== targetElement) {
+                    activeLink.classList.remove('_submenu-open--active');
+                    activeBlock.classList.remove('_submenu-open');
+                }
+                targetElement.classList.toggle('_submenu-open--active');
+                subMenu.classList.toggle('_submenu-open');
+            } else {
+                console.log('Нет такого меню!');
+            }
+            e.preventDefault();
+        }
+        if (targetElement.closest('.nav-link')) {
+            const activeLink = document.querySelector('._submenu-open--active'),
+                activeBlock = document.querySelector('._submenu-open');
+            activeLink ? activeLink.classList.remove('_submenu-open--active') : null
+            activeBlock ? activeBlock.classList.remove('_submenu-open') : null
+
+        }
+    }
+
     // Разворачивание телефона в шапке
     $(".header-phone.--desktop").click(function (e) {
         e.preventDefault();
@@ -47,7 +109,7 @@ $(document).ready(function () {
             observer.disconnect();
         }
     });
-    observer.observe(document.body, { childList: true });
+    observer.observe(document.body, {childList: true});
 
     // Установка капчи
 
@@ -172,8 +234,8 @@ function getCookie(name) {
     let matches = document.cookie.match(
         new RegExp(
             "(?:^|; )" +
-                name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, "\\$1") +
-                "=([^;]*)"
+            name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, "\\$1") +
+            "=([^;]*)"
         )
     );
     return matches ? decodeURIComponent(matches[1]) : undefined;

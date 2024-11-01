@@ -34,9 +34,11 @@ a:hover {
     padding: 10px 28px;
     display: inline-flex;
 }
-.price-vyezdmk-item__action .button{
+
+.price-vyezdmk-item__action .button {
     font-family: "MuseoSansCyrl-300", sans-serif;
 }
+
 .button:hover {
     text-decoration: none;
 }
@@ -641,7 +643,36 @@ select.select {
 
 .main-navbar .nav-item .dropdown-menu .dropdown-item:hover {
     background: none;
-    color: rgba(255, 255, 255, .75);
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFB914;
+}
+
+.dropdown-item {
+    position: relative;
+    margin-right: 0px;
+}
+
+.main-navbar .nav-item .dropdown-menu .dropdown-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-navbar .nav-item .dropdown-menu .dropdown-link:hover {
+    color: #FFB914;
+}
+
+.dropdown-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropdown-link.dropdown-toggle:after {
+    rotate: -90deg;
+    font-size: 18px;
 }
 
 .main-header-nav-block {
@@ -706,6 +737,127 @@ select.select {
     text-align: center;
 }
 
+.has-submenu {
+    position: relative;
+}
+
+.has-submenu > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 5px;
+
+    &:before {
+        display: block;
+        font-family: 'icons';
+        content: "\e911";
+    }
+}
+
+.submenu__item.has-submenu > a {
+    &:before {
+        rotate: 0deg;
+    }
+}
+
+.submenu-wrapper {
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300", sans-serif;
+    transition: all 0.3s ease-in-out;
+
+    a {
+        display: flex;
+        padding: 5px 0;
+        color: inherit;
+        text-decoration: none;
+        @media (any-hover: hover) {
+            &:hover {
+                color: #FFB914;
+            }
+        }
+    }
+}
+
+.has-submenu:hover .submenu-wrapper {
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu__link._submenu-open--active {
+    color: #FFB914;
+}
+
+.submenu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.submenu__item {
+    white-space: nowrap;
+}
+
+.item-tippy span {
+    position: relative;
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300", sans-serif;
+
+    &::before {
+        content: '?';
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        top: -4px;
+        right: -14px;
+        background-color: #FFB914;
+        border-radius: 50%;
+        color: #212529;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.item-tippy:hover {
+    .item-tippy__content {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.item-tippy__content {
+    font-size: 12px;
+    z-index: 2;
+    white-space: wrap;
+    position: absolute;
+    max-width: 170px;
+    padding: 6px;
+    border-radius: 4px;
+    top: 0;
+    right: 0;
+    color: #212529;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.submenu-two {
+    padding-left: 0;
+    list-style: none;
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-300", sans-serif;
+    display: none;
+
+    &._submenu-open {
+        display: block;
+    }
+}
+.nav-link._active-nav-link{
+    color: #FFB914!important;
+}
 .mobile-header-phone-block {
     margin-right: 5px;
     display: none;
@@ -915,6 +1067,10 @@ select.select {
 }
 
 @media screen and (max-width: 990px) {
+    .item-tippy span:before, .item-tippy__content {
+        display: none;
+    }
+
     .main-navbar .nav-item .nav-link {
         font-size: 16px;
         padding: 3px;
@@ -932,7 +1088,9 @@ select.select {
     }
 
     .mobile-header-phone-block {
-        display: block;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
 
     .mobile-header-phone-block a img {
@@ -1993,6 +2151,32 @@ select.select {
     }
 }
 
+@media (min-width: 992px) {
+    .submenu-two {
+        padding-left: 25px;
+    }
+
+    .submenu-wrapper {
+        display: flex;
+        z-index: 2;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        padding: 10px 40px;
+        border-radius: 6px;
+        background-color: rgba(0, 0, 0, .8);
+    }
+
+    .has-submenu > a {
+
+        &:before {
+            rotate: 90deg;
+        }
+    }
+}
+
 /** Конец видео **/
 
 /** Карта и контакты **/
@@ -2040,6 +2224,65 @@ select.select {
 }
 
 @media screen and (max-width: 992px) {
+    .submenu-wrapper{
+        display: none;
+    }
+    .submenu-wrapper.submenu-wrapper_open{
+        display: block;
+    }
+    .nav-link{
+        display: flex;
+    }
+    .nav-link._active-nav-link:before{
+        rotate: 90deg;
+    }
+    .main-navbar .nav-item .nav-link {
+        font-size: 16px;
+        padding: 0px;
+    }
+    .has-submenu > a {
+        display: flex;
+    }
+    .main-navbar {
+        justify-content: flex-start;
+    }
+    .submenu-two {
+        margin-top: 20px;
+    }
+    .submenu li+li{
+        margin-top: 20px;
+    }
+    .submenu__item.has-submenu > a._submenu-open--active {
+        &:before {
+            rotate: 90deg;
+        }
+    }
+
+    .submenu-wrapper {
+        margin-top: 20px;
+        a {
+            padding: 0;
+        }
+    }
+
+    #main-menu {
+        padding-top: 40px;
+    }
+
+    .mobile-header-phone-block .header-phone {
+        margin-top: 0px;
+    }
+
+    .main-header-nav-block {
+        border-radius: 6px;
+        background-color: rgba(0, 0, 0, .9);
+        padding: 40px;
+    }
+
+    .mobile-header-phone-block {
+        margin-top: 20px;
+    }
+
     .contacts-card {
         display: none;
     }
@@ -3680,11 +3923,12 @@ widget shedule
 }
 
 @media (min-width: 767px) {
-    ._slider-destroy{
+    ._slider-destroy {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
+
     .additionally {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -3697,9 +3941,10 @@ widget shedule
 }
 
 @media (min-width: 991px) {
-    ._slider-destroy{
-        grid-template-columns: repeat(3,1fr);
+    ._slider-destroy {
+        grid-template-columns: repeat(3, 1fr);
     }
+
     .additionally {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -3910,6 +4155,14 @@ widget shedule
 }
 
 @media screen and (max-width: 480px) {
+    .mobile-header-phone-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
     .content-widget-schedule__logo {
 
         img {
@@ -4485,6 +4738,7 @@ button.block__more:focus {
         gap: 10px;
         padding-top: 10px;
     }
+
     .price-vyezdmk-item__text {
         p + p {
             margin-top: 20px;
