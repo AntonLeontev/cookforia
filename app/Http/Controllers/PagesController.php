@@ -220,6 +220,7 @@ class PagesController extends Controller
     {
         return view('vyezdnoj-mk', []);
     }
+
     public function buffetMenu()
     {
         return view('buffet-menu', []);

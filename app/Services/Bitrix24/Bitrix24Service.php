@@ -2,6 +2,7 @@
 
 namespace App\Services\Bitrix24;
 
+use App\Services\Bitrix24\Exceptions\BitrixException;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Http;
 
@@ -9,7 +10,7 @@ class Bitrix24Service
 {
     public function getScheduleByDay(Carbon $date)
     {
-        return Http::baseUrl(config('services.bitrix.webhook'))
+        $response = Http::baseUrl(config('services.bitrix.webhook'))
             ->asJson()
             ->acceptJson()
             ->get('calendar.resource.booking.list.json', [
@@ -19,7 +20,15 @@ class Bitrix24Service
                     'to' => $date->format('Y-m-d'),
                 ],
             ])
-            ->collect('result')
+            ->throw(function ($response) {
+                if ($response->json('error_description')) {
+                    throw new BitrixException('Ошибка при соединении с Битрикс24: '.$response->json('error_description'));
+                }
+
+                throw new BitrixException('Ошибка при соединении с Битрикс24: '.$response->json('error'));
+            });
+
+        return $response->collect('result')
             ->map(function ($item) {
                 return [
                     'studio_id' => (int) $item['SECTION_ID'],
@@ -34,7 +43,7 @@ class Bitrix24Service
     public function createLeadFromSchedule(
         string $name,
         string $phone,
-        int|string $metricaClientId,
+        int|string|null $metricaClientId,
         string $studio,
         string $slot,
         string $date,
