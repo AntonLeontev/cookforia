@@ -81,7 +81,7 @@
 		<br>
         <a target="_blank" href="/policy.pdf?ver=20.09.2023">Политика обработки персональных данных</a>
 		<br>
-        <a target="_blank" href="/offer.pdf?ver=14.06.2024">Оферта</a>
+        <a target="_blank" href="/offer.pdf?ver=23.11.2024">Оферта</a>
     </div>
 
     <div class="footer-right">
