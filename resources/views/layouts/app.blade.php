@@ -64,7 +64,7 @@
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KTSCHC"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 @yield('content')
@@ -77,11 +77,11 @@
         <p>&copy; Все права защищены <br>
             Копирование информации с сайта запрещено.</p>
 
-        <a target="_blank" href="/offer_01.10.2023.pdf">Условия предоставления услуг</a>
+        <a target="_blank" href="/conditions.pdf?ver=29.11.2024">Условия предоставления услуг</a>
 		<br>
         <a target="_blank" href="/policy.pdf?ver=20.09.2023">Политика обработки персональных данных</a>
 		<br>
-        <a target="_blank" href="/offer.pdf?ver=23.11.2024">Оферта</a>
+        <a target="_blank" href="/offer.pdf?ver=01.05.2024">Оферта</a>
     </div>
 
     <div class="footer-right">
