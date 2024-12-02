@@ -73,7 +73,7 @@
 		document.head.appendChild(script);
 	})()
 	</script>
-	<script type="text/javascript">
+	{{-- <script type="text/javascript">
 	(function() {
 		var projectId = 117409;
 		var script = document.createElement('script');
@@ -84,7 +84,7 @@
 		window.lptWg.parser = true;
 		document.head.appendChild(script);
 	})()
-	</script>
+	</script> --}}
 	<!-- LPTracker code End -->
 
 </head>
