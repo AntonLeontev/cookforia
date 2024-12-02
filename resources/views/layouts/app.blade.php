@@ -60,6 +60,33 @@
 
 	<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.com/js/api/openapi.js?169',t.onload=function(){VK.Retargeting.Init("VK-RTRG-1582237-b7Psv"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1582237-b7Psv" style="position:fixed; left:-999px;" alt=""/></noscript>
 
+	<!-- LPTracker code start -->
+	<script type="text/javascript">
+	(function() {
+		var projectId = 117409;
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = 'https://lpt-crm.online/lpt_widget/out/parser.min.js';
+		window.lptWg = window.lptWg || {};
+		window.lptWg.projectId = projectId;
+		window.lptWg.parser = true;
+		document.head.appendChild(script);
+	})()
+	</script>
+	<script type="text/javascript">
+	(function() {
+		var projectId = 117409;
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = 'https://lpt-crm.online/lpt_widget/kick-widget.js';
+		window.lptWg = window.lptWg || {};
+		window.lptWg.projectId = projectId;
+		window.lptWg.parser = true;
+		document.head.appendChild(script);
+	})()
+	</script>
+	<!-- LPTracker code End -->
+
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
