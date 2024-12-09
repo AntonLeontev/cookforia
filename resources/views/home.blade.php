@@ -318,7 +318,8 @@
                 </style>
                 <div class="videos-block col-lg-6">
                     <div class="image-stub-wrap">
-                        <img class="image-stub" src="https://i.mycdn.me/getVideoPreview?id=7772885748240&idx=1&type=39&tkn=aP_ikH3YK6Wb3QG5_zgxxrJhiZo&fn=vid_x"
+                        <img class="image-stub"
+                             src="https://i.mycdn.me/getVideoPreview?id=7772885748240&idx=1&type=39&tkn=aP_ikH3YK6Wb3QG5_zgxxrJhiZo&fn=vid_x"
                              alt="Санкт-Петербург, ул. Дыбенко, 8к1">
                         <button class="image-stub__play-button">
                             <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
@@ -357,7 +358,8 @@
                 </div>
                 <div class="videos-block  col-lg-6">
                     <div class="image-stub-wrap">
-                        <img class="image-stub" src="https://i.mycdn.me/getVideoPreview?id=7757304760849&idx=4&type=39&tkn=BJudjkMFlp-PFQYYBnbeCl5WnVc&fn=vid_x&quot"
+                        <img class="image-stub"
+                             src="https://i.mycdn.me/getVideoPreview?id=7757304760849&idx=4&type=39&tkn=BJudjkMFlp-PFQYYBnbeCl5WnVc&fn=vid_x&quot"
                              alt="Санкт-Петербург, ул. Московский проспект 183-185">
                         <button class="image-stub__play-button">
                             <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
@@ -394,6 +396,47 @@
                                 на карте Санкт‑Петербурга — Яндекс Карты</a></div>
                     </div>
                 </div>
+                <div class="videos-block mt-5  col-lg-6">
+                    <div class="d-flex justify-content-between text-block align-items-center flex-wrap">
+                        <div class="videos-bottom-text">
+                            <img src="/images/videos-geo.png" alt="">
+                            <div>Санкт-Петербург, ул. Ильюшина</div>
+                        </div>
+                    <strong>Открыта новая студия!</strong>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div id="sync1" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/orig/01.webp" alt="Image" class="ibg">
+                        </div>
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/orig/02.webp" alt="Image" class="ibg">
+                        </div>
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/orig/03.webp" alt="Image" class="ibg">
+                        </div>
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/orig/04.webp" alt="Image" class="ibg">
+                        </div>
+                    </div>
+
+                    <div id="sync2" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/thumb/01.webp" alt="Image" class="ibg">
+                        </div>
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/thumb/02.webp" alt="Image" class="ibg">
+                        </div>
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/thumb/03.webp" alt="Image" class="ibg">
+                        </div>
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/thumb/04.webp" alt="Image" class="ibg">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

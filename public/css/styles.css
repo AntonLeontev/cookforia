@@ -855,9 +855,11 @@ select.select {
         display: block;
     }
 }
-.nav-link._active-nav-link{
-    color: #FFB914!important;
+
+.nav-link._active-nav-link {
+    color: #FFB914 !important;
 }
+
 .mobile-header-phone-block {
     margin-right: 5px;
     display: none;
@@ -2109,21 +2111,26 @@ select.select {
     font-size: 20px;
     text-align: start;
 }
-
+.text-block .videos-bottom-text {
+    width: initial;
+}
 @media screen and (max-width: 1200px) {
     .videos-container {
-        justify-content: center;
+        /*justify-content: center;*/
         flex-wrap: wrap;
     }
 }
 
 
 .videos-bottom-text {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     margin-top: 20px;
     width: 340px;
 }
-
+.text-block .videos-bottom-text {
+    width: initial;
+    margin-top: 0;
+}
 .videos-bottom-text div {
 
     margin-left: 10px;
@@ -2148,6 +2155,9 @@ select.select {
         margin: 0;
         margin-top: 20px;
         width: 640px;
+    }
+    .text-block .videos-bottom-text {
+        margin-top: 0;
     }
 }
 
@@ -2224,34 +2234,43 @@ select.select {
 }
 
 @media screen and (max-width: 992px) {
-    .submenu-wrapper{
+    .submenu-wrapper {
         display: none;
     }
-    .submenu-wrapper.submenu-wrapper_open{
+
+    .submenu-wrapper.submenu-wrapper_open {
         display: block;
     }
-    .nav-link{
+
+    .nav-link {
         display: flex;
     }
-    .nav-link._active-nav-link:before{
+
+    .nav-link._active-nav-link:before {
         rotate: 90deg;
     }
+
     .main-navbar .nav-item .nav-link {
         font-size: 16px;
         padding: 0px;
     }
+
     .has-submenu > a {
         display: flex;
     }
+
     .main-navbar {
         justify-content: flex-start;
     }
+
     .submenu-two {
         margin-top: 20px;
     }
-    .submenu li+li{
+
+    .submenu li + li {
         margin-top: 20px;
     }
+
     .submenu__item.has-submenu > a._submenu-open--active {
         &:before {
             rotate: 90deg;
@@ -2260,6 +2279,7 @@ select.select {
 
     .submenu-wrapper {
         margin-top: 20px;
+
         a {
             padding: 2px 0;
         }
@@ -3888,7 +3908,49 @@ widget shedule
     margin-bottom: 20px;
 }
 
+/*new styles*/
+.text-block {
 
+}
+
+.text-block strong {
+    color: #FFB914;
+    font-size: 20px;
+    font-family: "Museo Sans Cyrl", "MuseoSansCyrl-600", sans-serif;
+}
+
+#sync1 {
+    .item {
+        margin-bottom: 30px;
+        height: 690px;
+    }
+}
+
+#sync2 {
+    .item {
+        cursor: pointer;
+        height: 270px;
+        opacity: .3;
+    }
+    .current .item{
+       opacity: 1;
+    }
+}
+
+
+
+.owl-theme {
+    .owl-nav {
+        /*default owl-theme theme reset .disabled:hover links */
+        [class*='owl-'] {
+            transition: all .3s ease;
+            &.disabled:hover {
+                background-color: #D6D6D6;
+            }
+        }
+
+    }
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -3974,6 +4036,18 @@ widget shedule
 }
 
 @media screen and (max-width: 991px) {
+    #sync1 {
+        .item {
+            height: 450px;
+        }
+    }
+
+    #sync2 {
+        .item {
+            cursor: pointer;
+            height: 220px;
+        }
+    }
     .what-know-content {
         flex-wrap: wrap;
         justify-content: center;
@@ -4033,6 +4107,20 @@ widget shedule
 }
 
 @media screen and (max-width: 768px) {
+    #sync1 {
+        .item {
+            margin-bottom: 10px;
+            height: 400px;
+        }
+    }
+
+    #sync2 {
+        .item {
+            cursor: pointer;
+            height: 180px;
+        }
+    }
+
     .section-additionally {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -4155,6 +4243,21 @@ widget shedule
 }
 
 @media screen and (max-width: 480px) {
+    #sync1 {
+        .item {
+            height: 210px;
+        }
+    }
+
+    #sync2 {
+        display: none;
+    }
+    .videos-bottom-text div, .text-block .videos-bottom-text, .text-block strong {
+        font-size:16px;
+    }
+    .text-block strong {
+        margin: 0 auto;
+    }
     .mobile-header-phone-block {
         display: flex;
         justify-content: center;
