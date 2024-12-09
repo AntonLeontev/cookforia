@@ -39,16 +39,16 @@
                                             Мастер-класс для вас/вашей компании отдельно
                                         </div>
                                     </li>
-                                    <li class="submenu__item item-tippy">
-                                        <a class="submenu__link" href=""><span>Сборный</span></a>
-                                        <div class="item-tippy__content">Сборная группа из 6-12 человек</div>
-                                    </li>
+{{--                                    <li class="submenu__item item-tippy">--}}
+{{--                                        <a class="submenu__link" href=""><span>Сборный</span></a>--}}
+{{--                                        <div class="item-tippy__content">Сборная группа из 6-12 человек</div>--}}
+{{--                                    </li>--}}
                                     <li class="submenu__item item-tippy">
                                         <a class="submenu__link" href="/vyezdnoj-mk"><span>Выездной</span></a>
                                         <div class="item-tippy__content">Проведение МК в любой локации</div>
                                     </li>
-                                    <li class="submenu__item"><a class="submenu__link" href="/family">Мастер-класс для детей</a></li>
-                                    <li class="submenu__item"><a class="submenu__link" href="/for-children">Семейный мастер-класс</a></li>
+                                    <li class="submenu__item"><a class="submenu__link" href="/for-children">Мастер-класс для детей</a></li>
+                                    <li class="submenu__item"><a class="submenu__link" href="/family">Семейный мастер-класс</a></li>
                                 </ul>
                                 <ul class="submenu-two" data-da=".submenu__item:nth-child(2), 992" data-submenu="2">
                                     <li class="submenu__item"><a class="submenu__link" href="/corporate">Корпоративы</a></li>

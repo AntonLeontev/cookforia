@@ -318,25 +318,28 @@
                 </style>
                 <div class="videos-block col-lg-6">
                     <div class="image-stub-wrap">
-                        <img class="image-stub" src="https://img.youtube.com/vi/ny8LYoPoGUg/sddefault.jpg"
+                        <img class="image-stub" src="https://i.mycdn.me/getVideoPreview?id=7772885748240&idx=1&type=39&tkn=aP_ikH3YK6Wb3QG5_zgxxrJhiZo&fn=vid_x"
                              alt="Санкт-Петербург, ул. Дыбенко, 8к1">
                         <button class="image-stub__play-button">
-                            <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
-                                <path class="ytp-large-play-button-bg"
-                                      d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
-                                      fill="#f00"></path>
-                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0" y="0"
+                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                 class=""><g>
+                                    <path d="M187.368 146.928V355.8l195.624-104.432z" style="" fill="#ffffff"
+                                          data-original="#ffffff" class="ytp-large-play-button-bg"></path>
+                                    <path
+                                        d="M256 .376C114.616.376 0 114.824 0 256s114.616 255.624 256 255.624S512 397.176 512 256 397.384.376 256 .376zm-71.504 146.552 195.624 104.44L184.496 355.8V146.928z"
+                                        style="" fill="#FFB914" data-original="#FFB914" class=""></path>
+                                </g></svg>
                         </button>
                     </div>
                     <iframe
-                            hidden
-                            data-src="https://www.youtube.com/embed/ny8LYoPoGUg?autoplay=1"
-                            title="YouTube video player"
-                            frameborder="0"
-                            class="videos-block-iframe"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
+                        hidden
+                        data-src="https://vkvideo.ru/video_ext.php?oid=-191467492&id=456241383&hd=2&autoplay=1"
+                        frameborder="0"
+                        class="videos-block-iframe"
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                        allowfullscreen
                     ></iframe>
                     <div class="videos-bottom-text mb-4">
                         <img src="/images/videos-geo.png" alt="">
@@ -344,8 +347,9 @@
                     </div>
                     <div class="widget-review">
                         <div style="width:100%;height:800px;overflow:hidden;position:relative;">
-                            <iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
-                                    src="https://yandex.ru/maps-reviews-widget/29115594921?comments"></iframe>
+                            <iframe
+                                style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+                                src="https://yandex.ru/maps-reviews-widget/29115594921?comments"></iframe>
                             <a href="https://yandex.by/maps/org/cookforia/29115594921/" target="_blank"
                                style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Cookforia
                                 на карте Санкт‑Петербурга — Яндекс Карты</a></div>
@@ -353,25 +357,28 @@
                 </div>
                 <div class="videos-block  col-lg-6">
                     <div class="image-stub-wrap">
-                        <img class="image-stub" src="https://img.youtube.com/vi/FiuCk-UUEcU/sddefault.jpg"
+                        <img class="image-stub" src="https://i.mycdn.me/getVideoPreview?id=7757304760849&idx=4&type=39&tkn=BJudjkMFlp-PFQYYBnbeCl5WnVc&fn=vid_x&quot"
                              alt="Санкт-Петербург, ул. Московский проспект 183-185">
                         <button class="image-stub__play-button">
-                            <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%">
-                                <path class="ytp-large-play-button-bg"
-                                      d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
-                                      fill="#f00"></path>
-                                <path d="M 45,24 27,14 27,34" fill="#fff"></path>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0" y="0"
+                                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                 class=""><g>
+                                    <path d="M187.368 146.928V355.8l195.624-104.432z" style="" fill="#ffffff"
+                                          data-original="#ffffff" class="ytp-large-play-button-bg"></path>
+                                    <path
+                                        d="M256 .376C114.616.376 0 114.824 0 256s114.616 255.624 256 255.624S512 397.176 512 256 397.384.376 256 .376zm-71.504 146.552 195.624 104.44L184.496 355.8V146.928z"
+                                        style="" fill="#FFB914" data-original="#FFB914" class=""></path>
+                                </g></svg>
                         </button>
                     </div>
                     <iframe
-                            hidden
-                            data-src="https://www.youtube.com/embed/FiuCk-UUEcU?autoplay=1"
-                            title="YouTube video player"
-                            frameborder="0"
-                            class="videos-block-iframe"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
+                        hidden
+                        data-src="https://vk.com/video_ext.php?oid=-191467492&id=456241384&hd=2&autoplay=1"
+                        frameborder="0"
+                        class="videos-block-iframe"
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                        allowfullscreen
                     ></iframe>
                     <div class="videos-bottom-text mb-4">
                         <img src="/images/videos-geo.png" alt="">
@@ -379,8 +386,9 @@
                     </div>
                     <div class="widget-review">
                         <div style="width:100%;height:800px;overflow:hidden;position:relative;">
-                            <iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
-                                    src="https://yandex.ru/maps-reviews-widget/74180715342?comments"></iframe>
+                            <iframe
+                                style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+                                src="https://yandex.ru/maps-reviews-widget/74180715342?comments"></iframe>
                             <a href="https://yandex.by/maps/org/cookforia/74180715342/" target="_blank"
                                style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Cookforia
                                 на карте Санкт‑Петербурга — Яндекс Карты</a></div>
