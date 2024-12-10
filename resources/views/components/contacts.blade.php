@@ -25,7 +25,7 @@
                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="address"><p
                             itemprop="streetAddress" class="street"><span
                                 style="display: inline-block; width: 10px; height: 10px; border-radius: 5px; background-color: #F00;"></span>
-                        улица Ильюшина, 5, корп. 1 <small>(временно закрыт)</small></p>
+                        улица Ильюшина, 5, корп. 1</p>
                 </div>
                 <p>Режим работы: с 10:00 до 22:00</p>
                 <div class="contacts-social">
@@ -74,7 +74,7 @@
             <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="address"><p
                         itemprop="streetAddress" class="street"><span
                             style="display: inline-block; width: 10px; height: 10px; border-radius: 5px; background-color: #F00;"></span>
-                    улица Ильюшина, 5, корп. 1 <small style="display: block">(временно закрыт)</small></p>
+                    улица Ильюшина, 5, корп. 1</p>
                 <div class="contacts-social">
                     <a href="https://vk.com/cookforia">
                         <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
