@@ -8,7 +8,7 @@
             <div class="contacts-card" itemscope itemtype="http://schema.org/Organization"
                  style="padding: 50px; !important;">
                 <h3 itemprop="name" class="company">Кулинарная студия "Cookforia"</h3>
-                <a itemprop="telephone" href="tel:+78122131417">+7 (812) 213-14-17</a>
+                <a itemprop="telephone" href="tel:+78127678793">+7 (812) 767-87-93</a>
                 <p>contact@cookforia.ru</p>
                 <p style="margin-top: 8px;"><b>Санкт-Петербург</b></p>
 
@@ -57,7 +57,7 @@
         <div class="contacts-card" itemscope itemtype="http://schema.org/Organization"
              style="padding: 45px !important;">
             <h3 itemprop="name" class="company">Кулинарная студия "Cookforia"</h3>
-            <a itemprop="telephone" href="tel:+78122131417">+7 (812) 213-14-17</a>
+            <a itemprop="telephone" href="tel:+78127678793">+7 (812) 767-87-93</a>
             <p>contact@cookforia.ru</p>
             <p style="margin-top: 8px;"><b>Санкт-Петербург</b></p>
 

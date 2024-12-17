@@ -81,15 +81,9 @@
                         <img src="/images/icons/soc-telegram.svg" alt="">
                     </a>
 
-					@if(Carbon::parse('2024-12-13')->isPast())
-						<a class="header-phone --desktop" href="tel:+78127678793">
-							<span class="phone-content">+7 (812) 7678793</span>
-						</a>
-					@else
-						<a class="header-phone --desktop" href="tel:+78122131417">
-							<span class="phone-content">+7 (812) 2131417</span>
-						</a>
-					@endif
+					<a class="header-phone --desktop" href="tel:+78127678793">
+						<span class="phone-content">+7 (812) 7678793</span>
+					</a>
                     <script>
                         (function () {
                             document.addEventListener('DOMContentLoaded', function () {
@@ -136,11 +130,7 @@
                     <a href="t.me/loft_cookforia">
                         <img src="/images/icons/soc-telegram.svg" alt="">
                     </a>
-					@if(Carbon::parse('2024-12-13')->isPast())
-						<a class="header-phone" id="header-phone_mobile" href="tel:+78127678793">+7 (812) 767-87-93</a>
-					@else
-						<a class="header-phone" id="header-phone_mobile" href="tel:+78122131417">+7 (812) 213-14-17</a>
-					@endif
+					<a class="header-phone" id="header-phone_mobile" href="tel:+78127678793">+7 (812) 767-87-93</a>
                     <div id="phone-captcha-container"></div>
 
                 </div>
