@@ -3,13 +3,6 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5KTSCHC');</script>
-    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -60,16 +53,39 @@
 	<noscript><div><img src="https://mc.yandex.ru/watch/57334753" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
 
-	<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.com/js/api/openapi.js?169',t.onload=function(){VK.Retargeting.Init("VK-RTRG-1582237-b7Psv"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1582237-b7Psv" style="position:fixed; left:-999px;" alt=""/></noscript>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-JM5N42H1FB"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-JM5N42H1FB');
+	</script>
+	<!-- Google tag (gtag.js) -->
+
+	<!-- Top.Mail.Ru counter -->
+	<script type="text/javascript">
+	var _tmr = window._tmr || (window._tmr = []);
+	_tmr.push({id: "3576265", type: "pageView", start: (new Date()).getTime()});
+	(function (d, w, id) {
+	if (d.getElementById(id)) return;
+	var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+	ts.src = "https://top-fwz1.mail.ru/js/code.js";
+	var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+	})(document, window, "tmr-code");
+	</script>
+	<noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3576265;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+	<!-- /Top.Mail.Ru counter -->
+
+	{{-- Если вк ретаргетинг не понадобится -удалить --}}
+	{{-- <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.com/js/api/openapi.js?169',t.onload=function(){VK.Retargeting.Init("VK-RTRG-1582237-b7Psv"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1582237-b7Psv" style="position:fixed; left:-999px;" alt=""/></noscript> --}}
 
 	<script async src="//widgets.mango-office.ru/site/34246"></script>
 
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KTSCHC"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 @yield('content')
 
@@ -140,6 +156,15 @@
 
 @php
     if (isset($_GET["utm_source"])) setcookie("utm_source",$_GET["utm_source"],time()+3600*24*30*12,"/");
+	
+	if (!isset($_GET["utm_source"]) && !isset($_COOKIE['utm_source'])) {
+		$referer = $_SERVER['HTTP_REFERER'] ?? '';
+
+		if (!str($referer)->contains('cookforia')) {
+			setcookie("utm_source", $referer, time()+3600*24*30*12,"/");
+		}
+	}
+
     if (isset($_GET["utm_medium"])) setcookie("utm_medium",$_GET["utm_medium"],time()+3600*24*30*12,"/");
     if (isset($_GET["utm_campaign"])) setcookie("utm_campaign",$_GET["utm_campaign"],time()+3600*24*30*12,"/");
     if (isset($_GET["utm_content"])) setcookie("utm_content",$_GET["utm_content"],time()+3600*24*30*12,"/");
