@@ -237,7 +237,6 @@
 					data: Object.fromEntries(form.entries())
 				})
 				.done(response => {
-					console.log(response);
 					this.formSuccess = true
 				})
 				.fail(error => {
@@ -245,7 +244,13 @@
 				})
 				.always(() => {
 					this.formProcessing = false
+					this.sendDataToMango(form)
 				})
+			},
+			sendDataToMango(form) {
+				form.append('fid', 'Виджет расписания');
+
+				mgo.postForm(Object.fromEntries(form.entries()));
 			},
 		}))
 	})
