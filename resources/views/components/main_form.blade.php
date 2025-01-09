@@ -12,7 +12,7 @@
                     <input name="utm_content" type="hidden" hidden="hidden" value="">
                     <input name="utm_term" type="hidden" hidden="hidden" value="">
                     <input class="form-input input-phone" type="text" name="phone" placeholder="Телефон" required>
-                    <input class="form-btn" type="submit" value="Отправить заявку!">
+                    <button class="form-btn" type="submit">Отправить заявку!</button>
 
 					<div id="captcha-container"></div>
 

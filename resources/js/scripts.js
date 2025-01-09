@@ -206,7 +206,9 @@ $(document).ready(function () {
 
     let headerFormCaptcha, bottomFormCaptcha, phoneFormCaptcha;
     const mainForm = document.getElementById("main-form");
+	const mainFormButton = mainForm.querySelector("button[type=submit]");
     const bottomForm = document.getElementById("bottom-form");
+    const bottomFormButton = bottomForm.querySelector("button[type=submit]");
     const phoneMobile = document.getElementById("header-phone_mobile");
 
     const smartCaptchaConfig = function (callback) {
@@ -236,7 +238,7 @@ $(document).ready(function () {
                         $("#main-form .form-success").show();
                     },
                     error: function () {
-                        // Ничего не делаем
+                        mainFormButton.disabled = false;
                     },
                 });
             };
@@ -256,9 +258,10 @@ $(document).ready(function () {
                     success: function (data) {
                         $("#bottom-form .form-fields").hide();
                         $("#bottom-form .form-success").show();
+                        bottomFormButton.disabled = false;
                     },
                     error: function () {
-                        // Ничего не делаем
+                        bottomFormButton.disabled = false;
                     },
                 });
             };
@@ -305,6 +308,7 @@ $(document).ready(function () {
             return;
         }
 
+        mainFormButton.disabled = true;
         window.smartCaptcha.execute(headerFormCaptcha);
     });
 
@@ -315,6 +319,7 @@ $(document).ready(function () {
             return;
         }
 
+        bottomFormButton.disabled = true;
         window.smartCaptcha.execute(bottomFormCaptcha);
     });
 

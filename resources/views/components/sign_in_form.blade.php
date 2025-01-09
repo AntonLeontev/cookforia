@@ -17,7 +17,7 @@
                     <input name="utm_term" type="hidden" hidden="hidden" value="">
                     <input class="form-input" type="text" name="name" placeholder="Имя" required>
                     <input class="form-input input-phone" type="text" name="phone" placeholder="Телефон" required>
-                    <input class="form-btn" type="submit" value="Отправить заявку!">
+                    <button style="width: 100%" class="form-btn" type="submit">Отправить заявку!</button>
 
                     <div id="bottom-captcha-container"></div>
                 </div>
