@@ -97,15 +97,15 @@
         <p>&copy; Все права защищены <br>
             Копирование информации с сайта запрещено.</p>
 
-        <a target="_blank" href="/conditions.pdf?ver=29.11.2024">Условия предоставления услуг</a>
-		<br>
+        {{-- <a target="_blank" href="/conditions.pdf?ver=29.11.2024">Условия предоставления услуг</a> --}}
+		{{-- <br> --}}
         <a target="_blank" href="/policy.pdf?ver=09.02.25">Политика обработки персональных данных</a>
 		<br>
         <a target="_blank" href="/offer-mk.pdf?ver=09.02.25">Оферта Мастер-класс</a>
 		<br>
         <a target="_blank" href="/offer-chief.pdf?ver=09.02.25">Оферта Выездной шеф-повар</a>
-		<br>
-        <a target="_blank" href="/offer.pdf?ver=01.05.2024">Оферта</a>
+		{{-- <br> --}}
+        {{-- <a target="_blank" href="/offer.pdf?ver=01.05.2024">Оферта</a> --}}
     </div>
 
     <div class="footer-right">
