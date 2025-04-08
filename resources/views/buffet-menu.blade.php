@@ -23,145 +23,180 @@
         @component('components.main_form')
         @endcomponent
     </div>
+
+	@php
+		$items = [
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с печенью и икрой трески',
+					'Заказ от 5 шт - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/01.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с печеным перцем и ореховым соусом',
+					'Заказ от 5 шт - 200&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/02.webp',
+			],
+			[
+				'title' => 'Пицца',
+				'text' => [
+					'с ветчиной и грибами',
+					'Заказ от 2 шт 30 см - 800&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/03.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с тигровой креветкой и соусом из авокадо',
+					'Заказ от 5 закусок - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/04.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с ростбифом, вяленым томатом и луковым мармеладом',
+					'Заказ от 5 закусок - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/05.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с домашней страчателлой и соусом песто',
+					'Заказ от 5 закусок - 200&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/06.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с копой, творожным кремом и помидорками черри',
+					'Заказ от 5 закусок - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/07.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с лососем, творожным кремом и томатами черри',
+					'Заказ от 5 закусок - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/08.webp',
+			],
+			[
+				'title' => 'Пицца',
+				'text' => [
+					'жульен с курицей',
+					'Заказ от 2 шт 30 см - 800&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/09.webp',
+			],
+			[
+				'title' => 'Пицца',
+				'text' => [
+					'пеперони',
+					'Заказ от 2 шт 30 см - 800&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/10.webp',
+			],
+			[
+				'title' => 'Пицца',
+				'text' => [
+					'маргарита',
+					'Заказ от 2 шт 30 см - 800&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/11.webp',
+			],
+			[
+				'title' => 'Пицца',
+				'text' => [
+					'цезарь с курицей',
+					'Заказ от 2 шт 30 см - 800&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/12.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с соусом топинада, вяленым томатом и каперсами',
+					'Заказ от 5 закусок - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/13.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с салом и соусом релиш',
+					'Заказ от 5 закусок - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/14.webp',
+			],
+			[
+				'title' => 'Пицца',
+				'text' => [
+					'жульен с курицей',
+					'Заказ от 2 шт 30 см - 800&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/15.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с копченым угрем и салатом чука',
+					'Заказ от 5 закусок - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/16.webp',
+			],
+			[
+				'title' => 'Брускетта',
+				'text' => [
+					'с ростбифом, вяленым томатом и луковым мармеладом',
+					'Заказ от 5 закусок - 250&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/17.webp',
+			],
+			[
+				'title' => 'Пицца',
+				'text' => [
+					'с курочкой и свежими томатами',
+					'Заказ от 2 шт 30 см - 800&nbsp;руб./шт.',
+				],
+				'image' => '/images/menu/buffet/18.webp',
+			],
+		];
+	@endphp
+
     <div class="section section-padding _slider-shadow">
         <div class="container">
             <div class="price-vyezdmk mt-md-5 mt-4 _slider-destroy">
-                <div class="price-vyezdmk-item d-flex flex-column text-center">
-                    <div class="price-vyezdmk-item__img">
-                        <img class="ibg" src="/images/menu/buffet/01.webp" alt="Брускетта">
-                    </div>
-                    <div class="price-vyezdmk-item__body">
-                        <div class="price-vyezdmk-item__title">
-                            Брускетта
-                        </div>
-                        <div class="price-vyezdmk-item__text">
-                            <p>с ростбифом, вяленым томатом и&nbsp;луковым мармеладом</p>
-                            <p>Заказ от 5 закусок - 250&nbsp;руб./шт.</p>
-                        </div>
-                    </div>
-                    <div class="price-vyezdmk-item__action">
-                        <a class="button button-solid" href="/menu">выбрать</a>
-                    </div>
-                </div>
-                <div class="price-vyezdmk-item d-flex flex-column text-center">
-                    <div class="price-vyezdmk-item__img">
-                        <img class="ibg" src="/images/menu/buffet/02.webp" alt="Брускетта">
-                    </div>
-                    <div class="price-vyezdmk-item__body">
-                        <div class="price-vyezdmk-item__title">
-                            Брускетта
-                        </div>
-                        <div class="price-vyezdmk-item__text">
-                            <p>с салом и соусом Релиш</p>
-                            <p>Заказ от 5 закусок - 200&nbsp;руб./шт.</p>
-                        </div>
-                    </div>
-                    <div class="price-vyezdmk-item__action">
-                        <a class="button button-solid" href="/menu">выбрать</a>
-                    </div>
-                </div>
-                <div class="price-vyezdmk-item d-flex flex-column text-center">
-                    <div class="price-vyezdmk-item__img">
-                        <img class="ibg" src="/images/menu/buffet/03.webp" alt="Брускетта">
-                    </div>
-                    <div class="price-vyezdmk-item__body">
-                        <div class="price-vyezdmk-item__title">
-                            Брускетта
-                        </div>
-                        <div class="price-vyezdmk-item__text">
-                            <p>с коппой, творожном кремом и&nbsp;томатами Черри</p>
-                            <p>Заказ от 5 закусок - 250&nbsp;руб./шт.</p>
-                        </div>
-                    </div>
-                    <div class="price-vyezdmk-item__action">
-                        <a class="button button-solid" href="/menu">выбрать</a>
-                    </div>
-                </div>
-                <div class="price-vyezdmk-item d-flex flex-column text-center">
-                    <div class="price-vyezdmk-item__img">
-                        <img class="ibg" src="/images/menu/buffet/04.webp" alt="Брускетта">
-                    </div>
-                    <div class="price-vyezdmk-item__body">
-                        <div class="price-vyezdmk-item__title">
-                            Брускетта
-                        </div>
-                        <div class="price-vyezdmk-item__text">
-                            <p>с тигровой креветкой и&nbsp;кремом из&nbsp;авокадо</p>
-                            <p>Заказ от 5 закусок - 250&nbsp;руб./шт.</p>
-                        </div>
-                    </div>
-                    <div class="price-vyezdmk-item__action">
-                        <a class="button button-solid" href="/menu">выбрать</a>
-                    </div>
-                </div>
-                <div class="price-vyezdmk-item d-flex flex-column text-center">
-                    <div class="price-vyezdmk-item__img">
-                        <img class="ibg" src="/images/menu/buffet/05.webp" alt="Брускетта">
-                    </div>
-                    <div class="price-vyezdmk-item__body">
-                        <div class="price-vyezdmk-item__title">
-                            Брускетта Тапенада
-                        </div>
-                        <div class="price-vyezdmk-item__text">
-                            <p>с вяленым томатом и&nbsp;каперсами</p>
-                            <p>Заказ от 5 закусок - 200&nbsp;руб./шт.</p>
-                        </div>
-                    </div>
-                    <div class="price-vyezdmk-item__action">
-                        <a class="button button-solid" href="/menu">выбрать</a>
-                    </div>
-                </div>
-                <div class="price-vyezdmk-item d-flex flex-column text-center">
-                    <div class="price-vyezdmk-item__img">
-                        <img class="ibg" src="/images/menu/buffet/06.webp" alt="Брускетта">
-                    </div>
-                    <div class="price-vyezdmk-item__body">
-                        <div class="price-vyezdmk-item__title">
-                            Брускетта
-                        </div>
-                        <div class="price-vyezdmk-item__text">
-                            <p>с кремом из печеной паприки и&nbsp;ореховым соусом</p>
-                            <p>Заказ от 5 закусок - 200&nbsp;руб./шт.</p>
-                        </div>
-                    </div>
-                    <div class="price-vyezdmk-item__action">
-                        <a class="button button-solid" href="/menu">выбрать</a>
-                    </div>
-                </div>
-                <div class="price-vyezdmk-item d-flex flex-column text-center">
-                    <div class="price-vyezdmk-item__img">
-                        <img class="ibg" src="/images/menu/buffet/07.webp" alt="Брускетта">
-                    </div>
-                    <div class="price-vyezdmk-item__body">
-                        <div class="price-vyezdmk-item__title">
-                            Брускетта
-                        </div>
-                        <div class="price-vyezdmk-item__text">
-                            <p>с лососем, творожным кремом и&nbsp;томатами Черри </p>
-                            <p>Заказ от 5 закусок - 250&nbsp;руб./шт.</p>
-                        </div>
-                    </div>
-                    <div class="price-vyezdmk-item__action">
-                        <a class="button button-solid" href="/menu">выбрать</a>
-                    </div>
-                </div>
-                <div class="price-vyezdmk-item d-flex flex-column text-center">
-                    <div class="price-vyezdmk-item__img">
-                        <img class="ibg" src="/images/menu/buffet/08.webp" alt="Брускетта">
-                    </div>
-                    <div class="price-vyezdmk-item__body">
-                        <div class="price-vyezdmk-item__title">
-                            Брускетта
-                        </div>
-                        <div class="price-vyezdmk-item__text">
-                            <p>с домашней страчателлой и&nbsp;соусом песто </p>
-                            <p>Заказ от 5 закусок - 200&nbsp;руб./шт.</p>
-                        </div>
-                    </div>
-                    <div class="price-vyezdmk-item__action">
-                        <a class="button button-solid" href="/menu">выбрать</a>
-                    </div>
-                </div>
+
+				@foreach ($items as $item)
+					<div class="price-vyezdmk-item d-flex flex-column text-center">
+						<div class="price-vyezdmk-item__img">
+							<img class="ibg" src="{{ $item['image'] }}" alt="Брускетта">
+						</div>
+						<div class="price-vyezdmk-item__body">
+							<div class="price-vyezdmk-item__title">
+								{{ $item['title'] }}
+							</div>
+							<div class="price-vyezdmk-item__text">
+								@foreach ($item['text'] as $text)
+									<p>{!! $text !!}</p>
+								@endforeach
+							</div>
+						</div>
+						<div class="price-vyezdmk-item__action">
+							<a class="button button-solid" href="/menu">выбрать</a>
+						</div>
+					</div>
+				@endforeach
             </div>
         </div>
     </div>

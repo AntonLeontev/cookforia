@@ -135,7 +135,7 @@
                             </ul>
                         </div>
                         <div class="menu-content-footer">
-                            <div class="menu-price">3700 р.</div>
+                            <div class="menu-price">4000 р.</div>
                             <div class="menu-button">
                                 <a href="#sign-in-form" class="menu-select-btn" data-form-val="48504">Выбрать</a>
                             </div>
@@ -179,7 +179,7 @@
                             </ul>
                         </div>
                         <div class="menu-content-footer">
-                            <div class="menu-price">5200 р.</div>
+                            <div class="menu-price">5500 р.</div>
                             <div class="menu-button">
                                 <a href="#sign-in-form" class="menu-select-btn" data-form-val="48505">Выбрать</a>
                             </div>
@@ -229,7 +229,7 @@
                             </ul>
                         </div>
                         <div class="menu-content-footer">
-                            <div class="menu-price">4000 р.</div>
+                            <div class="menu-price">4300 р.</div>
                             <div class="menu-button">
                                 <a href="#sign-in-form" class="menu-select-btn" data-form-val="48506">Выбрать</a>
                             </div>
@@ -419,6 +419,9 @@
                         <div class="item">
                             <img src="/images/gallery/home/new-studio/orig/04.webp" alt="Image" class="ibg">
                         </div>
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/orig/05.webp" alt="Image" class="ibg">
+                        </div>
                     </div>
 
                     <div id="sync2" class="owl-carousel owl-theme">
@@ -433,6 +436,9 @@
                         </div>
                         <div class="item">
                             <img src="/images/gallery/home/new-studio/thumb/04.webp" alt="Image" class="ibg">
+                        </div>
+                        <div class="item">
+                            <img src="/images/gallery/home/new-studio/thumb/05.webp" alt="Image" class="ibg">
                         </div>
                     </div>
                 </div>

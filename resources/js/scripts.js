@@ -229,6 +229,8 @@ $(document).ready(function () {
 
         if (mainForm) {
             let sendMainForm = function (token) {
+                mainFormButton.disabled = true;
+
                 $.ajax({
                     type: "POST",
                     url: $("#main-form").attr("action"),
@@ -251,6 +253,8 @@ $(document).ready(function () {
 
         if (bottomForm) {
             let sendBottomForm = function (token) {
+                bottomFormButton.disabled = true;
+
                 $.ajax({
                     type: "POST",
                     url: $("#bottom-form").attr("action"),
@@ -308,7 +312,6 @@ $(document).ready(function () {
             return;
         }
 
-        mainFormButton.disabled = true;
         window.smartCaptcha.execute(headerFormCaptcha);
     });
 
@@ -319,7 +322,6 @@ $(document).ready(function () {
             return;
         }
 
-        bottomFormButton.disabled = true;
         window.smartCaptcha.execute(bottomFormCaptcha);
     });
 

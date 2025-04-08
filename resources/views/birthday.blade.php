@@ -164,7 +164,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">3400 р.</div>
+                                <div class="menu-price">3700 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48504">Выбрать</a>
                                 </div>
@@ -205,7 +205,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">4900 р.</div>
+                                <div class="menu-price">5200 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48505">Выбрать</a>
                                 </div>
@@ -253,7 +253,7 @@
 								</ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">3700 р.</div>
+                                <div class="menu-price">4000 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48506">Выбрать</a>
                                 </div>

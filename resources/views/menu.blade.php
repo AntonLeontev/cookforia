@@ -154,7 +154,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">3700 р.</div>
+                                <div class="menu-price">4000 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48504">Выбрать</a>
                                 </div>
@@ -195,7 +195,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">5200 р.</div>
+                                <div class="menu-price">5500 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48505">Выбрать</a>
                                 </div>
@@ -243,7 +243,7 @@
 								</ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">4000 р.</div>
+                                <div class="menu-price">4300 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48506">Выбрать</a>
                                 </div>
@@ -275,7 +275,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">6500 р.</div>
+                                <div class="menu-price">6800 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48507">Выбрать</a>
                                 </div>
@@ -316,7 +316,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">6000 р.</div>
+                                <div class="menu-price">6300 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48508">Выбрать</a>
                                 </div>
@@ -357,7 +357,7 @@
 								</ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">5400 р.</div>
+                                <div class="menu-price">5700 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48509">Выбрать</a>
                                 </div>
@@ -398,7 +398,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">4500 р.</div>
+                                <div class="menu-price">4800 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48510">Выбрать</a>
                                 </div>
@@ -437,7 +437,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">4200 р.</div>
+                                <div class="menu-price">4500 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48511">Выбрать</a>
                                 </div>
@@ -478,7 +478,7 @@
 								</ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">3900 р.</div>
+                                <div class="menu-price">4200 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48512">Выбрать</a>
                                 </div>
@@ -514,7 +514,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">6100 р.</div>
+                                <div class="menu-price">6400 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48513">Выбрать</a>
                                 </div>
@@ -555,7 +555,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">5100 р.</div>
+                                <div class="menu-price">5400 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48514">Выбрать</a>
                                 </div>
@@ -591,7 +591,7 @@
 								</ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">4200 р.</div>
+                                <div class="menu-price">4500 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48515">Выбрать</a>
                                 </div>
@@ -623,54 +623,13 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">5700 р.</div>
+                                <div class="menu-price">6000 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48516">Выбрать</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    {{-- <div class="menu-block">
-                        <div class="menu-block-header">
-                            Меню #14
-                        </div>
-                        <div class="menu-content-block">
-                            <div class="menu-content-images owl-carousel owl-theme">
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/14/salmon%20waffle_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/14/salmon%20waffle_235x350.jpg" alt="Картофельные вафли с малосольным лососем и сливочным кремом">
-								    </picture>
-                                </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/14/zander%20fillet_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/14/zander%20fillet_235x350.jpg" alt="Филе судака с вешенками и шпинатной лапшой">
-								    </picture>
-                                </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/14/profitroles_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/14/profitroles_235x350.jpg" alt="Профитроли с творожным кремом">
-								    </picture>
-                                </div>
-                            </div>
-                            <div class="menu-content-composition">
-                                <ul>
-                                    <li>Картофельные вафли с малосольным лососем и сливочным кремом</li>
-                                    <li>Филе судака с вешенками и шпинатной лапшой</li>
-                                    <li>Профитроли с творожным кремом</li>
-                                </ul>
-                            </div>
-                            <div class="menu-content-footer">
-                                <div class="menu-price">3200 р.</div>
-                                <div class="menu-button">
-                                    <a href="#sign-in-form" class="menu-select-btn" data-form-val="48517">Выбрать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
 
                     <div class="menu-block">
                         <div class="menu-block-header">
@@ -680,26 +639,26 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/15/1.webp" type="image/webp">
-									    <img src="/images/menu/main/15/1.jpg" alt="Ролл калифорния с крабом и сыром">
+									    <source srcset="/images/menu/main/14/1.webp" type="image/webp">
+									    <img src="/images/menu/main/14/1.jpg" alt="Ролл калифорния с крабом и сыром">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/15/2.webp" type="image/webp">
-									    <img src="/images/menu/main/15/2.jpg" alt="Ролл филадельфия с лососем и сыром">
+									    <source srcset="/images/menu/main/14/2.webp" type="image/webp">
+									    <img src="/images/menu/main/14/2.jpg" alt="Ролл филадельфия с лососем и сыром">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/15/3.webp" type="image/webp">
-									    <img src="/images/menu/main/15/3.jpg" alt="Японский Мисо суп">
+									    <source srcset="/images/menu/main/14/3.webp" type="image/webp">
+									    <img src="/images/menu/main/14/3.jpg" alt="Японский Мисо суп">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/15/4.webp" type="image/webp">
-									    <img src="/images/menu/main/15/4.jpg" alt="Фруктовый спринг ролл со сливочным сыром и ягодным соусом">
+									    <source srcset="/images/menu/main/14/4.webp" type="image/webp">
+									    <img src="/images/menu/main/14/4.jpg" alt="Фруктовый спринг ролл со сливочным сыром и ягодным соусом">
 								    </picture>
                                 </div>
                             </div>
@@ -712,7 +671,7 @@
 								</ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">4100 р.</div>
+                                <div class="menu-price">4400 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48518">Выбрать</a>
                                 </div>
@@ -720,87 +679,6 @@
                         </div>
                     </div>
 
-                    {{-- <div class="menu-block">
-                        <div class="menu-block-header">
-                            Меню #16
-                        </div>
-                        <div class="menu-content-block">
-                            <div class="menu-content-images owl-carousel owl-theme">
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/16/tuna%20salad_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/16/tuna%20salad_235x350.jpg" alt="Салат с тунцом и фасолью">
-								    </picture>
-                                </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/16/cannelloni_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/16/cannelloni_235x350.jpg" alt="Каннеллони в соусе бешамель">
-								    </picture>
-                                </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/16/custard_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/16/custard_235x350.jpg" alt="Заварной крем с песочной крошкой">
-								    </picture>
-                                </div>
-                            </div>
-                            <div class="menu-content-composition">
-                                <ul>
-                                    <li>Салат с тунцом и фасолью</li>
-                                    <li>Каннеллони в соусе бешамель</li>
-                                    <li>Заварной крем с песочной крошкой</li>
-                                </ul>
-                            </div>
-                            <div class="menu-content-footer">
-                                <div class="menu-price">3500 р.</div>
-                                <div class="menu-button">
-                                    <a href="#sign-in-form" class="menu-select-btn" data-form-val="48522">Выбрать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
-
-                    {{-- <div class="menu-block">
-                        <div class="menu-block-header">
-                            Меню #17
-                        </div>
-                        <div class="menu-content-block">
-                            <div class="menu-content-images owl-carousel owl-theme">
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/17/crab%20salad_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/17/crab%20salad_235x350.jpg" alt="Крабовый салат с личи и манговым конфитюром">
-								    </picture>
-                                </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/17/cod_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/17/cod_235x350.jpg" alt="Атлантическая треска с морковным пюре и печеными томатами черри">
-								    </picture>
-                                </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/17/eclairs_235x350.webp" type="image/webp">
-									    <img src="/images/menu/main/17/eclairs_235x350.jpg" alt="Эклеры с творожным кремом в шоколаде">
-								    </picture>
-                                </div>
-                            </div>
-                            <div class="menu-content-composition">
-                                <ul>
-                                    <li>Крабовый салат с личи и манговым конфитюром</li>
-                                    <li>Атлантическая треска с морковным пюре и печеными томатами черри</li>
-                                    <li>Эклеры с творожным кремом в шоколаде</li>
-                                </ul>
-                            </div>
-                            <div class="menu-content-footer">
-                                <div class="menu-price">3400 р.</div>
-                                <div class="menu-button">
-                                    <a href="#sign-in-form" class="menu-select-btn" data-form-val="48523">Выбрать</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
 
                     <div class="menu-block">
                         <div class="menu-block-header">
@@ -810,32 +688,196 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/18/1.webp" type="image/webp">
-									    <img src="/images/menu/main/18/1.jpg" alt="Тёплый салат с тыквой и сыром фета">
+									    <source srcset="/images/menu/main/15/01.webp" type="image/webp">
+									    <img src="/images/menu/main/15/01.jpg" alt="Овощной салат с жареными грибами и орешками кешью">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/18/2.webp" type="image/webp">
-									    <img src="/images/menu/main/18/2.jpg" alt="Куриная грудка гриль с сальсой">
+									    <source srcset="/images/menu/main/15/02.webp" type="image/webp">
+									    <img src="/images/menu/main/15/02.jpg" alt="Стейк Бавет с соусом из черного чеснока и чернослива">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/18/3.webp" type="image/webp">
-									    <img src="/images/menu/main/18/3.jpg" alt="Чизкейк Нью-Йорк">
+									    <source srcset="/images/menu/main/15/03.webp" type="image/webp">
+									    <img src="/images/menu/main/15/03.jpg" alt="Шоколадный торт">
 								    </picture>
                                 </div>
                             </div>
                             <div class="menu-content-composition">
 								<ul>
-									<li>Тёплый салат с тыквой и сыром фета</li>
-									<li>Куриная грудка гриль с сальсой</li>
-									<li>Чизкейк Нью-Йорк</li>
+									<li>Овощной салат с жареными грибами и орешками кешью</li>
+									<li>Стейк Бавет с соусом из черного чеснока и чернослива</li>
+									<li>Шоколадный торт</li>
 								</ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">3700 р.</div>
+                                <div class="menu-price">5400 р.</div>
+                                <div class="menu-button">
+                                    <a href="#sign-in-form" class="menu-select-btn" data-form-val="48524">Выбрать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-block">
+                        <div class="menu-block-header">
+                            Меню #16
+                        </div>
+                        <div class="menu-content-block">
+                            <div class="menu-content-images owl-carousel owl-theme">
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/16/01.webp" type="image/webp">
+									    <img src="/images/menu/main/16/01.jpg" alt="Страчателла с глазированным баклажаном и креветками пиль пиль">
+								    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/16/02.webp" type="image/webp">
+									    <img src="/images/menu/main/16/02.jpg" alt="Тарт татен яблочный с облепиховым соусом">
+								    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/16/03.webp" type="image/webp">
+									    <img src="/images/menu/main/16/03.jpg" alt="Фетучини с лососем и сливочно-томатным соусом">
+								    </picture>
+                                </div>
+                            </div>
+                            <div class="menu-content-composition">
+								<ul>
+									<li>Страчателла с глазированным баклажаном и креветками пиль пиль</li>
+									<li>Тарт татен яблочный с облепиховым соусом</li>
+									<li>Фетучини с лососем и сливочно-томатным соусом</li>
+								</ul>
+                            </div>
+                            <div class="menu-content-footer">
+                                <div class="menu-price">5700 р.</div>
+                                <div class="menu-button">
+                                    <a href="#sign-in-form" class="menu-select-btn" data-form-val="48524">Выбрать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-block">
+                        <div class="menu-block-header">
+                            Меню #17
+                        </div>
+                        <div class="menu-content-block">
+                            <div class="menu-content-images owl-carousel owl-theme">
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/17/01.webp" type="image/webp">
+									    <img src="/images/menu/main/17/01.jpg" alt="Баннофи Пай с обожжёной меренгой">
+								    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/17/02.webp" type="image/webp">
+									    <img src="/images/menu/main/17/02.jpg" alt="Жареное авокадо с томатом, киноа и яйцом пашот">
+								    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/17/03.webp" type="image/webp">
+									    <img src="/images/menu/main/17/03.jpg" alt="Равиоли с креветками и сливочным песто">
+								    </picture>
+                                </div>
+                            </div>
+                            <div class="menu-content-composition">
+								<ul>
+									<li>Баннофи Пай с обожжёной меренгой</li>
+									<li>Жареное авокадо с томатом, киноа и яйцом пашот</li>
+									<li>Равиоли с креветками и сливочным песто</li>
+								</ul>
+                            </div>
+                            <div class="menu-content-footer">
+                                <div class="menu-price">5900 р.</div>
+                                <div class="menu-button">
+                                    <a href="#sign-in-form" class="menu-select-btn" data-form-val="48524">Выбрать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-block">
+                        <div class="menu-block-header">
+                            Меню #18
+                        </div>
+                        <div class="menu-content-block">
+                            <div class="menu-content-images owl-carousel owl-theme">
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/18/01.webp" type="image/webp">
+									    <img src="/images/menu/main/18/01.jpg" alt="Кебаб из креветки с овощной сальсой и запеченным картофелем">
+								    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/18/02.webp" type="image/webp">
+									    <img src="/images/menu/main/18/02.jpg" alt="Севиче из лосося с авокадо и вяленым томатом">
+								    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/18/03.webp" type="image/webp">
+									    <img src="/images/menu/main/18/03.jpg" alt="Чизкейк манго маракуйя">
+								    </picture>
+                                </div>
+                            </div>
+                            <div class="menu-content-composition">
+								<ul>
+									<li>Кебаб из креветки с овощной сальсой и запеченным картофелем</li>
+									<li>Севиче из лосося с авокадо и вяленым томатом</li>
+									<li>Чизкейк манго маракуйя</li>
+								</ul>
+                            </div>
+                            <div class="menu-content-footer">
+                                <div class="menu-price">6100 р.</div>
+                                <div class="menu-button">
+                                    <a href="#sign-in-form" class="menu-select-btn" data-form-val="48524">Выбрать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-block">
+                        <div class="menu-block-header">
+                            Меню #19
+                        </div>
+                        <div class="menu-content-block">
+                            <div class="menu-content-images owl-carousel owl-theme">
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/19/01.webp" type="image/webp">
+									    <img src="/images/menu/main/19/01.jpg" alt="Говядиа Веллингтон с грибами и шпинатом">
+								    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/19/02.webp" type="image/webp">
+									    <img src="/images/menu/main/19/02.jpg" alt="Салат с говядиной, жареными овощами и азиатской заправкой">
+								    </picture>
+                                </div>
+                                <div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/19/03.webp" type="image/webp">
+									    <img src="/images/menu/main/19/03.jpg" alt="Шоколадно-фисташковый семифредо с клубничным соусом">
+								    </picture>
+                                </div>
+                            </div>
+                            <div class="menu-content-composition">
+								<ul>
+									<li>Говядина Веллингтон с грибами и шпинатом</li>
+									<li>Салат с говядиной, жареными овощами и азиатской заправкой</li>
+									<li>Шоколадно-фисташковый семифредо с клубничным соусом</li>
+								</ul>
+                            </div>
+                            <div class="menu-content-footer">
+                                <div class="menu-price">5900 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48524">Выбрать</a>
                                 </div>
@@ -883,7 +925,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">2700 р.</div>
+                                <div class="menu-price">2900 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48519">Выбрать</a>
                                 </div>
@@ -924,7 +966,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">2600 р.</div>
+                                <div class="menu-price">2800 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48520">Выбрать</a>
                                 </div>
@@ -965,7 +1007,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">2500 р.</div>
+                                <div class="menu-price">2700 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48521">Выбрать</a>
                                 </div>
@@ -1006,7 +1048,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">2400 р.</div>
+                                <div class="menu-price">2600 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48521">Выбрать</a>
                                 </div>
@@ -1047,7 +1089,7 @@
                                 </ul>
                             </div>
                             <div class="menu-content-footer">
-                                <div class="menu-price">2800 р.</div>
+                                <div class="menu-price">3000 р.</div>
                                 <div class="menu-button">
                                     <a href="#sign-in-form" class="menu-select-btn" data-form-val="48521">Выбрать</a>
                                 </div>
