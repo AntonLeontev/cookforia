@@ -1741,7 +1741,8 @@ select.select {
     margin-bottom: 40px;
     padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+	column-gap: 30px;
     flex-wrap: wrap;
 }
 

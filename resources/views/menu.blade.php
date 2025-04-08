@@ -733,24 +733,25 @@
 									    <img src="/images/menu/main/16/01.jpg" alt="Страчателла с глазированным баклажаном и креветками пиль пиль">
 								    </picture>
                                 </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/16/02.webp" type="image/webp">
-									    <img src="/images/menu/main/16/02.jpg" alt="Тарт татен яблочный с облепиховым соусом">
-								    </picture>
-                                </div>
+                                
                                 <div class="item">
                                     <picture>
 									    <source srcset="/images/menu/main/16/03.webp" type="image/webp">
 									    <img src="/images/menu/main/16/03.jpg" alt="Фетучини с лососем и сливочно-томатным соусом">
 								    </picture>
                                 </div>
+								<div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/16/02.webp" type="image/webp">
+									    <img src="/images/menu/main/16/02.jpg" alt="Тарт татен яблочный с облепиховым соусом">
+								    </picture>
+                                </div>
                             </div>
                             <div class="menu-content-composition">
 								<ul>
 									<li>Страчателла с глазированным баклажаном и креветками пиль пиль</li>
-									<li>Тарт татен яблочный с облепиховым соусом</li>
 									<li>Фетучини с лососем и сливочно-томатным соусом</li>
+									<li>Тарт татен яблочный с облепиховым соусом</li>
 								</ul>
                             </div>
                             <div class="menu-content-footer">
@@ -770,12 +771,6 @@
                             <div class="menu-content-images owl-carousel owl-theme">
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/17/01.webp" type="image/webp">
-									    <img src="/images/menu/main/17/01.jpg" alt="Баннофи Пай с обожжёной меренгой">
-								    </picture>
-                                </div>
-                                <div class="item">
-                                    <picture>
 									    <source srcset="/images/menu/main/17/02.webp" type="image/webp">
 									    <img src="/images/menu/main/17/02.jpg" alt="Жареное авокадо с томатом, киноа и яйцом пашот">
 								    </picture>
@@ -786,12 +781,18 @@
 									    <img src="/images/menu/main/17/03.jpg" alt="Равиоли с креветками и сливочным песто">
 								    </picture>
                                 </div>
+								<div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/17/01.webp" type="image/webp">
+									    <img src="/images/menu/main/17/01.jpg" alt="Баннофи Пай с обожжёной меренгой">
+								    </picture>
+                                </div>
                             </div>
                             <div class="menu-content-composition">
 								<ul>
-									<li>Баннофи Пай с обожжёной меренгой</li>
 									<li>Жареное авокадо с томатом, киноа и яйцом пашот</li>
 									<li>Равиоли с креветками и сливочным песто</li>
+									<li>Баннофи Пай с обожжёной меренгой</li>
 								</ul>
                             </div>
                             <div class="menu-content-footer">
@@ -809,18 +810,20 @@
                         </div>
                         <div class="menu-content-block">
                             <div class="menu-content-images owl-carousel owl-theme">
+								<div class="item">
+                                    <picture>
+									    <source srcset="/images/menu/main/18/02.webp" type="image/webp">
+									    <img src="/images/menu/main/18/02.jpg" alt="Севиче из лосося с авокадо и вяленым томатом">
+								    </picture>
+                                </div>
+
                                 <div class="item">
                                     <picture>
 									    <source srcset="/images/menu/main/18/01.webp" type="image/webp">
 									    <img src="/images/menu/main/18/01.jpg" alt="Кебаб из креветки с овощной сальсой и запеченным картофелем">
 								    </picture>
                                 </div>
-                                <div class="item">
-                                    <picture>
-									    <source srcset="/images/menu/main/18/02.webp" type="image/webp">
-									    <img src="/images/menu/main/18/02.jpg" alt="Севиче из лосося с авокадо и вяленым томатом">
-								    </picture>
-                                </div>
+                                
                                 <div class="item">
                                     <picture>
 									    <source srcset="/images/menu/main/18/03.webp" type="image/webp">
@@ -830,8 +833,8 @@
                             </div>
                             <div class="menu-content-composition">
 								<ul>
-									<li>Кебаб из креветки с овощной сальсой и запеченным картофелем</li>
 									<li>Севиче из лосося с авокадо и вяленым томатом</li>
+									<li>Кебаб из креветки с овощной сальсой и запеченным картофелем</li>
 									<li>Чизкейк манго маракуйя</li>
 								</ul>
                             </div>
@@ -850,16 +853,16 @@
                         </div>
                         <div class="menu-content-block">
                             <div class="menu-content-images owl-carousel owl-theme">
-                                <div class="item">
+								<div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/19/01.webp" type="image/webp">
-									    <img src="/images/menu/main/19/01.jpg" alt="Говядиа Веллингтон с грибами и шпинатом">
+									    <source srcset="/images/menu/main/19/02.webp" type="image/webp">
+									    <img src="/images/menu/main/19/02.jpg" alt="Салат с говядиной, жареными овощами и азиатской заправкой">
 								    </picture>
                                 </div>
                                 <div class="item">
                                     <picture>
-									    <source srcset="/images/menu/main/19/02.webp" type="image/webp">
-									    <img src="/images/menu/main/19/02.jpg" alt="Салат с говядиной, жареными овощами и азиатской заправкой">
+									    <source srcset="/images/menu/main/19/01.webp" type="image/webp">
+									    <img src="/images/menu/main/19/01.jpg" alt="Говядиа Веллингтон с грибами и шпинатом">
 								    </picture>
                                 </div>
                                 <div class="item">
@@ -871,8 +874,8 @@
                             </div>
                             <div class="menu-content-composition">
 								<ul>
-									<li>Говядина Веллингтон с грибами и шпинатом</li>
 									<li>Салат с говядиной, жареными овощами и азиатской заправкой</li>
+									<li>Говядина Веллингтон с грибами и шпинатом</li>
 									<li>Шоколадно-фисташковый семифредо с клубничным соусом</li>
 								</ul>
                             </div>
